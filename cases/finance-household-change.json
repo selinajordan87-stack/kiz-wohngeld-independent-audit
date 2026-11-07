@@ -1,0 +1,875 @@
+{
+  "caseId": "finance-household-change",
+  "evidenceKind": "SYNTHETIC",
+  "operation": "finance",
+  "config": {
+    "baseState": {
+      "dataVersion": 14,
+      "applicationMonth": 8,
+      "applicationYear": 2026,
+      "mode": "single",
+      "centralChildren": [
+        {
+          "id": "c1",
+          "name": "Testkind c1",
+          "age": "7",
+          "careSituation": "dauerhaft-a",
+          "maritalPartnershipStatus": "no",
+          "affectedHouseholds": [
+            "A"
+          ],
+          "hasExternalHousehold": false,
+          "stayDays": "",
+          "childBenefitAt": "A",
+          "childBenefitPerson": "applicant-a",
+          "externalChildBenefitPerson": "",
+          "halfForwarded": false,
+          "hasOwnIncome": "no",
+          "incomeSources": [],
+          "eligiblePrivateInsuranceStatus": "no",
+          "u25RuleStageStatus": "unknown",
+          "decentralHotWaterStatus": {
+            "A": "no",
+            "B": "no"
+          },
+          "additionalNeedStatus": "no",
+          "additionalNeedMonthlyAmount": ""
+        },
+        {
+          "id": "c2",
+          "name": "Testkind c2",
+          "age": "12",
+          "careSituation": "dauerhaft-a",
+          "maritalPartnershipStatus": "no",
+          "affectedHouseholds": [
+            "A"
+          ],
+          "hasExternalHousehold": false,
+          "stayDays": "",
+          "childBenefitAt": "A",
+          "childBenefitPerson": "applicant-a",
+          "externalChildBenefitPerson": "",
+          "halfForwarded": false,
+          "hasOwnIncome": "no",
+          "incomeSources": [],
+          "eligiblePrivateInsuranceStatus": "no",
+          "u25RuleStageStatus": "unknown",
+          "decentralHotWaterStatus": {
+            "A": "no",
+            "B": "no"
+          },
+          "additionalNeedStatus": "no",
+          "additionalNeedMonthlyAmount": ""
+        },
+        {
+          "id": "c3",
+          "name": "Testkind c3",
+          "age": "16",
+          "careSituation": "dauerhaft-a",
+          "maritalPartnershipStatus": "no",
+          "affectedHouseholds": [
+            "A"
+          ],
+          "hasExternalHousehold": false,
+          "stayDays": "",
+          "childBenefitAt": "A",
+          "childBenefitPerson": "applicant-a",
+          "externalChildBenefitPerson": "",
+          "halfForwarded": false,
+          "hasOwnIncome": "no",
+          "incomeSources": [],
+          "eligiblePrivateInsuranceStatus": "no",
+          "u25RuleStageStatus": "unknown",
+          "decentralHotWaterStatus": {
+            "A": "no",
+            "B": "no"
+          },
+          "additionalNeedStatus": "no",
+          "additionalNeedMonthlyAmount": ""
+        }
+      ],
+      "households": {
+        "A": {
+          "label": "Synthetischer Haushalt A",
+          "adults": "couple",
+          "person1": "Person A",
+          "partner": "Person P",
+          "applicantIncomeStatus": "present",
+          "partnerIncomeStatus": "none",
+          "applicantIncomeSources": [
+            {
+              "id": "wage-a",
+              "personRole": "applicant",
+              "incomeType": "employment",
+              "employmentType": "social-insurance",
+              "amountType": "gross",
+              "entryMethod": "average",
+              "monthlyAverage": "3300",
+              "monthlyValues": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "u25SpecialAllowanceStatus": "unknown",
+              "parentalAllowanceType": "unknown",
+              "confirmedExemptionMonthly": "",
+              "deductions": {
+                "tax": {
+                  "enabled": true,
+                  "entryMethod": "average",
+                  "monthlyAverage": "300",
+                  "monthlyValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "mandatoryStatus": "yes"
+                },
+                "healthInsurance": {
+                  "enabled": true,
+                  "entryMethod": "average",
+                  "monthlyAverage": "250",
+                  "monthlyValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "mandatoryStatus": "yes"
+                },
+                "careInsurance": {
+                  "enabled": true,
+                  "entryMethod": "average",
+                  "monthlyAverage": "50",
+                  "monthlyValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "mandatoryStatus": "yes"
+                },
+                "pensionInsurance": {
+                  "enabled": true,
+                  "entryMethod": "average",
+                  "monthlyAverage": "330",
+                  "monthlyValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "mandatoryStatus": "yes"
+                },
+                "unemploymentInsurance": {
+                  "enabled": true,
+                  "entryMethod": "average",
+                  "monthlyAverage": "70",
+                  "monthlyValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "mandatoryStatus": "yes"
+                }
+              }
+            }
+          ],
+          "partnerIncomeSources": [],
+          "applicantExpenses": [],
+          "partnerExpenses": [],
+          "otherResidents": "0",
+          "housingBenefitStatus": "not-received",
+          "housingBenefit": "",
+          "assetsStatus": "no",
+          "assetPersons": {
+            "applicant": {
+              "assets": []
+            },
+            "partner": {
+              "assets": []
+            },
+            "children": {
+              "c1": {
+                "assets": []
+              },
+              "c2": {
+                "assets": []
+              },
+              "c3": {
+                "assets": []
+              }
+            }
+          },
+          "coverageAssetStatus": "confirmed-none",
+          "extendedAccessSgbBenefitStatus": "none",
+          "additionalNeedOverride": "",
+          "hotWaterType": "central",
+          "decentralHotWaterAdults": {
+            "applicant": "no",
+            "partner": "no"
+          },
+          "specialSituations": [],
+          "housingType": "rent",
+          "housingCosts": {
+            "rent": {
+              "coldRent": "800",
+              "coldUtilities": "100",
+              "heating": "100",
+              "costMonth": "2026-08",
+              "sublettingStatus": "no",
+              "sublettingAmount": "",
+              "parkingAmount": "",
+              "parkingInseparableStatus": "unknown"
+            },
+            "owner": {}
+          },
+          "wohngeldData": {
+            "calculationMode": "automatic",
+            "section20Status": "not-excluded",
+            "significantAssetsStatus": "not-excluded",
+            "mietstufe": "IV",
+            "nonHouseholdAdjustmentStatus": "none",
+            "complexUseStatus": "no",
+            "singleParentAllowanceStatus": "no",
+            "persons": {
+              "applicant": {
+                "wohngeldExclusionStatus": "not-excluded",
+                "wohngeldExclusionReason": "",
+                "careDaysInReferenceMonth": "",
+                "incomeForecast": {
+                  "incomeStatus": "present",
+                  "mode": "annual",
+                  "taxExpected": "yes",
+                  "healthCareContributionExpected": "yes",
+                  "pensionContributionExpected": "yes",
+                  "sources": [
+                    {
+                      "id": "annual-a",
+                      "type": "employment",
+                      "expectedAnnualAmount": "39600",
+                      "expectedMonthlyAmount": "",
+                      "monthlyValues": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "details": {}
+                    }
+                  ]
+                },
+                "disabilityAllowanceStatus": "not-applicable",
+                "nsPersecutionStatus": "no",
+                "wohngeldGrundrentenTimesStatus": "no"
+              },
+              "partner": {
+                "wohngeldExclusionStatus": "not-excluded",
+                "wohngeldExclusionReason": "",
+                "careDaysInReferenceMonth": "",
+                "incomeForecast": {
+                  "incomeStatus": "none",
+                  "mode": "annual",
+                  "taxExpected": "no",
+                  "healthCareContributionExpected": "no",
+                  "pensionContributionExpected": "no",
+                  "sources": []
+                },
+                "disabilityAllowanceStatus": "not-applicable",
+                "nsPersecutionStatus": "no",
+                "wohngeldGrundrentenTimesStatus": "no"
+              },
+              "children": {
+                "c1": {
+                  "wohngeldExclusionStatus": "not-excluded",
+                  "wohngeldExclusionReason": "",
+                  "careDaysInReferenceMonth": "",
+                  "incomeForecast": {
+                    "incomeStatus": "none",
+                    "mode": "annual",
+                    "taxExpected": "no",
+                    "healthCareContributionExpected": "no",
+                    "pensionContributionExpected": "no",
+                    "sources": []
+                  },
+                  "disabilityAllowanceStatus": "not-applicable",
+                  "nsPersecutionStatus": "no",
+                  "wohngeldGrundrentenTimesStatus": "no"
+                },
+                "c2": {
+                  "wohngeldExclusionStatus": "not-excluded",
+                  "wohngeldExclusionReason": "",
+                  "careDaysInReferenceMonth": "",
+                  "incomeForecast": {
+                    "incomeStatus": "none",
+                    "mode": "annual",
+                    "taxExpected": "no",
+                    "healthCareContributionExpected": "no",
+                    "pensionContributionExpected": "no",
+                    "sources": []
+                  },
+                  "disabilityAllowanceStatus": "not-applicable",
+                  "nsPersecutionStatus": "no",
+                  "wohngeldGrundrentenTimesStatus": "no"
+                },
+                "c3": {
+                  "wohngeldExclusionStatus": "not-excluded",
+                  "wohngeldExclusionReason": "",
+                  "careDaysInReferenceMonth": "",
+                  "incomeForecast": {
+                    "incomeStatus": "none",
+                    "mode": "annual",
+                    "taxExpected": "no",
+                    "healthCareContributionExpected": "no",
+                    "pensionContributionExpected": "no",
+                    "sources": []
+                  },
+                  "disabilityAllowanceStatus": "not-applicable",
+                  "nsPersecutionStatus": "no",
+                  "wohngeldGrundrentenTimesStatus": "no"
+                }
+              }
+            },
+            "ownerCosts": {
+              "livingAreaSqm": "",
+              "annualInterest": "",
+              "annualPrincipalRepayment": "",
+              "annualLoanAncillaryCosts": "",
+              "annualGuaranteeCosts": "",
+              "annualLeaseholdPayment": "",
+              "annualTotalLoanPayments": "",
+              "annualPropertyTax": "",
+              "annualThirdPartyAdministrationCosts": ""
+            },
+            "maintenanceDeductions": []
+          }
+        }
+      }
+    },
+    "baseFactsConfirmed": true,
+    "comparisonStart": "2026-08",
+    "comparisonMonths": 6,
+    "applicationMonths": [
+      "2026-08",
+      "2026-10"
+    ],
+    "algAmounts": [
+      1420
+    ],
+    "jobs": [
+      "L0",
+      "L1"
+    ],
+    "existingApplication": {
+      "start": "2026-08",
+      "status": "pending"
+    },
+    "partner": {
+      "moveInDate": "2026-09-01",
+      "workStartDates": [
+        "2026-09"
+      ],
+      "payLagMonths": 0,
+      "payroll": {
+        "commercialMinijob": true,
+        "miniPension": "exempt",
+        "miniTaxPassedOn": 0
+      },
+      "ownInsuranceCostByMonth": {
+        "2026-01": 0,
+        "2026-02": 0,
+        "2026-03": 0,
+        "2026-04": 0,
+        "2026-05": 0,
+        "2026-06": 0,
+        "2026-07": 0,
+        "2026-08": 0,
+        "2026-09": 0,
+        "2026-10": 0,
+        "2026-11": 0,
+        "2026-12": 0,
+        "2027-01": 0,
+        "2027-02": 0,
+        "2027-03": 0,
+        "2027-04": 0,
+        "2027-05": 0,
+        "2027-06": 0,
+        "2027-07": 0,
+        "2027-08": 0,
+        "2027-09": 0,
+        "2027-10": 0,
+        "2027-11": 0,
+        "2027-12": 0
+      }
+    },
+    "alg": {
+      "startDate": "2026-01-01",
+      "endDate": "2027-12-31",
+      "paymentMode": "same-month"
+    },
+    "incomeMonths": {
+      "applicant": {
+        "2026-01": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-02": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-03": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-04": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-05": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-06": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-07": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-08": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-09": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-10": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-11": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-12": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-01": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-02": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-03": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-04": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-05": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-06": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-07": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-08": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-09": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-10": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-11": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-12": {
+          "complete": true,
+          "sources": []
+        }
+      },
+      "partner": {
+        "2026-01": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-02": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-03": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-04": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-05": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-06": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-07": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-08": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-09": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-10": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-11": {
+          "complete": true,
+          "sources": []
+        },
+        "2026-12": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-01": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-02": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-03": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-04": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-05": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-06": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-07": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-08": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-09": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-10": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-11": {
+          "complete": true,
+          "sources": []
+        },
+        "2027-12": {
+          "complete": true,
+          "sources": []
+        }
+      }
+    },
+    "forecastOtherIncomeComplete": {
+      "applicant": true,
+      "partner": true
+    },
+    "kindergeldRates": {
+      "2026": 259
+    },
+    "kindergeldTransfers": {
+      "2026-01": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-02": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-03": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-04": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-05": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-06": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-07": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-08": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-09": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-10": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-11": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2026-12": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-01": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-02": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-03": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-04": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-05": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-06": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-07": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-08": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-09": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-10": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-11": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      },
+      "2027-12": {
+        "confirmed": true,
+        "incoming": 0,
+        "outgoing": 0,
+        "benefitAllocationConfirmed": true
+      }
+    },
+    "uvgByMonth": {
+      "2026-01": 0,
+      "2026-02": 0,
+      "2026-03": 0,
+      "2026-04": 0,
+      "2026-05": 0,
+      "2026-06": 0,
+      "2026-07": 0,
+      "2026-08": 0,
+      "2026-09": 0,
+      "2026-10": 0,
+      "2026-11": 0,
+      "2026-12": 0,
+      "2027-01": 0,
+      "2027-02": 0,
+      "2027-03": 0,
+      "2027-04": 0,
+      "2027-05": 0,
+      "2027-06": 0,
+      "2027-07": 0,
+      "2027-08": 0,
+      "2027-09": 0,
+      "2027-10": 0,
+      "2027-11": 0,
+      "2027-12": 0
+    },
+    "otherCashByMonth": {
+      "2026-01": 0,
+      "2026-02": 0,
+      "2026-03": 0,
+      "2026-04": 0,
+      "2026-05": 0,
+      "2026-06": 0,
+      "2026-07": 0,
+      "2026-08": 0,
+      "2026-09": 0,
+      "2026-10": 0,
+      "2026-11": 0,
+      "2026-12": 0,
+      "2027-01": 0,
+      "2027-02": 0,
+      "2027-03": 0,
+      "2027-04": 0,
+      "2027-05": 0,
+      "2027-06": 0,
+      "2027-07": 0,
+      "2027-08": 0,
+      "2027-09": 0,
+      "2027-10": 0,
+      "2027-11": 0,
+      "2027-12": 0
+    },
+    "warmRentByMonth": {
+      "2026-01": 1000,
+      "2026-02": 1000,
+      "2026-03": 1000,
+      "2026-04": 1000,
+      "2026-05": 1000,
+      "2026-06": 1000,
+      "2026-07": 1000,
+      "2026-08": 1000,
+      "2026-09": 1000,
+      "2026-10": 1000,
+      "2026-11": 1000,
+      "2026-12": 1000,
+      "2027-01": 1000,
+      "2027-02": 1000,
+      "2027-03": 1000,
+      "2027-04": 1000,
+      "2027-05": 1000,
+      "2027-06": 1000,
+      "2027-07": 1000,
+      "2027-08": 1000,
+      "2027-09": 1000,
+      "2027-10": 1000,
+      "2027-11": 1000,
+      "2027-12": 1000
+    },
+    "wohngeldContributionStatus": {
+      "applicant": {
+        "taxExpected": "no",
+        "healthCareContributionExpected": "no",
+        "pensionContributionExpected": "no"
+      },
+      "partner": {
+        "taxExpected": "no",
+        "healthCareContributionExpected": "no",
+        "pensionContributionExpected": "no"
+      }
+    }
+  }
+}

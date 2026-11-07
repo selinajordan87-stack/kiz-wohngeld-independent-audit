@@ -1,0 +1,762 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 61,
+    "sha256": "1a24860c91904451b9e13a3bfea0e61a346b68ef14df68acdb148beaf487600c"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 54,
+    "sha256": "3930b42e269993a62bd7e562ee84eb08dbf6b8825255cc0cf5c55182d523f7cc"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 861,
+    "sha256": "b6dc1b7d821cb3d42419a98db2c3cd8bbd43ee0f0859283399f0b48655f3a0bf"
+  },
+  {
+    "path": "AUDIT_GUIDE.md",
+    "bytes": 6706,
+    "sha256": "f14ba5ee6ac08b9c4afea964b3173c20c44e1638f62ebab800b5cf4e67a53058"
+  },
+  {
+    "path": "NOTICE.md",
+    "bytes": 501,
+    "sha256": "62095c005ff822ceda8a520eb4a1be6a060f901dee2e8816b2f0f19b82f9f8d0"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6373,
+    "sha256": "07c7f93b6aecf356db41a7aa41b9862a11e061d7b16b53521da719733a909d52"
+  },
+  {
+    "path": "audit/compare.js",
+    "bytes": 1423,
+    "sha256": "738b0857a767db6020be397594214b7fdacca7e249e0526ff960042a337028ba"
+  },
+  {
+    "path": "audit/create-archive.py",
+    "bytes": 1491,
+    "sha256": "23ed72ebc58af8236d4c2cb5f13599cf3d519c5a81a5056258b49c5f60a19c7f"
+  },
+  {
+    "path": "audit/fixture-factory.js",
+    "bytes": 4215,
+    "sha256": "3af61c2c1dcb91832cbdbbdd49a72076b7de70c2ab52847233c06ab154f3d943"
+  },
+  {
+    "path": "audit/generate-cases.js",
+    "bytes": 10051,
+    "sha256": "a44a4fffcdaf77043e5ebd09e3e9dd8b1cecd4216144efe71fe7effb930d0842"
+  },
+  {
+    "path": "audit/harness.test.js",
+    "bytes": 3840,
+    "sha256": "059e1ace29e9cf276e2c1fbc1d23ea46ec987db4814a14c9ba371be5a89b7134"
+  },
+  {
+    "path": "audit/privacy-scan.py",
+    "bytes": 3213,
+    "sha256": "adfc03dac8f512e1af54ad55b8bb51cb93206aaf47c9b77a176d1660699f229b"
+  },
+  {
+    "path": "audit/run-case.js",
+    "bytes": 5125,
+    "sha256": "7d674ef82d76e2aaf4282fa459bd5b49a074fb18148d15e39f2f72c2b2f7f09e"
+  },
+  {
+    "path": "audit/test-all.js",
+    "bytes": 1143,
+    "sha256": "953aa84d5189423b2e2c0902431ad5afd972a46e13238b39c0be8dae01864c2e"
+  },
+  {
+    "path": "audit/verify-integrity.js",
+    "bytes": 1638,
+    "sha256": "e23065b0d19de4224e2b8fe641dede32ce7b302a94c8a901133306f5a6e0bb62"
+  },
+  {
+    "path": "audit/write-observations.js",
+    "bytes": 1354,
+    "sha256": "7a8167945c35dfdc84a658ca4bcff28a4152e4a386528a58542cbd29f81cef01"
+  },
+  {
+    "path": "cases/alg-net.json",
+    "bytes": 9765,
+    "sha256": "039c8b7fdd207cff31d9294c449f4e3372cd49e05891623054b2dbc59eb835e3"
+  },
+  {
+    "path": "cases/application-2026-10.json",
+    "bytes": 11745,
+    "sha256": "e183f2c7f7461964cdcc6697f24d1c6bc9c42b046242e51077d7f79085ad778f"
+  },
+  {
+    "path": "cases/application-2026-11.json",
+    "bytes": 11745,
+    "sha256": "31da1a0752c9b8dcd2b6ddcc57beea86e59c9ffe4170612471e8a707b1a956d0"
+  },
+  {
+    "path": "cases/application-2026-12.json",
+    "bytes": 11745,
+    "sha256": "95a20bc86770c30298c6862abbde18295d6a938c5250fa3c238ee8ad577335f3"
+  },
+  {
+    "path": "cases/application-2026-9.json",
+    "bytes": 11743,
+    "sha256": "0783b407a8a84b2690137323f9944ef94943f35ce048ad6512e262e930ff00af"
+  },
+  {
+    "path": "cases/arrears-early.json",
+    "bytes": 9909,
+    "sha256": "018c0093f02529d6ae7866148da1bfafd1c09204c162b0e94277e10c198e0e44"
+  },
+  {
+    "path": "cases/arrears-late.json",
+    "bytes": 9902,
+    "sha256": "2538df0121863c98c08b3988c9cccb2271d55b286114f0197b4b2ad8997f72ad"
+  },
+  {
+    "path": "cases/asymmetric.json",
+    "bytes": 11898,
+    "sha256": "fa04608d366b9fbcb13b7aabce7706336ad4e3681dc36eed7b3f1bef4859d2e9"
+  },
+  {
+    "path": "cases/bonus-receipt.json",
+    "bytes": 9905,
+    "sha256": "0c33c9ccc85b4eb7b762962fdf610659f7cd2366c0f6fe106d800300b06870c9"
+  },
+  {
+    "path": "cases/child-income.json",
+    "bytes": 12108,
+    "sha256": "945c739512d076c7eaa1aea3cd7c8e8ac8278d20a7456dc55fd101cfe75a7c0a"
+  },
+  {
+    "path": "cases/finance-household-change.json",
+    "bytes": 23319,
+    "sha256": "c88d23c7b92ba0016515443049f80b26534d0d360b6c680e66f32ccfba02dccc"
+  },
+  {
+    "path": "cases/finance-matrix.json",
+    "bytes": 23453,
+    "sha256": "c6e24215507093d460eb52d85e75954eb4fc594c012aea8505320557fcc5bd30"
+  },
+  {
+    "path": "cases/garnishment.json",
+    "bytes": 12031,
+    "sha256": "c1013578739b4dc9b11ca2c7a0095e400e486a32b700a17b390d21eea1f71ab7"
+  },
+  {
+    "path": "cases/income-to-forecast.json",
+    "bytes": 11770,
+    "sha256": "a893477edcd0716cf2218087daa4c9189f3ce8942bbff2ea248607fb8374bafe"
+  },
+  {
+    "path": "cases/jobrad-A.json",
+    "bytes": 11953,
+    "sha256": "9412df42f887446cfe6af16f264fff5f5e4039bc004ca51d27a24d6dbf71c715"
+  },
+  {
+    "path": "cases/jobrad-B.json",
+    "bytes": 12334,
+    "sha256": "b1955b3e8b667edc77b24358b06cf56450adad74af8dc4b4d3e9796d98f9928d"
+  },
+  {
+    "path": "cases/jobrad-C.json",
+    "bytes": 12447,
+    "sha256": "fc9cb2611a8be4fca8384ed1b7cf01e342360fee4ff94169db8d13f1b38d6c05"
+  },
+  {
+    "path": "cases/jobrad-D.json",
+    "bytes": 12526,
+    "sha256": "2b720e21a807a8dd119f3521962a0da5665c5c72adf86e92634267ca98543ce0"
+  },
+  {
+    "path": "cases/jobrad-double-deduction.json",
+    "bytes": 12520,
+    "sha256": "8edfb0658aec7e57ffe0a9baa405880966b5e562fb2d28a72f0d94fa20baa2c3"
+  },
+  {
+    "path": "cases/jobrad-market-value-sensitivity.json",
+    "bytes": 12437,
+    "sha256": "04a43dded5e5ffc6d954aa279c54efff6ce3c29a532c2c6cfb7141728276f06c"
+  },
+  {
+    "path": "cases/minijob.json",
+    "bytes": 10155,
+    "sha256": "b988c3e7e5f2353a726bfdcc8760b2d6f3f0566ab998f6073dc3c5810f9c706b"
+  },
+  {
+    "path": "cases/mixed-income.json",
+    "bytes": 11155,
+    "sha256": "05ed56a0cf447e0a1c1bfed280e448c0da39a19d6881fb4cf6bb1e481c7aeece"
+  },
+  {
+    "path": "cases/one-child.json",
+    "bytes": 10218,
+    "sha256": "95c32332cf2cf96657a18eaaf8ae99b2a274b5b4bf9b5b9a104a0940c77b4ae3"
+  },
+  {
+    "path": "cases/parity-forwarded.json",
+    "bytes": 11886,
+    "sha256": "537aca441226fd90348814d7252d65cd9b851281a57863508df1cea1fc5b91a2"
+  },
+  {
+    "path": "cases/parity.json",
+    "bytes": 11879,
+    "sha256": "4f95d2f11636f44695b6317e62b8a0f850c1d80a2c6576ac72999691a2c9baa7"
+  },
+  {
+    "path": "cases/partner-income.json",
+    "bytes": 13026,
+    "sha256": "3fbcb18ad91684d923c13133ee40159390156310ec38df9c4c609e4eef7ff6b7"
+  },
+  {
+    "path": "cases/patchwork.json",
+    "bytes": 11732,
+    "sha256": "47c51ce483b114a1261f7172f0262e1fcb24d1cc9c2118f6a4ba6509b46bf223"
+  },
+  {
+    "path": "cases/payroll-midi-2026.json",
+    "bytes": 269,
+    "sha256": "c1adb6b85d7299b0a6f6a00ab4b347feeede094ebfd56fa03492b2751f1a8243"
+  },
+  {
+    "path": "cases/payroll-midi-2027.json",
+    "bytes": 269,
+    "sha256": "9d9913f586ab45c660118a40bbe672e5234e9659392c3cec194b3b1bec81b2b2"
+  },
+  {
+    "path": "cases/payroll-mini-exempt.json",
+    "bytes": 237,
+    "sha256": "ed17366db057e7ee436ed06b7234221ab5dcc1c71468e3875f10e2d0f9442020"
+  },
+  {
+    "path": "cases/payroll-mini-mandatory.json",
+    "bytes": 243,
+    "sha256": "a7888a0447c6c925a78c2cab9787c971ceea5e1ce972b423e73ec7793f3e754e"
+  },
+  {
+    "path": "cases/salary-correction.json",
+    "bytes": 9914,
+    "sha256": "a0e49a6085230b8385e116dd8df4e968ba653c17258195d739970462740881fa"
+  },
+  {
+    "path": "cases/sick-net.json",
+    "bytes": 9754,
+    "sha256": "98cc233f878aa038741996ae1b99bfa0a8aad86b5def02e769bdb44d09fd0a79"
+  },
+  {
+    "path": "cases/single-parent.json",
+    "bytes": 11731,
+    "sha256": "7fabefa04b25c189fc1066b86ad74f626808c1c6378b52aa895cbf6cea27efec"
+  },
+  {
+    "path": "cases/wg-member-excluded.json",
+    "bytes": 11755,
+    "sha256": "cdd419b472a6cb55fc5f748b7aff2c0666ddc8c0abf27d5abe967835ecaa4539"
+  },
+  {
+    "path": "cases/wg-rent-cap.json",
+    "bytes": 11737,
+    "sha256": "204d0c8773aad83709ecd1dc2959888e90cd39a3e89ac44fe6cecffac7f3dc7f"
+  },
+  {
+    "path": "cases/year-2027-boundary.json",
+    "bytes": 11847,
+    "sha256": "dc17bdb912117fbc0604787b54626a92c3c7225f64f02ac33d0b2ba8cee03c2c"
+  },
+  {
+    "path": "docs/JOBRAD_AUDIT.md",
+    "bytes": 7218,
+    "sha256": "fb0c23b89fcc44736f389a5882318be9e10840922e836ef3421cfed9760f0d30"
+  },
+  {
+    "path": "docs/LEGAL_SOURCES.md",
+    "bytes": 5436,
+    "sha256": "64c355b0a75dd7c4d188e5ad1594dadab024304af34d17dda4dd220e36bb4480"
+  },
+  {
+    "path": "docs/TECHNICAL_ADAPTATIONS.md",
+    "bytes": 2430,
+    "sha256": "b467804099b87793f586172b6278a7a293fb0ed0ef85becadb78a37d92931756"
+  },
+  {
+    "path": "docs/TEST_COVERAGE.md",
+    "bytes": 3169,
+    "sha256": "f979895f2b5c1381f0438f3bd0db6bf020191712a2c9dd2ad23b6226d3d35833"
+  },
+  {
+    "path": "docs/specifications/finance/CALCULATION_SPEC.md",
+    "bytes": 213733,
+    "sha256": "3f64c027ce4c9aa3c86378297e1d9c0bf9944e216c45e6294d1f7e7d5d0b33b5"
+  },
+  {
+    "path": "docs/specifications/main/CALCULATION_SPEC.md",
+    "bytes": 207990,
+    "sha256": "e61c3d5b312930b85d1ca26dbee5e750935504217c0482eb54d402ef652b5eb4"
+  },
+  {
+    "path": "package.json",
+    "bytes": 643,
+    "sha256": "a957f4a8596a4dec4b34aa6704176a4c7c3060506c66d09bacdf8f06b51bec22"
+  },
+  {
+    "path": "provenance/inclusion-inventory.json",
+    "bytes": 28639,
+    "sha256": "41f7b0971aa7e7ac5cc5de565326ef4b85c756bceceba3d8b7ea1c93e5d73c69"
+  },
+  {
+    "path": "provenance/source-integrity.json",
+    "bytes": 30676,
+    "sha256": "a79303afc5e5a764c5367132b1b8baa6c2bead0610973bc939d3cce69e97d28c"
+  },
+  {
+    "path": "reports/FILE_INVENTORY.md",
+    "bytes": 6420,
+    "sha256": "3a74ba610118e57409726641ccff5e7e16e28d041a933e9410a85ef9f919b897"
+  },
+  {
+    "path": "reports/PRIVACY_REVIEW.md",
+    "bytes": 4577,
+    "sha256": "f5e62a6d257bd91fcb1890a3cdc938da441908db5465fd4f65c81e1488d7ed9b"
+  },
+  {
+    "path": "reports/REPOSITORY_STATUS.md",
+    "bytes": 606,
+    "sha256": "21636239f0a68009a8383ef063a83df48b0ff51aff545b5ceb460b74027c2066"
+  },
+  {
+    "path": "reports/jobrad/finance-jobrad-A.json",
+    "bytes": 174476,
+    "sha256": "d6d4f20b36dc681f215bdf7b661d46b211ee488958310abec3f0bb22a178fd5d"
+  },
+  {
+    "path": "reports/jobrad/finance-jobrad-B.json",
+    "bytes": 174410,
+    "sha256": "0e3988c6f06be43f03454ebd3052e3dcf7e8218fbf41c6ffae09592404217209"
+  },
+  {
+    "path": "reports/jobrad/finance-jobrad-C.json",
+    "bytes": 174419,
+    "sha256": "85900bbd420a4b6bba65014e370d60ca70a0a4d07fbf9f0b428a500c7c0fc4fc"
+  },
+  {
+    "path": "reports/jobrad/finance-jobrad-D.json",
+    "bytes": 174518,
+    "sha256": "ac22d35f94186bce48a19b63c833af4cb1aa1cfcb7b721ce178def90de116abb"
+  },
+  {
+    "path": "reports/jobrad/finance-jobrad-double-deduction.json",
+    "bytes": 174447,
+    "sha256": "2ae97beabd4dad1277e8bba8f17c4ab2ba2efbc441969cbaf32fb6f018e2ee5a"
+  },
+  {
+    "path": "reports/jobrad/finance-jobrad-market-value-sensitivity.json",
+    "bytes": 174523,
+    "sha256": "ede73291095d86827465edc3c120084c6d08f7a015e7b23e45a0e2fb8728b702"
+  },
+  {
+    "path": "reports/jobrad/main-jobrad-A.json",
+    "bytes": 174443,
+    "sha256": "8a274514cbbd9c7d1bdc7b028af977d47fb128cf016cf106345521c223b03371"
+  },
+  {
+    "path": "reports/jobrad/main-jobrad-B.json",
+    "bytes": 174377,
+    "sha256": "871c2e7c2b448c02e8876c47673a0dd858d138ccad77a9cdfc6ff6d0368aa273"
+  },
+  {
+    "path": "reports/jobrad/main-jobrad-C.json",
+    "bytes": 174386,
+    "sha256": "360e9b0515a823328a0812a25f2360d3e561288b9e9463fda51387679b02973c"
+  },
+  {
+    "path": "reports/jobrad/main-jobrad-D.json",
+    "bytes": 174485,
+    "sha256": "9c20a5f28f2fa7f87ce977250926e0ce277f225034fb70bd71de6ee712db7ccb"
+  },
+  {
+    "path": "reports/jobrad/main-jobrad-double-deduction.json",
+    "bytes": 174414,
+    "sha256": "c7f9a77f37de16e6a6e7e3b3fc8b78e789cf57cf3b2de96e969093f402f66a0a"
+  },
+  {
+    "path": "reports/jobrad/main-jobrad-market-value-sensitivity.json",
+    "bytes": 174490,
+    "sha256": "14d26aa95af9d10ea1c71e0aea39728569c2c80d1e83dfba4b6d9d039d1aa61d"
+  },
+  {
+    "path": "reports/original-preservation.json",
+    "bytes": 316,
+    "sha256": "07bfbc1ffbf8d9df9067660b535be57ca40396210b5bf9cb0928d2d46471e2b8"
+  },
+  {
+    "path": "reports/synthetic-observations.json",
+    "bytes": 399355,
+    "sha256": "361b3ea2f7795f5e25c998858da5e29dec7c5f2cdaea1c8a393bca426f7d1d63"
+  },
+  {
+    "path": "reports/test-results.json",
+    "bytes": 4450,
+    "sha256": "53c9eb14891e0c15b6cfccf5cf73aa64d8f812fa03770c6b2ed2a60bbaae8157"
+  },
+  {
+    "path": "snapshots/finance/calculation-rules.js",
+    "bytes": 19272,
+    "sha256": "3eae940f44498f83adfcf5aa6bf8a41f960618b1aed70916124ee15d430af678"
+  },
+  {
+    "path": "snapshots/finance/calculator.js",
+    "bytes": 238269,
+    "sha256": "2c4a1f056b528f0e269481f4fbbd4d07a50cf0b0ec5fd3ecc3143587527eec52"
+  },
+  {
+    "path": "snapshots/finance/finance-payroll.js",
+    "bytes": 4197,
+    "sha256": "404a3d3e7141b07837f77ffa0f59f574e7dee66bff1c16c4fb829690f2da5813"
+  },
+  {
+    "path": "snapshots/finance/finance-scenarios.js",
+    "bytes": 27649,
+    "sha256": "968bcd8b61b2feea66ca0a7efa3a7ea58fe3145e4e972336e12cd426ada0ed6f"
+  },
+  {
+    "path": "snapshots/finance/parent-need-data.js",
+    "bytes": 12028,
+    "sha256": "147f2614de71b7d950f6c5ca8ae85ca69dd48a3bd58a5081d500f4887f0f0ee8"
+  },
+  {
+    "path": "snapshots/finance/scenario-comparison.js",
+    "bytes": 41925,
+    "sha256": "72e6ff69b7e7941b4f0aafe6dba1e9f691037f4bded63303104c07f6a9e10df1"
+  },
+  {
+    "path": "snapshots/finance/tests/adult-income-cleansing-tests.js",
+    "bytes": 26741,
+    "sha256": "1e188ae34db13e43bfade996ab897c1e57cc225f7718e0ffa343ca1756277457"
+  },
+  {
+    "path": "snapshots/finance/tests/asset-integration-tests.js",
+    "bytes": 14609,
+    "sha256": "4c72438e3f0a14b40563484994eba1cd943ce0ea06fb104cc8e1a686d0d670af"
+  },
+  {
+    "path": "snapshots/finance/tests/asset-rules-tests.js",
+    "bytes": 11319,
+    "sha256": "5a52110f1270287de985193542249a132668e79b6f68080b94bd62c16ad4c8dd"
+  },
+  {
+    "path": "snapshots/finance/tests/calculation-tests.js",
+    "bytes": 8008,
+    "sha256": "34c7e3ea9f0e20ac35d75f22828859d37fbea548348db8ce59ec3ac7b93b8b94"
+  },
+  {
+    "path": "snapshots/finance/tests/child-family-need-tests.js",
+    "bytes": 16199,
+    "sha256": "f06f600d5f35c1b2276892270563170655843368472971df18cd4ca185cd78dc"
+  },
+  {
+    "path": "snapshots/finance/tests/child-income-deduction-tests.js",
+    "bytes": 18355,
+    "sha256": "6b5377b7a0d2e3830dfee60eac97256b03bb6da5b2aee8f6e3291768017456fe"
+  },
+  {
+    "path": "snapshots/finance/tests/child-income-reduction-tests.js",
+    "bytes": 13894,
+    "sha256": "01fe3dd75e0b59cbfa15a1789451ce353834360083fbe195178c0f13f6e44919"
+  },
+  {
+    "path": "snapshots/finance/tests/child-income-rules-tests.js",
+    "bytes": 15390,
+    "sha256": "38834a8801246c07636e292ab2237150fbbc0bac069123a5710fd635318a8936"
+  },
+  {
+    "path": "snapshots/finance/tests/coverage-tests.js",
+    "bytes": 36858,
+    "sha256": "9cdd81811ad6d30f3c6624677dcd71f5bf6c0f2f7a75e9bb72708c372a8b7058"
+  },
+  {
+    "path": "snapshots/finance/tests/end-to-end-tests.js",
+    "bytes": 10786,
+    "sha256": "6a831b9935bd28d8117e25c74ab9312adb7cd062b2c390d7bb198b7ffbd7a235"
+  },
+  {
+    "path": "snapshots/finance/tests/final-kiz-rounding-tests.js",
+    "bytes": 5689,
+    "sha256": "4daf62df66f55662c16eae6c29068b9de4d11149c4757964ed057ee16579ddc1"
+  },
+  {
+    "path": "snapshots/finance/tests/final-kiz-tests.js",
+    "bytes": 18240,
+    "sha256": "1cf92b93a61349f0c40130eb0157ce83542e49e376f15b19a9f9ec9c87398e56"
+  },
+  {
+    "path": "snapshots/finance/tests/income-precision-tests.js",
+    "bytes": 12975,
+    "sha256": "3a6f70e5b698e80d969973c201b8e0ed466aee524ca1319265e3c8e89fb20bb9"
+  },
+  {
+    "path": "snapshots/finance/tests/income-rules-tests.js",
+    "bytes": 12561,
+    "sha256": "79a3d2e4a7b34a004022f70065350170126b88c06e6e0bae86e91a56e0d8ef6b"
+  },
+  {
+    "path": "snapshots/finance/tests/monetary-foundation-tests.js",
+    "bytes": 12012,
+    "sha256": "85947b16eec88eb3b1aedca23e1e92759f32a6aa28a5b44ed8b1d9688c155c17"
+  },
+  {
+    "path": "snapshots/finance/tests/parent-income-reduction-tests.js",
+    "bytes": 20527,
+    "sha256": "62e41e31e0cf74f353e05010f1fdb16a21d54ab352a08ba7bb7344310f8b8ae8"
+  },
+  {
+    "path": "snapshots/finance/tests/parent-need-tests.js",
+    "bytes": 24880,
+    "sha256": "636f0252b82e1f2a61fe853489495863071f002adb28603f86908e2143e4563a"
+  },
+  {
+    "path": "snapshots/finance/tests/run-all-tests.js",
+    "bytes": 2045,
+    "sha256": "0f5bbfd23a58660742bf5dad5f4ac5fd6611d10f0d6a1c7851b1ae74c793fe50"
+  },
+  {
+    "path": "snapshots/finance/tests/structural-rules-tests.js",
+    "bytes": 11505,
+    "sha256": "edb56f538e30446a88357d067efa3b236facf1e018a6fa824e09a07ba69bce9c"
+  },
+  {
+    "path": "snapshots/finance/tests/validation-tests.js",
+    "bytes": 13209,
+    "sha256": "269168d51af23c2dad6d3b8748096b9832d470a8c637921ce1835130654a6dc3"
+  },
+  {
+    "path": "snapshots/finance/tests/wohngeld-amount-tests.js",
+    "bytes": 18160,
+    "sha256": "d7373090215da5cc789762aeb11ab3cfb761cebc20680a8c4b8b32e40a612ded"
+  },
+  {
+    "path": "snapshots/finance/tests/wohngeld-coverage-integration-tests.js",
+    "bytes": 18525,
+    "sha256": "455f979f771f04db67b12dc50f5c07bcc508f948dac2c929e0fc8dd262ee69d3"
+  },
+  {
+    "path": "snapshots/finance/tests/wohngeld-fixed-point-tests.js",
+    "bytes": 2420,
+    "sha256": "9203cf29688a9339a121ce0cd20dd7b9ee882401e79fc24013a3a647a62b063c"
+  },
+  {
+    "path": "snapshots/finance/tests/wohngeld-household-tests.js",
+    "bytes": 8445,
+    "sha256": "08ae24bd160834a8fec134a56d05231ec7ae9f81ce92fb380ac33dccf3731662"
+  },
+  {
+    "path": "snapshots/finance/tests/wohngeld-housing-tests.js",
+    "bytes": 7079,
+    "sha256": "35ff654b0679d0d48917ba7c5d49765caab2d646e1e780f3d84e918a7218faed"
+  },
+  {
+    "path": "snapshots/finance/tests/wohngeld-income-tests.js",
+    "bytes": 8938,
+    "sha256": "4231207db379de288dd69bace4460269737fe326a621dd7043ed8702cd9b6946"
+  },
+  {
+    "path": "snapshots/finance/ux-income-forecast.js",
+    "bytes": 11774,
+    "sha256": "264f9a4ff3a35f482feb9475c82bc9e7a776cee89ba69f367b3b3194527dd49f"
+  },
+  {
+    "path": "snapshots/finance/ux-relevance.js",
+    "bytes": 89238,
+    "sha256": "c6adb4a4880bcbfc3cb48aeab4d85c5f55aa9a7e574ea52303098553c9cbe175"
+  },
+  {
+    "path": "snapshots/finance/validation.js",
+    "bytes": 84953,
+    "sha256": "97ffcadca6650fbd25e83e86147e6a1c34dc0ac9427d2c2af892cd194bb8f407"
+  },
+  {
+    "path": "snapshots/finance/wohngeld-data.js",
+    "bytes": 5301,
+    "sha256": "4e739898c08c7cdab4882460e7950c3083483b2f9d236201204b8ef111238c06"
+  },
+  {
+    "path": "snapshots/finance/wohngeld.js",
+    "bytes": 40908,
+    "sha256": "d02d449a03558113013dc2925752299dc15f6467eb338abf95da72a41e1b10af"
+  },
+  {
+    "path": "snapshots/main/calculation-rules.js",
+    "bytes": 19101,
+    "sha256": "f509d3d39f74439d57b22f4a477977535d62237e34652c647ecfde869c48cf9d"
+  },
+  {
+    "path": "snapshots/main/calculator.js",
+    "bytes": 238144,
+    "sha256": "e2661dbb8b155a3d8a8ec9587fb3d28e02488e83f5eda507da06c725a3e7c5e0"
+  },
+  {
+    "path": "snapshots/main/parent-need-data.js",
+    "bytes": 12028,
+    "sha256": "147f2614de71b7d950f6c5ca8ae85ca69dd48a3bd58a5081d500f4887f0f0ee8"
+  },
+  {
+    "path": "snapshots/main/scenario-comparison.js",
+    "bytes": 41744,
+    "sha256": "a12d287aa2f856fa478402d6798daa501b05373c43974ef0d8c203dddb598a94"
+  },
+  {
+    "path": "snapshots/main/tests/adult-income-cleansing-tests.js",
+    "bytes": 26741,
+    "sha256": "1e188ae34db13e43bfade996ab897c1e57cc225f7718e0ffa343ca1756277457"
+  },
+  {
+    "path": "snapshots/main/tests/asset-integration-tests.js",
+    "bytes": 14609,
+    "sha256": "4c72438e3f0a14b40563484994eba1cd943ce0ea06fb104cc8e1a686d0d670af"
+  },
+  {
+    "path": "snapshots/main/tests/asset-rules-tests.js",
+    "bytes": 11319,
+    "sha256": "5a52110f1270287de985193542249a132668e79b6f68080b94bd62c16ad4c8dd"
+  },
+  {
+    "path": "snapshots/main/tests/calculation-tests.js",
+    "bytes": 8008,
+    "sha256": "34c7e3ea9f0e20ac35d75f22828859d37fbea548348db8ce59ec3ac7b93b8b94"
+  },
+  {
+    "path": "snapshots/main/tests/child-family-need-tests.js",
+    "bytes": 16199,
+    "sha256": "f06f600d5f35c1b2276892270563170655843368472971df18cd4ca185cd78dc"
+  },
+  {
+    "path": "snapshots/main/tests/child-income-deduction-tests.js",
+    "bytes": 18355,
+    "sha256": "6b5377b7a0d2e3830dfee60eac97256b03bb6da5b2aee8f6e3291768017456fe"
+  },
+  {
+    "path": "snapshots/main/tests/child-income-reduction-tests.js",
+    "bytes": 13894,
+    "sha256": "01fe3dd75e0b59cbfa15a1789451ce353834360083fbe195178c0f13f6e44919"
+  },
+  {
+    "path": "snapshots/main/tests/child-income-rules-tests.js",
+    "bytes": 15390,
+    "sha256": "38834a8801246c07636e292ab2237150fbbc0bac069123a5710fd635318a8936"
+  },
+  {
+    "path": "snapshots/main/tests/coverage-tests.js",
+    "bytes": 36858,
+    "sha256": "9cdd81811ad6d30f3c6624677dcd71f5bf6c0f2f7a75e9bb72708c372a8b7058"
+  },
+  {
+    "path": "snapshots/main/tests/end-to-end-tests.js",
+    "bytes": 10786,
+    "sha256": "6a831b9935bd28d8117e25c74ab9312adb7cd062b2c390d7bb198b7ffbd7a235"
+  },
+  {
+    "path": "snapshots/main/tests/final-kiz-rounding-tests.js",
+    "bytes": 5689,
+    "sha256": "4daf62df66f55662c16eae6c29068b9de4d11149c4757964ed057ee16579ddc1"
+  },
+  {
+    "path": "snapshots/main/tests/final-kiz-tests.js",
+    "bytes": 18240,
+    "sha256": "1cf92b93a61349f0c40130eb0157ce83542e49e376f15b19a9f9ec9c87398e56"
+  },
+  {
+    "path": "snapshots/main/tests/income-precision-tests.js",
+    "bytes": 12975,
+    "sha256": "3a6f70e5b698e80d969973c201b8e0ed466aee524ca1319265e3c8e89fb20bb9"
+  },
+  {
+    "path": "snapshots/main/tests/income-rules-tests.js",
+    "bytes": 12561,
+    "sha256": "79a3d2e4a7b34a004022f70065350170126b88c06e6e0bae86e91a56e0d8ef6b"
+  },
+  {
+    "path": "snapshots/main/tests/monetary-foundation-tests.js",
+    "bytes": 12012,
+    "sha256": "85947b16eec88eb3b1aedca23e1e92759f32a6aa28a5b44ed8b1d9688c155c17"
+  },
+  {
+    "path": "snapshots/main/tests/parent-income-reduction-tests.js",
+    "bytes": 20527,
+    "sha256": "62e41e31e0cf74f353e05010f1fdb16a21d54ab352a08ba7bb7344310f8b8ae8"
+  },
+  {
+    "path": "snapshots/main/tests/parent-need-tests.js",
+    "bytes": 24880,
+    "sha256": "636f0252b82e1f2a61fe853489495863071f002adb28603f86908e2143e4563a"
+  },
+  {
+    "path": "snapshots/main/tests/run-all-tests.js",
+    "bytes": 2045,
+    "sha256": "0f5bbfd23a58660742bf5dad5f4ac5fd6611d10f0d6a1c7851b1ae74c793fe50"
+  },
+  {
+    "path": "snapshots/main/tests/structural-rules-tests.js",
+    "bytes": 11466,
+    "sha256": "0d4f758c315dcc8f27ede2d3b0b0bc168c65e8d04ae7b211aeeadbea32730bdc"
+  },
+  {
+    "path": "snapshots/main/tests/validation-tests.js",
+    "bytes": 13209,
+    "sha256": "269168d51af23c2dad6d3b8748096b9832d470a8c637921ce1835130654a6dc3"
+  },
+  {
+    "path": "snapshots/main/tests/wohngeld-amount-tests.js",
+    "bytes": 18160,
+    "sha256": "d7373090215da5cc789762aeb11ab3cfb761cebc20680a8c4b8b32e40a612ded"
+  },
+  {
+    "path": "snapshots/main/tests/wohngeld-coverage-integration-tests.js",
+    "bytes": 18525,
+    "sha256": "455f979f771f04db67b12dc50f5c07bcc508f948dac2c929e0fc8dd262ee69d3"
+  },
+  {
+    "path": "snapshots/main/tests/wohngeld-fixed-point-tests.js",
+    "bytes": 2420,
+    "sha256": "9203cf29688a9339a121ce0cd20dd7b9ee882401e79fc24013a3a647a62b063c"
+  },
+  {
+    "path": "snapshots/main/tests/wohngeld-household-tests.js",
+    "bytes": 8445,
+    "sha256": "08ae24bd160834a8fec134a56d05231ec7ae9f81ce92fb380ac33dccf3731662"
+  },
+  {
+    "path": "snapshots/main/tests/wohngeld-housing-tests.js",
+    "bytes": 7079,
+    "sha256": "35ff654b0679d0d48917ba7c5d49765caab2d646e1e780f3d84e918a7218faed"
+  },
+  {
+    "path": "snapshots/main/tests/wohngeld-income-tests.js",
+    "bytes": 8938,
+    "sha256": "4231207db379de288dd69bace4460269737fe326a621dd7043ed8702cd9b6946"
+  },
+  {
+    "path": "snapshots/main/ux-income-forecast.js",
+    "bytes": 11774,
+    "sha256": "264f9a4ff3a35f482feb9475c82bc9e7a776cee89ba69f367b3b3194527dd49f"
+  },
+  {
+    "path": "snapshots/main/ux-relevance.js",
+    "bytes": 89238,
+    "sha256": "c6adb4a4880bcbfc3cb48aeab4d85c5f55aa9a7e574ea52303098553c9cbe175"
+  },
+  {
+    "path": "snapshots/main/validation.js",
+    "bytes": 84953,
+    "sha256": "97ffcadca6650fbd25e83e86147e6a1c34dc0ac9427d2c2af892cd194bb8f407"
+  },
+  {
+    "path": "snapshots/main/wohngeld-data.js",
+    "bytes": 5301,
+    "sha256": "4e739898c08c7cdab4882460e7950c3083483b2f9d236201204b8ef111238c06"
+  },
+  {
+    "path": "snapshots/main/wohngeld.js",
+    "bytes": 40908,
+    "sha256": "d02d449a03558113013dc2925752299dc15f6467eb338abf95da72a41e1b10af"
+  }
+]

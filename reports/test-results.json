@@ -1,0 +1,31 @@
+{
+  "node": "v24.22.1",
+  "status": "PASSED",
+  "scope": "Only selected preserved tests and new synthetic adapter checks; not a legal certification",
+  "suites": [
+    {
+      "id": "integrity",
+      "exitCode": 0,
+      "error": null,
+      "output": "{\n  \"status\": \"VERIFIED\",\n  \"checkedFiles\": 72,\n  \"checkedRedactedDocuments\": 2,\n  \"issues\": []\n}\n"
+    },
+    {
+      "id": "main-original",
+      "exitCode": 0,
+      "error": null,
+      "output": "✓ adult-income-cleansing-tests.js: 86/86 bestanden\n✓ asset-integration-tests.js: 46/46 bestanden\n✓ asset-rules-tests.js: 47/47 bestanden\n✓ calculation-tests.js: 11/11 bestanden\n✓ child-family-need-tests.js: 60/60 bestanden\n✓ child-income-deduction-tests.js: 50/50 bestanden\n✓ child-income-reduction-tests.js: 29/29 bestanden\n✓ child-income-rules-tests.js: 40/40 bestanden\n✓ coverage-tests.js: 121/121 bestanden\n✓ end-to-end-tests.js: 30/30 bestanden\n✓ final-kiz-rounding-tests.js: 25/25 bestanden\n✓ final-kiz-tests.js: 45/45 bestanden\n✓ income-precision-tests.js: 37/37 bestanden\n✓ income-rules-tests.js: 34/34 bestanden\n✓ monetary-foundation-tests.js: 31/31 bestanden\n✓ parent-income-reduction-tests.js: 72/72 bestanden\n✓ parent-need-tests.js: 98/98 bestanden\n✓ structural-rules-tests.js: 29/29 bestanden\n✓ validation-tests.js: 28/28 bestanden\n✓ wohngeld-amount-tests.js: 62/62 bestanden\n✓ wohngeld-coverage-integration-tests.js: 53/53 bestanden\n✓ wohngeld-fixed-point-tests.js: 6/6 bestanden\n✓ wohngeld-household-tests.js: 17/17 bestanden\n✓ wohngeld-housing-tests.js: 21/21 bestanden\n✓ wohngeld-income-tests.js: 25/25 bestanden\nGesamt: 1103/1103 Tests bestanden – GRÜN.\n"
+    },
+    {
+      "id": "finance-original",
+      "exitCode": 0,
+      "error": null,
+      "output": "✓ adult-income-cleansing-tests.js: 86/86 bestanden\n✓ asset-integration-tests.js: 46/46 bestanden\n✓ asset-rules-tests.js: 47/47 bestanden\n✓ calculation-tests.js: 11/11 bestanden\n✓ child-family-need-tests.js: 60/60 bestanden\n✓ child-income-deduction-tests.js: 50/50 bestanden\n✓ child-income-reduction-tests.js: 29/29 bestanden\n✓ child-income-rules-tests.js: 40/40 bestanden\n✓ coverage-tests.js: 121/121 bestanden\n✓ end-to-end-tests.js: 30/30 bestanden\n✓ final-kiz-rounding-tests.js: 25/25 bestanden\n✓ final-kiz-tests.js: 45/45 bestanden\n✓ income-precision-tests.js: 37/37 bestanden\n✓ income-rules-tests.js: 34/34 bestanden\n✓ monetary-foundation-tests.js: 31/31 bestanden\n✓ parent-income-reduction-tests.js: 72/72 bestanden\n✓ parent-need-tests.js: 98/98 bestanden\n✓ structural-rules-tests.js: 29/29 bestanden\n✓ validation-tests.js: 28/28 bestanden\n✓ wohngeld-amount-tests.js: 62/62 bestanden\n✓ wohngeld-coverage-integration-tests.js: 53/53 bestanden\n✓ wohngeld-fixed-point-tests.js: 6/6 bestanden\n✓ wohngeld-household-tests.js: 17/17 bestanden\n✓ wohngeld-housing-tests.js: 21/21 bestanden\n✓ wohngeld-income-tests.js: 25/25 bestanden\nGesamt: 1103/1103 Tests bestanden – GRÜN.\n"
+    },
+    {
+      "id": "audit-harness",
+      "exitCode": 0,
+      "error": null,
+      "output": "✔ Snapshot bytes match GitHub blobs and SHA256 (10.361874ms)\n✔ Synthetic baseline passes actual validator and exposes intermediate steps (40.676897ms)\n✔ Jobrad B and already accounted C have identical kernel inputs/results (36.139037ms)\n✔ Audit metadata linter detects double count, original validator does not (12.158262ms)\n✔ Audit metadata linter detects duplicate sacrifice (0.497223ms)\n✔ No input changed by audit invocation (7.913939ms)\n✔ A -> B is a sensitivity, not a legal oracle (11.166695ms)\n✔ Unsupported 2027 legal basis remains explicitly flagged (2.687023ms)\n✔ Different versions cannot share process globals (0.73104ms)\n✔ Frozen common cores give equal synthetic Jobrad results across processes (171.455708ms)\n✔ Finance payroll supports synthetic mini RV alternatives (105.891407ms)\n✔ Finance payroll reports its 2027 contribution limitation (52.028181ms)\n✔ Income forecast adapter calls original normalization function (0.92328ms)\n✔ Every synthetic case executes independently on both versions (5512.034175ms)\n✔ Comparison returns path-level differences (0.271048ms)\nℹ tests 15\nℹ suites 0\nℹ pass 15\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 6047.210045\n"
+    }
+  ]
+}

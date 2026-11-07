@@ -1,0 +1,14 @@
+{
+  "caseId": "payroll-midi-2027",
+  "evidenceKind": "SYNTHETIC",
+  "operation": "payroll",
+  "job": "L3",
+  "month": "2027-01",
+  "options": {
+    "regularEmployment": true,
+    "under23": true,
+    "additionalHealthRate": 2.9,
+    "tax": 0,
+    "solidarity": 0
+  }
+}

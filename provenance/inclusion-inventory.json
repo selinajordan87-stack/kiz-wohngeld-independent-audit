@@ -1,0 +1,902 @@
+[
+  {
+    "version": "main",
+    "path": "app.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "calculation-rules.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "calculator.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "parent-need-data.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "playwright.config.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "private-presets.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "result-view-model.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "scenario-comparison.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "scenario-ui.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "scripts/build-public.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "storage.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/adaptive-relevance-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/adult-income-cleansing-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/asset-integration-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/asset-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/browser/browser-helpers.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/browser/global-setup.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/browser/sick-pay-flow.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/browser/smoke.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/browser/static-server.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/browser/wizard-e2e.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/calculation-blocker-reconciliation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/calculation-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/child-benefit-surplus-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/child-family-need-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/child-income-deduction-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/child-income-reduction-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/child-income-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/child-wizard-routing-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/coverage-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/end-to-end-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/final-kiz-rounding-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/final-kiz-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/guided-auto-navigation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/guided-income-housing-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/household-step-structure-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/income-precision-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/income-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/income-wizard-bug-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/monetary-foundation-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/parent-income-reduction-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/parent-need-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/partner-minijob-golden-path-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/patchwork-owner-preset-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/private-preset-test-helper.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/private-reference-presets-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/public-example-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/public-private-separation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/result-view-model-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/run-all-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/scenario-comparison-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/scenario-ui-events-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/sick-pay-dual-amount-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/sick-pay-reference-preset-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/structural-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/ux-issue-navigation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/ux-relevance-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/ux1-1-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/validation-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/wizard-navigation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "main",
+    "path": "tests/wohngeld-amount-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/wohngeld-coverage-integration-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/wohngeld-fixed-point-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/wohngeld-household-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/wohngeld-housing-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "tests/wohngeld-income-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "ux-income-forecast.js",
+    "included": true,
+    "reason": "Unmodified income forecast normalization dependency"
+  },
+  {
+    "version": "main",
+    "path": "ux-relevance.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "validation.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "wohngeld-data.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "wohngeld.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "app.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "calculation-rules.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "calculator.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "finance-payroll.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "finance-scenarios.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "finance-ui.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "parent-need-data.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "playwright.config.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "private-presets.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "result-view-model.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "scenario-comparison.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "scenario-ui.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "scripts/build-public.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "scripts/run-finance-scenarios.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "storage.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/adaptive-relevance-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/adult-income-cleansing-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/asset-integration-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/asset-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/browser-helpers.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/finance-scenarios.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/global-setup.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/sick-pay-flow.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/smoke.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/static-server.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/browser/wizard-e2e.spec.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/calculation-blocker-reconciliation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/calculation-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/child-benefit-surplus-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/child-family-need-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/child-income-deduction-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/child-income-reduction-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/child-income-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/child-wizard-routing-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/coverage-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/end-to-end-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/final-kiz-rounding-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/final-kiz-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/finance-scenarios-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/guided-auto-navigation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/guided-income-housing-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/household-step-structure-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/income-precision-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/income-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/income-wizard-bug-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/monetary-foundation-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/parent-income-reduction-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/parent-need-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/partner-minijob-golden-path-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/patchwork-owner-preset-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/private-preset-test-helper.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/private-reference-presets-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/public-example-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/public-private-separation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/result-view-model-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/run-all-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/scenario-comparison-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/scenario-ui-events-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/sick-pay-dual-amount-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/sick-pay-reference-preset-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/structural-rules-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/ux-issue-navigation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/ux-relevance-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/ux1-1-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/validation-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wizard-navigation-tests.js",
+    "included": false,
+    "reason": "Excluded: UI/deployment or private-fixture dependency; not required by the headless core test scope"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wohngeld-amount-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wohngeld-coverage-integration-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wohngeld-fixed-point-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wohngeld-household-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wohngeld-housing-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "tests/wohngeld-income-tests.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "ux-income-forecast.js",
+    "included": true,
+    "reason": "Unmodified income forecast normalization dependency"
+  },
+  {
+    "version": "finance",
+    "path": "ux-relevance.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "validation.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "wohngeld-data.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "finance",
+    "path": "wohngeld.js",
+    "included": true,
+    "reason": "Unmodified calculation/dependency/test source"
+  },
+  {
+    "version": "main",
+    "path": "CALCULATION_SPEC.md",
+    "included": false,
+    "reason": "Original documentation contains private reference vectors; redacted copy under docs/specifications"
+  },
+  {
+    "version": "finance",
+    "path": "CALCULATION_SPEC.md",
+    "included": false,
+    "reason": "Original documentation contains private reference vectors; redacted copy under docs/specifications"
+  }
+]

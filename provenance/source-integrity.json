@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "label": "main",
+      "branch": "main",
+      "commit": "973fc250464a29916ea4a4a7071f7245845635b8"
+    },
+    {
+      "label": "finance",
+      "branch": "codex/finanzszenarien-2026-2027",
+      "commit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a"
+    }
+  ],
+  "files": [
+    {
+      "path": "snapshots/main/calculator.js",
+      "sourcePath": "calculator.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "e05a30f48fb6ac7187c9fe1541862034a71816ad",
+      "sha256": "e2661dbb8b155a3d8a8ec9587fb3d28e02488e83f5eda507da06c725a3e7c5e0",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/calculation-rules.js",
+      "sourcePath": "calculation-rules.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "229bc932ac2ec2dadc384ab96dda1e02e4827f9a",
+      "sha256": "f509d3d39f74439d57b22f4a477977535d62237e34652c647ecfde869c48cf9d",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/parent-need-data.js",
+      "sourcePath": "parent-need-data.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "d6781184b666a8119a9924495bae008d944497fa",
+      "sha256": "147f2614de71b7d950f6c5ca8ae85ca69dd48a3bd58a5081d500f4887f0f0ee8",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/wohngeld.js",
+      "sourcePath": "wohngeld.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "8648238ef620a1b0788b7291926c446325fde607",
+      "sha256": "d02d449a03558113013dc2925752299dc15f6467eb338abf95da72a41e1b10af",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/wohngeld-data.js",
+      "sourcePath": "wohngeld-data.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "712eafa59fbfa00161581357c669e9d27649eedc",
+      "sha256": "4e739898c08c7cdab4882460e7950c3083483b2f9d236201204b8ef111238c06",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/validation.js",
+      "sourcePath": "validation.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "08ffbb2c26f2393c25bdd65a69ec5f6110455107",
+      "sha256": "97ffcadca6650fbd25e83e86147e6a1c34dc0ac9427d2c2af892cd194bb8f407",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/ux-relevance.js",
+      "sourcePath": "ux-relevance.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "f49940eb284ddbf0f35dcf16424a5d19f00fe299",
+      "sha256": "c6adb4a4880bcbfc3cb48aeab4d85c5f55aa9a7e574ea52303098553c9cbe175",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/scenario-comparison.js",
+      "sourcePath": "scenario-comparison.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "ecc013d6d97a28f6986f62b9772b1efca11dec66",
+      "sha256": "a12d287aa2f856fa478402d6798daa501b05373c43974ef0d8c203dddb598a94",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/run-all-tests.js",
+      "sourcePath": "tests/run-all-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "bbea3fa793b7e802c4917235cd41a35cf8bc3898",
+      "sha256": "0f5bbfd23a58660742bf5dad5f4ac5fd6611d10f0d6a1c7851b1ae74c793fe50",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/adult-income-cleansing-tests.js",
+      "sourcePath": "tests/adult-income-cleansing-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "6b3f151d7aa96d6cc4e84bb6aed2178f213d3ff4",
+      "sha256": "1e188ae34db13e43bfade996ab897c1e57cc225f7718e0ffa343ca1756277457",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/asset-integration-tests.js",
+      "sourcePath": "tests/asset-integration-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "a1710cb267404f6d39e1c474f0fdfaabc5c94583",
+      "sha256": "4c72438e3f0a14b40563484994eba1cd943ce0ea06fb104cc8e1a686d0d670af",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/asset-rules-tests.js",
+      "sourcePath": "tests/asset-rules-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "b6e36f942a09ec930eee5e6c3277878d03928af5",
+      "sha256": "5a52110f1270287de985193542249a132668e79b6f68080b94bd62c16ad4c8dd",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/calculation-tests.js",
+      "sourcePath": "tests/calculation-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "fbdae81c71cc8905311fda32146ed0a4667e3cbe",
+      "sha256": "34c7e3ea9f0e20ac35d75f22828859d37fbea548348db8ce59ec3ac7b93b8b94",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/child-family-need-tests.js",
+      "sourcePath": "tests/child-family-need-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "5d4d1272efaf83ae67f6b90aa2774edd0ca48a9d",
+      "sha256": "f06f600d5f35c1b2276892270563170655843368472971df18cd4ca185cd78dc",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/child-income-deduction-tests.js",
+      "sourcePath": "tests/child-income-deduction-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "d3a1db9e7d21130ded97dfa85e0897d994769399",
+      "sha256": "6b5377b7a0d2e3830dfee60eac97256b03bb6da5b2aee8f6e3291768017456fe",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/child-income-reduction-tests.js",
+      "sourcePath": "tests/child-income-reduction-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "35c31df37e7a1dd924f8a647d64eed002dab6691",
+      "sha256": "01fe3dd75e0b59cbfa15a1789451ce353834360083fbe195178c0f13f6e44919",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/child-income-rules-tests.js",
+      "sourcePath": "tests/child-income-rules-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "0ad793443ad79ec59d10154b90813271109029b6",
+      "sha256": "38834a8801246c07636e292ab2237150fbbc0bac069123a5710fd635318a8936",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/coverage-tests.js",
+      "sourcePath": "tests/coverage-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "38d4856710bf510503e2b8579bda228ee5542f67",
+      "sha256": "9cdd81811ad6d30f3c6624677dcd71f5bf6c0f2f7a75e9bb72708c372a8b7058",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/end-to-end-tests.js",
+      "sourcePath": "tests/end-to-end-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "64a88d31d2c8729c89d0ca5bee36179f61635388",
+      "sha256": "6a831b9935bd28d8117e25c74ab9312adb7cd062b2c390d7bb198b7ffbd7a235",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/final-kiz-rounding-tests.js",
+      "sourcePath": "tests/final-kiz-rounding-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "bda5b5247ed0e749e7d6499b46ee928993a6c3a1",
+      "sha256": "4daf62df66f55662c16eae6c29068b9de4d11149c4757964ed057ee16579ddc1",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/final-kiz-tests.js",
+      "sourcePath": "tests/final-kiz-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "c63e5ea6737a242d449a61ea57727427a521acb3",
+      "sha256": "1cf92b93a61349f0c40130eb0157ce83542e49e376f15b19a9f9ec9c87398e56",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/income-precision-tests.js",
+      "sourcePath": "tests/income-precision-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "645bb9338b4b7b636a06762ffc89493ab834af91",
+      "sha256": "3a6f70e5b698e80d969973c201b8e0ed466aee524ca1319265e3c8e89fb20bb9",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/income-rules-tests.js",
+      "sourcePath": "tests/income-rules-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "b82f26e94e5e1af492c70f899a75cf11b5f5a724",
+      "sha256": "79a3d2e4a7b34a004022f70065350170126b88c06e6e0bae86e91a56e0d8ef6b",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/monetary-foundation-tests.js",
+      "sourcePath": "tests/monetary-foundation-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "0a2ac7bbccab3e6230b05931304e341dee1fa5ae",
+      "sha256": "85947b16eec88eb3b1aedca23e1e92759f32a6aa28a5b44ed8b1d9688c155c17",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/parent-income-reduction-tests.js",
+      "sourcePath": "tests/parent-income-reduction-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "531eb2d6bafa3d6d25598c3bf8af740fdb083c2b",
+      "sha256": "62e41e31e0cf74f353e05010f1fdb16a21d54ab352a08ba7bb7344310f8b8ae8",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/parent-need-tests.js",
+      "sourcePath": "tests/parent-need-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "b557d8abde8b89ff6f6c94d8dc70ab8b5f6fbee3",
+      "sha256": "636f0252b82e1f2a61fe853489495863071f002adb28603f86908e2143e4563a",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/structural-rules-tests.js",
+      "sourcePath": "tests/structural-rules-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "565831312db3c6305ffa9120d40aa8e54166bdd2",
+      "sha256": "0d4f758c315dcc8f27ede2d3b0b0bc168c65e8d04ae7b211aeeadbea32730bdc",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/validation-tests.js",
+      "sourcePath": "tests/validation-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "dd07856f2527687d0608fe48a946519412c69220",
+      "sha256": "269168d51af23c2dad6d3b8748096b9832d470a8c637921ce1835130654a6dc3",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/wohngeld-amount-tests.js",
+      "sourcePath": "tests/wohngeld-amount-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "57c39a35813ee8cf17bee445f6288a7081f5227f",
+      "sha256": "d7373090215da5cc789762aeb11ab3cfb761cebc20680a8c4b8b32e40a612ded",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/wohngeld-coverage-integration-tests.js",
+      "sourcePath": "tests/wohngeld-coverage-integration-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "5b6bccd9c78acdbb0313500d12bdaa9e9f063155",
+      "sha256": "455f979f771f04db67b12dc50f5c07bcc508f948dac2c929e0fc8dd262ee69d3",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/wohngeld-fixed-point-tests.js",
+      "sourcePath": "tests/wohngeld-fixed-point-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "f0b6b7eea84619f65868745ffb53a56d3d84dba8",
+      "sha256": "9203cf29688a9339a121ce0cd20dd7b9ee882401e79fc24013a3a647a62b063c",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/wohngeld-household-tests.js",
+      "sourcePath": "tests/wohngeld-household-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "eff9b03b8afad3ff64efd1039007e5fcf2bf0bf6",
+      "sha256": "08ae24bd160834a8fec134a56d05231ec7ae9f81ce92fb380ac33dccf3731662",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/wohngeld-housing-tests.js",
+      "sourcePath": "tests/wohngeld-housing-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "64a65d09b54a516000a3cb21181db64b31aa1f40",
+      "sha256": "35ff654b0679d0d48917ba7c5d49765caab2d646e1e780f3d84e918a7218faed",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/tests/wohngeld-income-tests.js",
+      "sourcePath": "tests/wohngeld-income-tests.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "82d417f162051d7ba908bab3f0dfec3d16b69a07",
+      "sha256": "4231207db379de288dd69bace4460269737fe326a621dd7043ed8702cd9b6946",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/calculator.js",
+      "sourcePath": "calculator.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "8535798da567011500d5676d04854c3db9bc6bb8",
+      "sha256": "2c4a1f056b528f0e269481f4fbbd4d07a50cf0b0ec5fd3ecc3143587527eec52",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/calculation-rules.js",
+      "sourcePath": "calculation-rules.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "74796a69b0073c3832618cbd24aa28732d4bdaf7",
+      "sha256": "3eae940f44498f83adfcf5aa6bf8a41f960618b1aed70916124ee15d430af678",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/parent-need-data.js",
+      "sourcePath": "parent-need-data.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "d6781184b666a8119a9924495bae008d944497fa",
+      "sha256": "147f2614de71b7d950f6c5ca8ae85ca69dd48a3bd58a5081d500f4887f0f0ee8",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/wohngeld.js",
+      "sourcePath": "wohngeld.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "8648238ef620a1b0788b7291926c446325fde607",
+      "sha256": "d02d449a03558113013dc2925752299dc15f6467eb338abf95da72a41e1b10af",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/wohngeld-data.js",
+      "sourcePath": "wohngeld-data.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "712eafa59fbfa00161581357c669e9d27649eedc",
+      "sha256": "4e739898c08c7cdab4882460e7950c3083483b2f9d236201204b8ef111238c06",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/validation.js",
+      "sourcePath": "validation.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "08ffbb2c26f2393c25bdd65a69ec5f6110455107",
+      "sha256": "97ffcadca6650fbd25e83e86147e6a1c34dc0ac9427d2c2af892cd194bb8f407",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/ux-relevance.js",
+      "sourcePath": "ux-relevance.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "f49940eb284ddbf0f35dcf16424a5d19f00fe299",
+      "sha256": "c6adb4a4880bcbfc3cb48aeab4d85c5f55aa9a7e574ea52303098553c9cbe175",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/scenario-comparison.js",
+      "sourcePath": "scenario-comparison.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "a68d496eb0da619966be60dc94d74a4381fb35cf",
+      "sha256": "72e6ff69b7e7941b4f0aafe6dba1e9f691037f4bded63303104c07f6a9e10df1",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/run-all-tests.js",
+      "sourcePath": "tests/run-all-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "bbea3fa793b7e802c4917235cd41a35cf8bc3898",
+      "sha256": "0f5bbfd23a58660742bf5dad5f4ac5fd6611d10f0d6a1c7851b1ae74c793fe50",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/adult-income-cleansing-tests.js",
+      "sourcePath": "tests/adult-income-cleansing-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "6b3f151d7aa96d6cc4e84bb6aed2178f213d3ff4",
+      "sha256": "1e188ae34db13e43bfade996ab897c1e57cc225f7718e0ffa343ca1756277457",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/asset-integration-tests.js",
+      "sourcePath": "tests/asset-integration-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "a1710cb267404f6d39e1c474f0fdfaabc5c94583",
+      "sha256": "4c72438e3f0a14b40563484994eba1cd943ce0ea06fb104cc8e1a686d0d670af",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/asset-rules-tests.js",
+      "sourcePath": "tests/asset-rules-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "b6e36f942a09ec930eee5e6c3277878d03928af5",
+      "sha256": "5a52110f1270287de985193542249a132668e79b6f68080b94bd62c16ad4c8dd",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/calculation-tests.js",
+      "sourcePath": "tests/calculation-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "fbdae81c71cc8905311fda32146ed0a4667e3cbe",
+      "sha256": "34c7e3ea9f0e20ac35d75f22828859d37fbea548348db8ce59ec3ac7b93b8b94",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/child-family-need-tests.js",
+      "sourcePath": "tests/child-family-need-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "5d4d1272efaf83ae67f6b90aa2774edd0ca48a9d",
+      "sha256": "f06f600d5f35c1b2276892270563170655843368472971df18cd4ca185cd78dc",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/child-income-deduction-tests.js",
+      "sourcePath": "tests/child-income-deduction-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "d3a1db9e7d21130ded97dfa85e0897d994769399",
+      "sha256": "6b5377b7a0d2e3830dfee60eac97256b03bb6da5b2aee8f6e3291768017456fe",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/child-income-reduction-tests.js",
+      "sourcePath": "tests/child-income-reduction-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "35c31df37e7a1dd924f8a647d64eed002dab6691",
+      "sha256": "01fe3dd75e0b59cbfa15a1789451ce353834360083fbe195178c0f13f6e44919",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/child-income-rules-tests.js",
+      "sourcePath": "tests/child-income-rules-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "0ad793443ad79ec59d10154b90813271109029b6",
+      "sha256": "38834a8801246c07636e292ab2237150fbbc0bac069123a5710fd635318a8936",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/coverage-tests.js",
+      "sourcePath": "tests/coverage-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "38d4856710bf510503e2b8579bda228ee5542f67",
+      "sha256": "9cdd81811ad6d30f3c6624677dcd71f5bf6c0f2f7a75e9bb72708c372a8b7058",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/end-to-end-tests.js",
+      "sourcePath": "tests/end-to-end-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "64a88d31d2c8729c89d0ca5bee36179f61635388",
+      "sha256": "6a831b9935bd28d8117e25c74ab9312adb7cd062b2c390d7bb198b7ffbd7a235",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/final-kiz-rounding-tests.js",
+      "sourcePath": "tests/final-kiz-rounding-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "bda5b5247ed0e749e7d6499b46ee928993a6c3a1",
+      "sha256": "4daf62df66f55662c16eae6c29068b9de4d11149c4757964ed057ee16579ddc1",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/final-kiz-tests.js",
+      "sourcePath": "tests/final-kiz-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "c63e5ea6737a242d449a61ea57727427a521acb3",
+      "sha256": "1cf92b93a61349f0c40130eb0157ce83542e49e376f15b19a9f9ec9c87398e56",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/income-precision-tests.js",
+      "sourcePath": "tests/income-precision-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "645bb9338b4b7b636a06762ffc89493ab834af91",
+      "sha256": "3a6f70e5b698e80d969973c201b8e0ed466aee524ca1319265e3c8e89fb20bb9",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/income-rules-tests.js",
+      "sourcePath": "tests/income-rules-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "b82f26e94e5e1af492c70f899a75cf11b5f5a724",
+      "sha256": "79a3d2e4a7b34a004022f70065350170126b88c06e6e0bae86e91a56e0d8ef6b",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/monetary-foundation-tests.js",
+      "sourcePath": "tests/monetary-foundation-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "0a2ac7bbccab3e6230b05931304e341dee1fa5ae",
+      "sha256": "85947b16eec88eb3b1aedca23e1e92759f32a6aa28a5b44ed8b1d9688c155c17",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/parent-income-reduction-tests.js",
+      "sourcePath": "tests/parent-income-reduction-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "531eb2d6bafa3d6d25598c3bf8af740fdb083c2b",
+      "sha256": "62e41e31e0cf74f353e05010f1fdb16a21d54ab352a08ba7bb7344310f8b8ae8",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/parent-need-tests.js",
+      "sourcePath": "tests/parent-need-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "b557d8abde8b89ff6f6c94d8dc70ab8b5f6fbee3",
+      "sha256": "636f0252b82e1f2a61fe853489495863071f002adb28603f86908e2143e4563a",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/structural-rules-tests.js",
+      "sourcePath": "tests/structural-rules-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "54525964de0d26488eee429ac022a64c0acb4f36",
+      "sha256": "edb56f538e30446a88357d067efa3b236facf1e018a6fa824e09a07ba69bce9c",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/validation-tests.js",
+      "sourcePath": "tests/validation-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "dd07856f2527687d0608fe48a946519412c69220",
+      "sha256": "269168d51af23c2dad6d3b8748096b9832d470a8c637921ce1835130654a6dc3",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/wohngeld-amount-tests.js",
+      "sourcePath": "tests/wohngeld-amount-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "57c39a35813ee8cf17bee445f6288a7081f5227f",
+      "sha256": "d7373090215da5cc789762aeb11ab3cfb761cebc20680a8c4b8b32e40a612ded",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/wohngeld-coverage-integration-tests.js",
+      "sourcePath": "tests/wohngeld-coverage-integration-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "5b6bccd9c78acdbb0313500d12bdaa9e9f063155",
+      "sha256": "455f979f771f04db67b12dc50f5c07bcc508f948dac2c929e0fc8dd262ee69d3",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/wohngeld-fixed-point-tests.js",
+      "sourcePath": "tests/wohngeld-fixed-point-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "f0b6b7eea84619f65868745ffb53a56d3d84dba8",
+      "sha256": "9203cf29688a9339a121ce0cd20dd7b9ee882401e79fc24013a3a647a62b063c",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/wohngeld-household-tests.js",
+      "sourcePath": "tests/wohngeld-household-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "eff9b03b8afad3ff64efd1039007e5fcf2bf0bf6",
+      "sha256": "08ae24bd160834a8fec134a56d05231ec7ae9f81ce92fb380ac33dccf3731662",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/wohngeld-housing-tests.js",
+      "sourcePath": "tests/wohngeld-housing-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "64a65d09b54a516000a3cb21181db64b31aa1f40",
+      "sha256": "35ff654b0679d0d48917ba7c5d49765caab2d646e1e780f3d84e918a7218faed",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/tests/wohngeld-income-tests.js",
+      "sourcePath": "tests/wohngeld-income-tests.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "82d417f162051d7ba908bab3f0dfec3d16b69a07",
+      "sha256": "4231207db379de288dd69bace4460269737fe326a621dd7043ed8702cd9b6946",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/finance-payroll.js",
+      "sourcePath": "finance-payroll.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "75c4fe5fb1c51d6b03fd3fdc80919d9a9183bfd5",
+      "sha256": "404a3d3e7141b07837f77ffa0f59f574e7dee66bff1c16c4fb829690f2da5813",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/finance-scenarios.js",
+      "sourcePath": "finance-scenarios.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "54e095df9283ca0fc45200e35d147850fe1d47f1",
+      "sha256": "968bcd8b61b2feea66ca0a7efa3a7ea58fe3145e4e972336e12cd426ada0ed6f",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/main/ux-income-forecast.js",
+      "sourcePath": "ux-income-forecast.js",
+      "version": "main",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "20ae55704d71007ddc9f900d3cffdd6a8ddb2f92",
+      "sha256": "264f9a4ff3a35f482feb9475c82bc9e7a776cee89ba69f367b3b3194527dd49f",
+      "modifications": "none"
+    },
+    {
+      "path": "snapshots/finance/ux-income-forecast.js",
+      "sourcePath": "ux-income-forecast.js",
+      "version": "finance",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "20ae55704d71007ddc9f900d3cffdd6a8ddb2f92",
+      "sha256": "264f9a4ff3a35f482feb9475c82bc9e7a776cee89ba69f367b3b3194527dd49f",
+      "modifications": "none"
+    }
+  ],
+  "documentationExports": [
+    {
+      "path": "docs/specifications/main/CALCULATION_SPEC.md",
+      "sourcePath": "CALCULATION_SPEC.md",
+      "sourceCommit": "973fc250464a29916ea4a4a7071f7245845635b8",
+      "sourceGitBlobSha": "510dbcb57c7b74b2947af5a682304c7ef380e9df",
+      "originalSha256": "3c40f172fc5356423568538f0e263710c9615e7747eecaa7a37ca06ea17834b6",
+      "exportSha256": "e61c3d5b312930b85d1ca26dbee5e750935504217c0482eb54d402ef652b5eb4",
+      "modifications": [
+        {
+          "sourceLine": 15,
+          "reason": "Private regression result vector"
+        },
+        {
+          "sourceLine": 2234,
+          "reason": "Private reference input/output vector"
+        }
+      ]
+    },
+    {
+      "path": "docs/specifications/finance/CALCULATION_SPEC.md",
+      "sourcePath": "CALCULATION_SPEC.md",
+      "sourceCommit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a",
+      "sourceGitBlobSha": "5f8a474dd94f51c29a14b5ba02868dea94958729",
+      "originalSha256": "daf7914586f8ef3e36c688181e15a275e73f22d088ff864410a772fc9527d2ee",
+      "exportSha256": "3f64c027ce4c9aa3c86378297e1d9c0bf9944e216c45e6294d1f7e7d5d0b33b5",
+      "modifications": [
+        {
+          "sourceLine": 15,
+          "reason": "Private regression result vector"
+        },
+        {
+          "sourceLine": 2322,
+          "reason": "Private reference input/output vector"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Amtliche Quellen und zeitlicher Prüfrahmen
+
+Recherche-/Abrufdatum: 07.11.2026. Der exportierte Code wird dadurch nicht verändert. Laufende Internet-Gesetzestexte sind keine archivierte Garantie für einen historischen Monat. Die Rechenkerne selbst arbeiten überwiegend mit festen 2026-Parametern; die Wohngeldtabellen tragen `WG_RULESET_2025_2026`. Für jeden Prüfmonat ist die damals geltende Fassung gesondert zu sichern. Keine automatische Fortschreibung auf 2027 als gesichertes Recht.
+
+| Amtliche Fundstelle | Verwendung | Stand / geprüftes Ergebnis |
+|---|---|---|
+| [§ 6a BKGG](https://www.gesetze-im-internet.de/bkgg_1996/__6a.html) | KiZ, Einkommen, Elternbedarf, BMZ/BWZ | Laufender Gesetzestext; Jahres-/Übergangsfassungen getrennt prüfen |
+| [DA-KiZ, PDF](https://www.arbeitsagentur.de/datei/fw-bkgg_ba013284.pdf) | KiZ-Verwaltungspraxis, Struktur, E.1.3/E.1.4/E.2.2, Einkommen/Bedarfsdeckung | Titel und Änderungsübersicht **Stand 20.02.2026** abgerufen. Verwaltungsauslegung, kein Ersatz für das Gesetz |
+| [§ 11 SGB II](https://www.gesetze-im-internet.de/sgb_2/__11.html) | Geld/Geldeswert, Zufluss und Nachzahlungen | Volltext gelesen; Sachbezüge aus Erwerbstätigkeit nicht generell ausgenommen |
+| [§ 11b SGB II](https://www.gesetze-im-internet.de/sgb_2/__11b.html) | Absetzbeträge und Erwerbstätigenfreibeträge | Primärquelle; genaue zeitliche Staffelung prüfen |
+| [§ 2 Einkommensverordnung](https://www.gesetze-im-internet.de/algiiv_2008/__2.html) | Bruttoansatz, sonstige Sachbezüge | Abs. 1 und 6 gelesen; Verkehrswert. Live-Seite bezeichnet Verordnung als GrusiGV; historische Bezeichnung/Fassung Bürgergeld-V für 2025/2026 gesondert abgleichen |
+| [§ 3 Nr. 37 EStG](https://www.gesetze-im-internet.de/estg/__3.html) | Steuerbefreiung zusätzlicher Fahrradüberlassung | Tatbestandsmerkmal „zusätzlich“ gelesen; Gehaltsumwandlung nicht gleichsetzen |
+| [§ 8 EStG](https://www.gesetze-im-internet.de/estg/__8.html) | Steuerliche Sachbezugsbewertung | Abs. 1/2 und Ermächtigung für Durchschnittswerte gelesen |
+| [Ländererlass 09.01.2020, LStH 2025 Anhang 24 IV.4](https://ksth.bundesfinanzministerium.de/lsth/2025/B-Anhaenge/Anhang-24/IV/IV-4/inhalt.html) | Steuerliche Fahrradbewertung | Volltext Rn. 1–7 gelesen; BStBl I 2020 S. 174; erste Überlassung 2019–2030, Viertelregel ab 2020 unter Voraussetzungen. Für historischen Test 2025 einschlägiger Handbuchstand |
+| [Derselbe Erlass in LStH 2026](https://lsth.bundesfinanzministerium.de/lsth/2026/B-Anhaenge/Anhang-24/IV/IV-4/anhang-24-IV-4.html) | Gegenprüfung Jahresausgabe | Amtlicher Index gefunden; direkter Abruf zeitweise HTTP 503. Regeltext über amtliche 2025-Ausgabe geprüft, kein 2026-Abruf behauptet |
+| [BMF Leasingfälle, LStH 2026 IV.5](https://amtliche-handbuecher.bundesfinanzministerium.de/lsth/2026/B-Anhaenge/Anhang-24/IV/IV-5/inhalt.html) | Arbeitsvertrag/Gehaltsumwandlung/Leasing | Amtliche Fundstelle gefunden, direkter Vollabruf HTTP 503; Vertiefung offen |
+| [§ 14 SGB IV](https://www.gesetze-im-internet.de/sgb_4/__14.html), [§ 1 SvEV](https://www.gesetze-im-internet.de/svev/__1.html) | Arbeitsentgelt und Beitragsfreiheit | Amtliche Prüfeinstiege; Beitrags-/Jahresfassung und konkrete Abrechnung separat nachweisen |
+| [§ 5 WoGG](https://www.gesetze-im-internet.de/wogg/__5.html) | Haushaltsmitglieder/Betreuungsanteile | Haushaltszuordnung unabhängig vom Kindergeldbezug prüfen |
+| [§ 14 WoGG](https://www.gesetze-im-internet.de/wogg/__14.html) | Steuerliche Einkünfte plus gesetzliche Hinzurechnungen | Amtlich indexierter Abs. 1 geprüft; direkter Abruf zeitweise Timeout. Keine pauschale Übernahme von SGB-II-Sachbezugswerten |
+| [§ 15 WoGG](https://www.gesetze-im-internet.de/wogg/__15.html) | Einkommenserwartung, Sonderzahlungen | Amtliche Fundstelle; Zufluss-/Prognoseunterschied zum KiZ separat prüfen |
+| [§ 16 WoGG](https://www.gesetze-im-internet.de/wogg/__16.html), [§ 17 WoGG](https://www.gesetze-im-internet.de/wogg/__17.html), [§ 18 WoGG](https://www.gesetze-im-internet.de/wogg/__18.html) | 10%-Abzüge, Freibeträge und Unterhaltsabzüge | Weitere Prüfeinstiege, keine nachträgliche Änderung der Originalparameter |
+| [§§ 9–12 WoGG](https://www.gesetze-im-internet.de/wogg/), [§ 19 WoGG](https://www.gesetze-im-internet.de/wogg/__19.html), [Anlage 1 WoGG](https://www.gesetze-im-internet.de/wogg/anlage_1.html) | Bruttokaltmiete, Grenzen, Komponenten, Formel | Mit `wohngeld-data.js` und geltender Verordnung am Stichtag vergleichen |
+| [WoGVwV vom 28.06.2017](https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_28062017_SWII4.htm) | Wohngeld-Verwaltungsauslegung u. a. Einkommen/Sachbezüge | Amtlicher Volltext zugänglich, Fundstelle BAnz AT 10.07.2017 B5. Ältere Regelbeträge nicht statt aktueller Gesetze einsetzen |
+| [§ 27 WoGG](https://www.gesetze-im-internet.de/wogg/__27.html), [§ 28 WoGG](https://www.gesetze-im-internet.de/wogg/__28.html) | Änderungen, Unwirksamkeit/Ende | Prüfeinstiege für Partneraufnahme/Umzug und mögliche Rückabwicklung |
+
+Die Liste unterscheidet tatsächlich gelesene Textstellen von weiteren amtlichen Prüfeinstiegen und fehlgeschlagenen Abrufen. Für Quellen ohne gesicherten Volltext wurde keine neue Berechnungsregel implementiert. Die unveränderten Originalregelwerke enthalten zusätzliche Quell-IDs; deren Vollständigkeit und Datierung ist selbst Gegenstand des unabhängigen Audits.

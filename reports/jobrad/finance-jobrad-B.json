@@ -1,0 +1,5359 @@
+{
+  "version": "finance",
+  "provenance": {
+    "label": "finance",
+    "branch": "codex/finanzszenarien-2026-2027",
+    "commit": "ca36ddc48b500d1e734010f3cca80ab7f656f37a"
+  },
+  "caseId": "jobrad-B-sacrifice",
+  "evidenceKind": "SYNTHETIC",
+  "note": "Unveränderte Engine-Ausgabe; keine amtliche oder rechtlich bestätigte Sollberechnung.",
+  "adapterWarnings": [],
+  "validation": {
+    "isValid": true,
+    "errors": [],
+    "warnings": [],
+    "infos": [
+      {
+        "code": "CHILD_NO_INCOME_ASSUMED_ZERO",
+        "severity": "info",
+        "message": "Für Testkind c1 wurde kein eigenes Einkommen erfasst. Es werden 0 € angenommen.",
+        "entityType": "child",
+        "entityId": "c1",
+        "household": null,
+        "field": "incomeSources"
+      },
+      {
+        "code": "CHILD_NO_INCOME_ASSUMED_ZERO",
+        "severity": "info",
+        "message": "Für Testkind c2 wurde kein eigenes Einkommen erfasst. Es werden 0 € angenommen.",
+        "entityType": "child",
+        "entityId": "c2",
+        "household": null,
+        "field": "incomeSources"
+      },
+      {
+        "code": "CHILD_NO_INCOME_ASSUMED_ZERO",
+        "severity": "info",
+        "message": "Für Testkind c3 wurde kein eigenes Einkommen erfasst. Es werden 0 € angenommen.",
+        "entityType": "child",
+        "entityId": "c3",
+        "household": null,
+        "field": "incomeSources"
+      }
+    ],
+    "summary": {
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 3
+    }
+  },
+  "assessmentPeriod": {
+    "ruleId": "KIZ-PERIOD-001",
+    "status": "CALCULATED",
+    "applicationMonth": 8,
+    "applicationYear": 2026,
+    "months": [
+      {
+        "month": 2,
+        "year": 2026,
+        "key": "2026-02",
+        "label": "Februar 2026",
+        "position": 0
+      },
+      {
+        "month": 3,
+        "year": 2026,
+        "key": "2026-03",
+        "label": "März 2026",
+        "position": 1
+      },
+      {
+        "month": 4,
+        "year": 2026,
+        "key": "2026-04",
+        "label": "April 2026",
+        "position": 2
+      },
+      {
+        "month": 5,
+        "year": 2026,
+        "key": "2026-05",
+        "label": "Mai 2026",
+        "position": 3
+      },
+      {
+        "month": 6,
+        "year": 2026,
+        "key": "2026-06",
+        "label": "Juni 2026",
+        "position": 4
+      },
+      {
+        "month": 7,
+        "year": 2026,
+        "key": "2026-07",
+        "label": "Juli 2026",
+        "position": 5
+      }
+    ],
+    "incomeAssessmentMonths": [
+      {
+        "month": 2,
+        "year": 2026,
+        "key": "2026-02",
+        "label": "Februar 2026",
+        "position": 0
+      },
+      {
+        "month": 3,
+        "year": 2026,
+        "key": "2026-03",
+        "label": "März 2026",
+        "position": 1
+      },
+      {
+        "month": 4,
+        "year": 2026,
+        "key": "2026-04",
+        "label": "April 2026",
+        "position": 2
+      },
+      {
+        "month": 5,
+        "year": 2026,
+        "key": "2026-05",
+        "label": "Mai 2026",
+        "position": 3
+      },
+      {
+        "month": 6,
+        "year": 2026,
+        "key": "2026-06",
+        "label": "Juni 2026",
+        "position": 4
+      },
+      {
+        "month": 7,
+        "year": 2026,
+        "key": "2026-07",
+        "label": "Juli 2026",
+        "position": 5
+      }
+    ],
+    "benefitMonths": [
+      {
+        "index": 1,
+        "month": 8,
+        "year": 2026,
+        "key": "2026-08",
+        "label": "August 2026"
+      },
+      {
+        "index": 2,
+        "month": 9,
+        "year": 2026,
+        "key": "2026-09",
+        "label": "September 2026"
+      },
+      {
+        "index": 3,
+        "month": 10,
+        "year": 2026,
+        "key": "2026-10",
+        "label": "Oktober 2026"
+      },
+      {
+        "index": 4,
+        "month": 11,
+        "year": 2026,
+        "key": "2026-11",
+        "label": "November 2026"
+      },
+      {
+        "index": 5,
+        "month": 12,
+        "year": 2026,
+        "key": "2026-12",
+        "label": "Dezember 2026"
+      },
+      {
+        "index": 6,
+        "month": 1,
+        "year": 2027,
+        "key": "2027-01",
+        "label": "Januar 2027"
+      }
+    ],
+    "warnings": [],
+    "openChecks": []
+  },
+  "kiz": {
+    "ruleId": "KIZ-FINAL-001",
+    "dataVersion": 14,
+    "legalYear": 2026,
+    "mode": "single",
+    "status": "CALCULATED",
+    "assessmentPeriod": {
+      "applicationMonth": 8,
+      "applicationYear": 2026,
+      "incomeAssessmentMonths": [
+        {
+          "month": 2,
+          "year": 2026,
+          "key": "2026-02",
+          "label": "Februar 2026",
+          "position": 0
+        },
+        {
+          "month": 3,
+          "year": 2026,
+          "key": "2026-03",
+          "label": "März 2026",
+          "position": 1
+        },
+        {
+          "month": 4,
+          "year": 2026,
+          "key": "2026-04",
+          "label": "April 2026",
+          "position": 2
+        },
+        {
+          "month": 5,
+          "year": 2026,
+          "key": "2026-05",
+          "label": "Mai 2026",
+          "position": 3
+        },
+        {
+          "month": 6,
+          "year": 2026,
+          "key": "2026-06",
+          "label": "Juni 2026",
+          "position": 4
+        },
+        {
+          "month": 7,
+          "year": 2026,
+          "key": "2026-07",
+          "label": "Juli 2026",
+          "position": 5
+        }
+      ],
+      "benefitMonths": [
+        {
+          "index": 1,
+          "month": 8,
+          "year": 2026,
+          "key": "2026-08",
+          "label": "August 2026",
+          "amountBeforeFinalRounding": null,
+          "roundedPayableAmount": null,
+          "amountStatus": "NOT_CALCULATED"
+        },
+        {
+          "index": 2,
+          "month": 9,
+          "year": 2026,
+          "key": "2026-09",
+          "label": "September 2026",
+          "amountBeforeFinalRounding": null,
+          "roundedPayableAmount": null,
+          "amountStatus": "NOT_CALCULATED"
+        },
+        {
+          "index": 3,
+          "month": 10,
+          "year": 2026,
+          "key": "2026-10",
+          "label": "Oktober 2026",
+          "amountBeforeFinalRounding": null,
+          "roundedPayableAmount": null,
+          "amountStatus": "NOT_CALCULATED"
+        },
+        {
+          "index": 4,
+          "month": 11,
+          "year": 2026,
+          "key": "2026-11",
+          "label": "November 2026",
+          "amountBeforeFinalRounding": null,
+          "roundedPayableAmount": null,
+          "amountStatus": "NOT_CALCULATED"
+        },
+        {
+          "index": 5,
+          "month": 12,
+          "year": 2026,
+          "key": "2026-12",
+          "label": "Dezember 2026",
+          "amountBeforeFinalRounding": null,
+          "roundedPayableAmount": null,
+          "amountStatus": "NOT_CALCULATED"
+        },
+        {
+          "index": 6,
+          "month": 1,
+          "year": 2027,
+          "key": "2027-01",
+          "label": "Januar 2027",
+          "amountBeforeFinalRounding": null,
+          "roundedPayableAmount": null,
+          "amountStatus": "NOT_CALCULATED"
+        }
+      ]
+    },
+    "households": {
+      "A": {
+        "ruleId": "KIZ-FINAL-001",
+        "householdId": "A",
+        "status": "CALCULATED_ENTITLED",
+        "decisionReason": "ENTITLED_NORMAL_ACCESS",
+        "currentDecision": "CALCULATED_ENTITLED",
+        "futurePaymentAmountFinality": "PARTLY_PROVISIONAL_CURRENT_LAW_BASELINE",
+        "futureMaximumKizChangePossible": true,
+        "eligibility": {
+          "potentialOwnKizChildren": 3,
+          "minimumIncome": {
+            "ruleId": "KIZ-MIN-INCOME-001",
+            "householdId": "A",
+            "householdType": "couple",
+            "threshold": 900,
+            "averageRelevantIncome": 3210,
+            "differenceToThreshold": 2310,
+            "isThresholdMet": true,
+            "status": "CALCULATED",
+            "includedIncomeSources": [
+              {
+                "sourceId": "wage-a",
+                "personRole": "applicant",
+                "incomeType": "employment",
+                "amountType": "gross",
+                "ruleId": "KIZ-MIN-INCOME-001",
+                "sourceIds": [
+                  "SRC-DA-KIZ-2026-02-20",
+                  "SRC-BKGG-6A"
+                ],
+                "status": "INCLUDED",
+                "classification": "INCLUDED",
+                "sixMonthValues": [
+                  3210,
+                  3210,
+                  3210,
+                  3210,
+                  3210,
+                  3210
+                ],
+                "sixMonthTotal": 19260,
+                "averageAmount": 3210,
+                "deductionsIgnoredForMinimumIncome": true
+              }
+            ],
+            "excludedIncomeSources": [],
+            "unresolvedIncomeSources": [],
+            "warnings": [],
+            "openChecks": []
+          },
+          "minimumIncomeMet": true,
+          "assetDecision": "SUPPORTED",
+          "coverageDecision": "NORMAL_ACCESS_COVERAGE_MET",
+          "accessType": "NORMAL"
+        },
+        "amounts": {
+          "theoreticalMaximum": 891,
+          "afterChildIncome": 891,
+          "afterParentIncome": 801,
+          "month1BeforeFinalRounding": 801,
+          "months2To6BeforeFinalRounding": 801,
+          "month1Payable": 801,
+          "months2To6Payable": 801,
+          "currentMonthlyPayableAmount": 801,
+          "finalPayableAmount": 801,
+          "sixMonthFinalPayableTotal": null,
+          "currentLawBaselineSixMonthTotal": 4806
+        },
+        "housingBenefitUsed": {
+          "status": "NOT_NEEDED",
+          "basis": "NOT_NEEDED",
+          "amount": 0,
+          "reliability": "SUPPORTED",
+          "benefitType": null
+        },
+        "assessmentPeriod": {
+          "applicationMonth": 8,
+          "applicationYear": 2026,
+          "incomeAssessmentMonths": [
+            {
+              "month": 2,
+              "year": 2026,
+              "key": "2026-02",
+              "label": "Februar 2026",
+              "position": 0
+            },
+            {
+              "month": 3,
+              "year": 2026,
+              "key": "2026-03",
+              "label": "März 2026",
+              "position": 1
+            },
+            {
+              "month": 4,
+              "year": 2026,
+              "key": "2026-04",
+              "label": "April 2026",
+              "position": 2
+            },
+            {
+              "month": 5,
+              "year": 2026,
+              "key": "2026-05",
+              "label": "Mai 2026",
+              "position": 3
+            },
+            {
+              "month": 6,
+              "year": 2026,
+              "key": "2026-06",
+              "label": "Juni 2026",
+              "position": 4
+            },
+            {
+              "month": 7,
+              "year": 2026,
+              "key": "2026-07",
+              "label": "Juli 2026",
+              "position": 5
+            }
+          ],
+          "benefitMonths": [
+            {
+              "index": 1,
+              "month": 8,
+              "year": 2026,
+              "key": "2026-08",
+              "label": "August 2026",
+              "amountBeforeFinalRounding": 801,
+              "roundedPayableAmount": 801,
+              "amountStatus": "FINAL_2026"
+            },
+            {
+              "index": 2,
+              "month": 9,
+              "year": 2026,
+              "key": "2026-09",
+              "label": "September 2026",
+              "amountBeforeFinalRounding": 801,
+              "roundedPayableAmount": 801,
+              "amountStatus": "FINAL_2026"
+            },
+            {
+              "index": 3,
+              "month": 10,
+              "year": 2026,
+              "key": "2026-10",
+              "label": "Oktober 2026",
+              "amountBeforeFinalRounding": 801,
+              "roundedPayableAmount": 801,
+              "amountStatus": "FINAL_2026"
+            },
+            {
+              "index": 4,
+              "month": 11,
+              "year": 2026,
+              "key": "2026-11",
+              "label": "November 2026",
+              "amountBeforeFinalRounding": 801,
+              "roundedPayableAmount": 801,
+              "amountStatus": "FINAL_2026"
+            },
+            {
+              "index": 5,
+              "month": 12,
+              "year": 2026,
+              "key": "2026-12",
+              "label": "Dezember 2026",
+              "amountBeforeFinalRounding": 801,
+              "roundedPayableAmount": 801,
+              "amountStatus": "FINAL_2026"
+            },
+            {
+              "index": 6,
+              "month": 1,
+              "year": 2027,
+              "key": "2027-01",
+              "label": "Januar 2027",
+              "amountBeforeFinalRounding": 801,
+              "roundedPayableAmount": 801,
+              "amountStatus": "PROVISIONAL_CURRENT_LAW_BASELINE"
+            }
+          ]
+        },
+        "paymentPeriods": [
+          {
+            "index": 1,
+            "month": 8,
+            "year": 2026,
+            "key": "2026-08",
+            "label": "August 2026",
+            "amountBeforeFinalRounding": 801,
+            "roundedPayableAmount": 801,
+            "amountStatus": "FINAL_2026"
+          },
+          {
+            "index": 2,
+            "month": 9,
+            "year": 2026,
+            "key": "2026-09",
+            "label": "September 2026",
+            "amountBeforeFinalRounding": 801,
+            "roundedPayableAmount": 801,
+            "amountStatus": "FINAL_2026"
+          },
+          {
+            "index": 3,
+            "month": 10,
+            "year": 2026,
+            "key": "2026-10",
+            "label": "Oktober 2026",
+            "amountBeforeFinalRounding": 801,
+            "roundedPayableAmount": 801,
+            "amountStatus": "FINAL_2026"
+          },
+          {
+            "index": 4,
+            "month": 11,
+            "year": 2026,
+            "key": "2026-11",
+            "label": "November 2026",
+            "amountBeforeFinalRounding": 801,
+            "roundedPayableAmount": 801,
+            "amountStatus": "FINAL_2026"
+          },
+          {
+            "index": 5,
+            "month": 12,
+            "year": 2026,
+            "key": "2026-12",
+            "label": "Dezember 2026",
+            "amountBeforeFinalRounding": 801,
+            "roundedPayableAmount": 801,
+            "amountStatus": "FINAL_2026"
+          },
+          {
+            "index": 6,
+            "month": 1,
+            "year": 2027,
+            "key": "2027-01",
+            "label": "Januar 2027",
+            "amountBeforeFinalRounding": 801,
+            "roundedPayableAmount": 801,
+            "amountStatus": "PROVISIONAL_CURRENT_LAW_BASELINE"
+          }
+        ],
+        "paymentTiming": "REGULAR_MONTHLY",
+        "recipientPayments": {
+          "status": "SUPPORTED",
+          "recipients": [
+            {
+              "recipientPersonRole": "applicant",
+              "childIds": [
+                "c1",
+                "c2",
+                "c3"
+              ],
+              "month1BeforeFinalRounding": 801,
+              "months2To6BeforeFinalRounding": 801,
+              "month1Payable": 801,
+              "months2To6Payable": 801
+            }
+          ],
+          "householdRoundedAmounts": {
+            "month1": 801,
+            "months2To6": 801
+          },
+          "recipientRoundedTotals": {
+            "month1": 801,
+            "months2To6": 801
+          },
+          "openChecks": []
+        },
+        "childResults": [
+          {
+            "childId": "c1",
+            "name": "Testkind c1",
+            "isPotentialOwnKizChild": true,
+            "maximumKiz": 297,
+            "countableChildIncomeAverage": 0,
+            "childIncomeReduction": 0,
+            "kizAfterChildIncome": 297,
+            "childAssetReductionMonth1": 0,
+            "recipientPersonRole": "applicant",
+            "status": "SUPPORTED"
+          },
+          {
+            "childId": "c2",
+            "name": "Testkind c2",
+            "isPotentialOwnKizChild": true,
+            "maximumKiz": 297,
+            "countableChildIncomeAverage": 0,
+            "childIncomeReduction": 0,
+            "kizAfterChildIncome": 297,
+            "childAssetReductionMonth1": 0,
+            "recipientPersonRole": "applicant",
+            "status": "SUPPORTED"
+          },
+          {
+            "childId": "c3",
+            "name": "Testkind c3",
+            "isPotentialOwnKizChild": true,
+            "maximumKiz": 297,
+            "countableChildIncomeAverage": 0,
+            "childIncomeReduction": 0,
+            "kizAfterChildIncome": 297,
+            "childAssetReductionMonth1": 0,
+            "recipientPersonRole": "applicant",
+            "status": "SUPPORTED"
+          }
+        ],
+        "calculationTrace": [
+          {
+            "step": "CHILD_ASSIGNMENT",
+            "ruleId": "KIZ-MAX-001",
+            "status": "EVALUATED",
+            "inputs": {
+              "householdId": "A",
+              "centralChildCount": 3
+            },
+            "result": {
+              "potentialOwnKizChildren": 3
+            }
+          },
+          {
+            "step": "MINIMUM_INCOME",
+            "ruleId": "KIZ-MIN-INCOME-001",
+            "status": "PASSED",
+            "inputs": {
+              "householdType": "couple",
+              "threshold": 900
+            },
+            "result": {
+              "averageRelevantIncome": 3210,
+              "isThresholdMet": true
+            }
+          },
+          {
+            "step": "MAXIMUM_KIZ",
+            "ruleId": "KIZ-MAX-001",
+            "status": "CALCULATED",
+            "inputs": {
+              "applicationYear": 2026
+            },
+            "result": {
+              "theoreticalMaximumKizTotal": 891
+            }
+          },
+          {
+            "step": "CHILD_INCOME",
+            "ruleId": "KIZ-REDUCE-CHILD-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "potentialOwnKizChildren": 3
+            },
+            "result": {
+              "afterChildIncome": 891
+            }
+          },
+          {
+            "step": "PARENT_NEED",
+            "ruleId": "KIZ-PARENT-NEED-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "householdId": "A"
+            },
+            "result": {
+              "parentTotalNeed": 1632
+            }
+          },
+          {
+            "step": "ADULT_INCOME",
+            "ruleId": "KIZ-INCOME-ADULT-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "householdId": "A"
+            },
+            "result": {
+              "earnedIncome": 1832,
+              "otherIncome": 0
+            }
+          },
+          {
+            "step": "PARENT_INCOME_REDUCTION",
+            "ruleId": "KIZ-REDUCE-PARENT-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "parentNeed": 1632,
+              "earnedIncome": 1832,
+              "otherIncome": 0
+            },
+            "result": {
+              "afterParentIncome": 801
+            }
+          },
+          {
+            "step": "ASSETS",
+            "ruleId": "KIZ-ASSET-INTEGRATION-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "assetAssessmentDate": "2026-08-01"
+            },
+            "result": {
+              "rejectedDueToAssets": false,
+              "month1": 801,
+              "months2To6": 801
+            }
+          },
+          {
+            "step": "FAMILY_NEED",
+            "ruleId": "KIZ-FAMILY-SGBII-NEED-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "householdId": "A"
+            },
+            "result": {
+              "familySgbIINeed": 3263
+            }
+          },
+          {
+            "step": "HOUSING_BENEFIT",
+            "ruleId": "KIZ-COVERAGE-001",
+            "status": "EVALUATED",
+            "inputs": {
+              "requestedStatus": "not-received"
+            },
+            "result": {
+              "status": "NOT_NEEDED",
+              "basis": "NOT_NEEDED",
+              "amount": 0,
+              "reliability": "SUPPORTED",
+              "benefitType": null
+            }
+          },
+          {
+            "step": "COVERAGE",
+            "ruleId": "KIZ-COVERAGE-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "familyNeed": 3263
+            },
+            "result": {
+              "decision": "NORMAL_ACCESS_COVERAGE_MET",
+              "gapAfterWohngeld": 0
+            }
+          },
+          {
+            "step": "FINAL_ROUNDING",
+            "ruleId": "KIZ-FINAL-001",
+            "status": "CALCULATED",
+            "inputs": {
+              "month1BeforeFinalRounding": 801,
+              "months2To6BeforeFinalRounding": 801
+            },
+            "result": {
+              "month1Payable": 801,
+              "months2To6Payable": 801
+            }
+          },
+          {
+            "step": "PAYOUT",
+            "ruleId": "KIZ-FINAL-001",
+            "status": "SUPPORTED",
+            "inputs": {
+              "recipientCount": 1
+            },
+            "result": {
+              "recipientPaymentsStatus": "SUPPORTED",
+              "paymentTiming": "REGULAR_MONTHLY"
+            }
+          }
+        ],
+        "blockingOpenChecks": [],
+        "informationalWarnings": [
+          {
+            "code": "CHILD_NO_INCOME_ASSUMED_ZERO",
+            "severity": "info",
+            "message": "Für Testkind c1 wurde kein eigenes Einkommen erfasst. Es werden 0 € angenommen.",
+            "entityType": "child",
+            "entityId": "c1",
+            "household": null,
+            "field": "incomeSources"
+          },
+          {
+            "code": "CHILD_NO_INCOME_ASSUMED_ZERO",
+            "severity": "info",
+            "message": "Für Testkind c2 wurde kein eigenes Einkommen erfasst. Es werden 0 € angenommen.",
+            "entityType": "child",
+            "entityId": "c2",
+            "household": null,
+            "field": "incomeSources"
+          },
+          {
+            "code": "CHILD_NO_INCOME_ASSUMED_ZERO",
+            "severity": "info",
+            "message": "Für Testkind c3 wurde kein eigenes Einkommen erfasst. Es werden 0 € angenommen.",
+            "entityType": "child",
+            "entityId": "c3",
+            "household": null,
+            "field": "incomeSources"
+          },
+          {
+            "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+            "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+            "field": null
+          },
+          {
+            "code": "CHILD_ASSETS_NOT_EVALUATED",
+            "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+            "field": "assets"
+          },
+          {
+            "code": "LEGAL_RATE_2027_NOT_YET_FINAL",
+            "message": "Für Leistungsmonate im Jahr 2027 wird nur der aktuelle Rechtsstand als vorläufige Baseline ausgewiesen.",
+            "field": null
+          },
+          {
+            "code": "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "message": "Für diesen minderjährigen Standardfall ist der strukturelle Hinweis nicht entscheidungsblockierend.",
+            "field": null
+          },
+          {
+            "code": "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED",
+            "message": "Für diesen minderjährigen Standardfall ist der strukturelle Hinweis nicht entscheidungsblockierend.",
+            "field": null
+          }
+        ],
+        "usedRuleIds": [
+          "KIZ-FINAL-001",
+          "KIZ-MIN-INCOME-001",
+          "KIZ-MAX-001",
+          "KIZ-REDUCE-CHILD-001",
+          "KIZ-INCOME-CHILD-001",
+          "KIZ-PARENT-NEED-001",
+          "KIZ-PARENT-ADDITIONAL-NEED-001",
+          "KIZ-HOUSING-RECOGNITION-001",
+          "KIZ-PARENT-HOUSING-SHARE-001",
+          "KIZ-INCOME-ADULT-001",
+          "KIZ-ADULT-DEDUCTION-001",
+          "KIZ-CHILD-BENEFIT-SURPLUS-001",
+          "KIZ-REDUCE-PARENT-001",
+          "KIZ-CHILD-BG-INCOME-001",
+          "KIZ-ASSET-INTEGRATION-001",
+          "KIZ-ASSET-001",
+          "KIZ-REDUCE-CHILD-ASSETS-001",
+          "KIZ-REDUCE-PARENT-ASSETS-001",
+          "KIZ-FAMILY-SGBII-NEED-001",
+          "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "KIZ-CHILD-SGBII-NEED-001",
+          "KIZ-COVERAGE-001",
+          "KIZ-COVERAGE-INCOME-001",
+          "KIZ-COVERAGE-CHILD-BENEFIT-001",
+          "KIZ-EXTENDED-ACCESS-001"
+        ],
+        "sourceIds": [
+          "SRC-BKGG-6A",
+          "SRC-BKGG-11",
+          "SRC-DA-KIZ-2026-02-20",
+          "SRC-SGBII-20",
+          "SRC-SGBII-21",
+          "SRC-RBSFV-2026",
+          "SRC-SGBII-11-11B",
+          "SRC-SGBII-7",
+          "SRC-SGBII-22",
+          "SRC-SGBII-23",
+          "SRC-SGBII-26"
+        ]
+      }
+    },
+    "usedRuleIds": [
+      "KIZ-FINAL-001",
+      "KIZ-MIN-INCOME-001",
+      "KIZ-MAX-001",
+      "KIZ-REDUCE-CHILD-001",
+      "KIZ-INCOME-CHILD-001",
+      "KIZ-PARENT-NEED-001",
+      "KIZ-PARENT-ADDITIONAL-NEED-001",
+      "KIZ-HOUSING-RECOGNITION-001",
+      "KIZ-PARENT-HOUSING-SHARE-001",
+      "KIZ-INCOME-ADULT-001",
+      "KIZ-ADULT-DEDUCTION-001",
+      "KIZ-CHILD-BENEFIT-SURPLUS-001",
+      "KIZ-REDUCE-PARENT-001",
+      "KIZ-CHILD-BG-INCOME-001",
+      "KIZ-ASSET-INTEGRATION-001",
+      "KIZ-ASSET-001",
+      "KIZ-REDUCE-CHILD-ASSETS-001",
+      "KIZ-REDUCE-PARENT-ASSETS-001",
+      "KIZ-FAMILY-SGBII-NEED-001",
+      "KIZ-SGBII-BG-MEMBERSHIP-001",
+      "KIZ-CHILD-SGBII-NEED-001",
+      "KIZ-COVERAGE-001",
+      "KIZ-COVERAGE-INCOME-001",
+      "KIZ-COVERAGE-CHILD-BENEFIT-001",
+      "KIZ-EXTENDED-ACCESS-001"
+    ],
+    "sourceIds": [
+      "SRC-BKGG-6A",
+      "SRC-BKGG-11",
+      "SRC-DA-KIZ-2026-02-20",
+      "SRC-SGBII-20",
+      "SRC-SGBII-21",
+      "SRC-RBSFV-2026",
+      "SRC-SGBII-11-11B",
+      "SRC-SGBII-7",
+      "SRC-SGBII-22",
+      "SRC-SGBII-23",
+      "SRC-SGBII-26"
+    ]
+  },
+  "intermediate": {
+    "minimumIncome": {
+      "ruleId": "KIZ-MIN-INCOME-001",
+      "householdId": "A",
+      "householdType": "couple",
+      "threshold": 900,
+      "averageRelevantIncome": 3210,
+      "differenceToThreshold": 2310,
+      "isThresholdMet": true,
+      "status": "CALCULATED",
+      "includedIncomeSources": [
+        {
+          "sourceId": "wage-a",
+          "personRole": "applicant",
+          "incomeType": "employment",
+          "amountType": "gross",
+          "ruleId": "KIZ-MIN-INCOME-001",
+          "sourceIds": [
+            "SRC-DA-KIZ-2026-02-20",
+            "SRC-BKGG-6A"
+          ],
+          "status": "INCLUDED",
+          "classification": "INCLUDED",
+          "sixMonthValues": [
+            3210,
+            3210,
+            3210,
+            3210,
+            3210,
+            3210
+          ],
+          "sixMonthTotal": 19260,
+          "averageAmount": 3210,
+          "deductionsIgnoredForMinimumIncome": true
+        }
+      ],
+      "excludedIncomeSources": [],
+      "unresolvedIncomeSources": [],
+      "warnings": [],
+      "openChecks": []
+    },
+    "adultIncome": {
+      "ruleId": "KIZ-INCOME-ADULT-001",
+      "householdId": "A",
+      "personResults": {
+        "applicant": {
+          "personRole": "applicant",
+          "incomeStatus": "present",
+          "sources": [
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "sourceId": "wage-a",
+              "personRole": "applicant",
+              "incomeType": "employment",
+              "customLabel": "",
+              "amountType": "gross",
+              "rawMonthlyValues": [
+                3210,
+                3210,
+                3210,
+                3210,
+                3210,
+                3210
+              ],
+              "sixMonthTotal": 19260,
+              "grossOrEnteredAverage": 3210,
+              "countableBeforeDeductions": null,
+              "deductionResult": {
+                "ruleId": "KIZ-DEDUCTION-001",
+                "positions": [
+                  {
+                    "ruleId": "KIZ-DEDUCTION-001",
+                    "positionId": "wage-a:tax",
+                    "deductionType": "tax",
+                    "enteredAmount": 300,
+                    "monthlyValues": [
+                      300,
+                      300,
+                      300,
+                      300,
+                      300,
+                      300
+                    ],
+                    "monthlyAverage": 300,
+                    "sixMonthTotal": 1800,
+                    "consideredAmount": 300,
+                    "structurallySupportedMonthlyValues": [
+                      300,
+                      300,
+                      300,
+                      300,
+                      300,
+                      300
+                    ],
+                    "isFinalDeductibleAmount": false,
+                    "classification": "STRUCTURALLY_SUPPORTED",
+                    "status": "SUPPORTED",
+                    "reason": "DIRECT_TAX wird ausschließlich mit den tatsächlich eingegebenen Monatsbeträgen strukturell vorbereitet.",
+                    "sourceIds": [
+                      "SRC-DA-KIZ-2026-02-20",
+                      "SRC-SGBII-11-11B"
+                    ],
+                    "details": {},
+                    "warnings": [],
+                    "openChecks": []
+                  },
+                  {
+                    "ruleId": "KIZ-DEDUCTION-001",
+                    "positionId": "wage-a:healthInsurance",
+                    "deductionType": "healthInsurance",
+                    "enteredAmount": 250,
+                    "monthlyValues": [
+                      250,
+                      250,
+                      250,
+                      250,
+                      250,
+                      250
+                    ],
+                    "monthlyAverage": 250,
+                    "sixMonthTotal": 1500,
+                    "consideredAmount": 250,
+                    "structurallySupportedMonthlyValues": [
+                      250,
+                      250,
+                      250,
+                      250,
+                      250,
+                      250
+                    ],
+                    "isFinalDeductibleAmount": false,
+                    "classification": "STRUCTURALLY_SUPPORTED",
+                    "status": "SUPPORTED",
+                    "reason": "HEALTH_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                    "sourceIds": [
+                      "SRC-DA-KIZ-2026-02-20",
+                      "SRC-SGBII-11-11B"
+                    ],
+                    "details": {
+                      "mandatoryStatus": "yes"
+                    },
+                    "warnings": [],
+                    "openChecks": []
+                  },
+                  {
+                    "ruleId": "KIZ-DEDUCTION-001",
+                    "positionId": "wage-a:careInsurance",
+                    "deductionType": "careInsurance",
+                    "enteredAmount": 50,
+                    "monthlyValues": [
+                      50,
+                      50,
+                      50,
+                      50,
+                      50,
+                      50
+                    ],
+                    "monthlyAverage": 50,
+                    "sixMonthTotal": 300,
+                    "consideredAmount": 50,
+                    "structurallySupportedMonthlyValues": [
+                      50,
+                      50,
+                      50,
+                      50,
+                      50,
+                      50
+                    ],
+                    "isFinalDeductibleAmount": false,
+                    "classification": "STRUCTURALLY_SUPPORTED",
+                    "status": "SUPPORTED",
+                    "reason": "CARE_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                    "sourceIds": [
+                      "SRC-DA-KIZ-2026-02-20",
+                      "SRC-SGBII-11-11B"
+                    ],
+                    "details": {
+                      "mandatoryStatus": "yes"
+                    },
+                    "warnings": [],
+                    "openChecks": []
+                  },
+                  {
+                    "ruleId": "KIZ-DEDUCTION-001",
+                    "positionId": "wage-a:pensionInsurance",
+                    "deductionType": "pensionInsurance",
+                    "enteredAmount": 330,
+                    "monthlyValues": [
+                      330,
+                      330,
+                      330,
+                      330,
+                      330,
+                      330
+                    ],
+                    "monthlyAverage": 330,
+                    "sixMonthTotal": 1980,
+                    "consideredAmount": 330,
+                    "structurallySupportedMonthlyValues": [
+                      330,
+                      330,
+                      330,
+                      330,
+                      330,
+                      330
+                    ],
+                    "isFinalDeductibleAmount": false,
+                    "classification": "STRUCTURALLY_SUPPORTED",
+                    "status": "SUPPORTED",
+                    "reason": "PENSION_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                    "sourceIds": [
+                      "SRC-DA-KIZ-2026-02-20",
+                      "SRC-SGBII-11-11B"
+                    ],
+                    "details": {
+                      "mandatoryStatus": "yes"
+                    },
+                    "warnings": [],
+                    "openChecks": []
+                  },
+                  {
+                    "ruleId": "KIZ-DEDUCTION-001",
+                    "positionId": "wage-a:unemploymentInsurance",
+                    "deductionType": "unemploymentInsurance",
+                    "enteredAmount": 70,
+                    "monthlyValues": [
+                      70,
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
+                    ],
+                    "monthlyAverage": 70,
+                    "sixMonthTotal": 420,
+                    "consideredAmount": 70,
+                    "structurallySupportedMonthlyValues": [
+                      70,
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
+                    ],
+                    "isFinalDeductibleAmount": false,
+                    "classification": "STRUCTURALLY_SUPPORTED",
+                    "status": "SUPPORTED",
+                    "reason": "UNEMPLOYMENT_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                    "sourceIds": [
+                      "SRC-DA-KIZ-2026-02-20",
+                      "SRC-SGBII-11-11B"
+                    ],
+                    "details": {
+                      "mandatoryStatus": "yes"
+                    },
+                    "warnings": [],
+                    "openChecks": []
+                  }
+                ],
+                "structurallySupportedTotal": 1000,
+                "structurallySupportedSixMonthTotal": 6000,
+                "supportedTotal": 1000,
+                "finalDeductibleTotal": null,
+                "supportedTotalIsFinalLegalDeduction": false,
+                "status": "PREPARED",
+                "warnings": [],
+                "openChecks": []
+              },
+              "countableAfterDeductions": null,
+              "usedRuleIds": [
+                "KIZ-INCOME-ADULT-001"
+              ],
+              "sourceIds": [
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-SGBII-11-11B",
+                "SRC-SGBII-11A"
+              ],
+              "reasons": [
+                "Der Bruttobetrag ist roh vorbereitet; eine automatische Brutto-Netto- oder Freibetragsberechnung findet nicht statt."
+              ],
+              "warnings": [],
+              "openChecks": [],
+              "incomeClass": "EARNED",
+              "classification": "SUPPORTED_RAW_GROSS",
+              "status": "PARTIAL"
+            }
+          ],
+          "rawSixMonthTotal": 19260,
+          "averageBeforeDeductions": 3210,
+          "deductions": {
+            "ruleId": "KIZ-DEDUCTION-001",
+            "personRole": "applicant",
+            "positions": [
+              {
+                "ruleId": "KIZ-DEDUCTION-001",
+                "positionId": "wage-a:tax",
+                "deductionType": "tax",
+                "enteredAmount": 300,
+                "monthlyValues": [
+                  300,
+                  300,
+                  300,
+                  300,
+                  300,
+                  300
+                ],
+                "monthlyAverage": 300,
+                "sixMonthTotal": 1800,
+                "consideredAmount": 300,
+                "structurallySupportedMonthlyValues": [
+                  300,
+                  300,
+                  300,
+                  300,
+                  300,
+                  300
+                ],
+                "isFinalDeductibleAmount": false,
+                "classification": "STRUCTURALLY_SUPPORTED",
+                "status": "SUPPORTED",
+                "reason": "DIRECT_TAX wird ausschließlich mit den tatsächlich eingegebenen Monatsbeträgen strukturell vorbereitet.",
+                "sourceIds": [
+                  "SRC-DA-KIZ-2026-02-20",
+                  "SRC-SGBII-11-11B"
+                ],
+                "details": {},
+                "warnings": [],
+                "openChecks": []
+              },
+              {
+                "ruleId": "KIZ-DEDUCTION-001",
+                "positionId": "wage-a:healthInsurance",
+                "deductionType": "healthInsurance",
+                "enteredAmount": 250,
+                "monthlyValues": [
+                  250,
+                  250,
+                  250,
+                  250,
+                  250,
+                  250
+                ],
+                "monthlyAverage": 250,
+                "sixMonthTotal": 1500,
+                "consideredAmount": 250,
+                "structurallySupportedMonthlyValues": [
+                  250,
+                  250,
+                  250,
+                  250,
+                  250,
+                  250
+                ],
+                "isFinalDeductibleAmount": false,
+                "classification": "STRUCTURALLY_SUPPORTED",
+                "status": "SUPPORTED",
+                "reason": "HEALTH_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                "sourceIds": [
+                  "SRC-DA-KIZ-2026-02-20",
+                  "SRC-SGBII-11-11B"
+                ],
+                "details": {
+                  "mandatoryStatus": "yes"
+                },
+                "warnings": [],
+                "openChecks": []
+              },
+              {
+                "ruleId": "KIZ-DEDUCTION-001",
+                "positionId": "wage-a:careInsurance",
+                "deductionType": "careInsurance",
+                "enteredAmount": 50,
+                "monthlyValues": [
+                  50,
+                  50,
+                  50,
+                  50,
+                  50,
+                  50
+                ],
+                "monthlyAverage": 50,
+                "sixMonthTotal": 300,
+                "consideredAmount": 50,
+                "structurallySupportedMonthlyValues": [
+                  50,
+                  50,
+                  50,
+                  50,
+                  50,
+                  50
+                ],
+                "isFinalDeductibleAmount": false,
+                "classification": "STRUCTURALLY_SUPPORTED",
+                "status": "SUPPORTED",
+                "reason": "CARE_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                "sourceIds": [
+                  "SRC-DA-KIZ-2026-02-20",
+                  "SRC-SGBII-11-11B"
+                ],
+                "details": {
+                  "mandatoryStatus": "yes"
+                },
+                "warnings": [],
+                "openChecks": []
+              },
+              {
+                "ruleId": "KIZ-DEDUCTION-001",
+                "positionId": "wage-a:pensionInsurance",
+                "deductionType": "pensionInsurance",
+                "enteredAmount": 330,
+                "monthlyValues": [
+                  330,
+                  330,
+                  330,
+                  330,
+                  330,
+                  330
+                ],
+                "monthlyAverage": 330,
+                "sixMonthTotal": 1980,
+                "consideredAmount": 330,
+                "structurallySupportedMonthlyValues": [
+                  330,
+                  330,
+                  330,
+                  330,
+                  330,
+                  330
+                ],
+                "isFinalDeductibleAmount": false,
+                "classification": "STRUCTURALLY_SUPPORTED",
+                "status": "SUPPORTED",
+                "reason": "PENSION_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                "sourceIds": [
+                  "SRC-DA-KIZ-2026-02-20",
+                  "SRC-SGBII-11-11B"
+                ],
+                "details": {
+                  "mandatoryStatus": "yes"
+                },
+                "warnings": [],
+                "openChecks": []
+              },
+              {
+                "ruleId": "KIZ-DEDUCTION-001",
+                "positionId": "wage-a:unemploymentInsurance",
+                "deductionType": "unemploymentInsurance",
+                "enteredAmount": 70,
+                "monthlyValues": [
+                  70,
+                  70,
+                  70,
+                  70,
+                  70,
+                  70
+                ],
+                "monthlyAverage": 70,
+                "sixMonthTotal": 420,
+                "consideredAmount": 70,
+                "structurallySupportedMonthlyValues": [
+                  70,
+                  70,
+                  70,
+                  70,
+                  70,
+                  70
+                ],
+                "isFinalDeductibleAmount": false,
+                "classification": "STRUCTURALLY_SUPPORTED",
+                "status": "SUPPORTED",
+                "reason": "UNEMPLOYMENT_INSURANCE wird als ausdrücklich bestätigter tatsächlicher Pflichtbeitrag vorbereitet.",
+                "sourceIds": [
+                  "SRC-DA-KIZ-2026-02-20",
+                  "SRC-SGBII-11-11B"
+                ],
+                "details": {
+                  "mandatoryStatus": "yes"
+                },
+                "warnings": [],
+                "openChecks": []
+              }
+            ],
+            "structurallySupportedTotal": 1000,
+            "structurallySupportedSixMonthTotal": 6000,
+            "supportedTotal": 1000,
+            "finalDeductibleTotal": null,
+            "supportedTotalIsFinalLegalDeduction": false,
+            "status": "PREPARED",
+            "warnings": [],
+            "openChecks": []
+          },
+          "averageAfterSupportedDeductions": 1832,
+          "months": [
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "applicant",
+              "monthIndex": 0,
+              "sourcePositions": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "incomeSources": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "grossEarnedIncome": 3210,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:tax",
+                  "sourceId": "wage-a",
+                  "deductionType": "tax",
+                  "monthIndex": 0,
+                  "enteredAmount": 300,
+                  "consideredAmount": 300,
+                  "bucket": "TAX",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:healthInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "healthInsurance",
+                  "monthIndex": 0,
+                  "enteredAmount": 250,
+                  "consideredAmount": 250,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:careInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "careInsurance",
+                  "monthIndex": 0,
+                  "enteredAmount": 50,
+                  "consideredAmount": 50,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:pensionInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "pensionInsurance",
+                  "monthIndex": 0,
+                  "enteredAmount": 330,
+                  "consideredAmount": 330,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:unemploymentInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "unemploymentInsurance",
+                  "monthIndex": 0,
+                  "enteredAmount": 70,
+                  "consideredAmount": 70,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                }
+              ],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 300,
+                "mandatorySocialInsurance": 700,
+                "basicAllowance": 100,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 278,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 378,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 1378,
+              "earnedIncomeAfterFinalCleansing": 1832,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 1832,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 0,
+              "year": 2026,
+              "month": 2,
+              "key": "2026-02",
+              "label": "Februar 2026",
+              "rawKnownIncomeTotal": 3210
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "applicant",
+              "monthIndex": 1,
+              "sourcePositions": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "incomeSources": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "grossEarnedIncome": 3210,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:tax",
+                  "sourceId": "wage-a",
+                  "deductionType": "tax",
+                  "monthIndex": 1,
+                  "enteredAmount": 300,
+                  "consideredAmount": 300,
+                  "bucket": "TAX",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:healthInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "healthInsurance",
+                  "monthIndex": 1,
+                  "enteredAmount": 250,
+                  "consideredAmount": 250,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:careInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "careInsurance",
+                  "monthIndex": 1,
+                  "enteredAmount": 50,
+                  "consideredAmount": 50,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:pensionInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "pensionInsurance",
+                  "monthIndex": 1,
+                  "enteredAmount": 330,
+                  "consideredAmount": 330,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:unemploymentInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "unemploymentInsurance",
+                  "monthIndex": 1,
+                  "enteredAmount": 70,
+                  "consideredAmount": 70,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                }
+              ],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 300,
+                "mandatorySocialInsurance": 700,
+                "basicAllowance": 100,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 278,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 378,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 1378,
+              "earnedIncomeAfterFinalCleansing": 1832,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 1832,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 1,
+              "year": 2026,
+              "month": 3,
+              "key": "2026-03",
+              "label": "März 2026",
+              "rawKnownIncomeTotal": 3210
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "applicant",
+              "monthIndex": 2,
+              "sourcePositions": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "incomeSources": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "grossEarnedIncome": 3210,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:tax",
+                  "sourceId": "wage-a",
+                  "deductionType": "tax",
+                  "monthIndex": 2,
+                  "enteredAmount": 300,
+                  "consideredAmount": 300,
+                  "bucket": "TAX",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:healthInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "healthInsurance",
+                  "monthIndex": 2,
+                  "enteredAmount": 250,
+                  "consideredAmount": 250,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:careInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "careInsurance",
+                  "monthIndex": 2,
+                  "enteredAmount": 50,
+                  "consideredAmount": 50,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:pensionInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "pensionInsurance",
+                  "monthIndex": 2,
+                  "enteredAmount": 330,
+                  "consideredAmount": 330,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:unemploymentInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "unemploymentInsurance",
+                  "monthIndex": 2,
+                  "enteredAmount": 70,
+                  "consideredAmount": 70,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                }
+              ],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 300,
+                "mandatorySocialInsurance": 700,
+                "basicAllowance": 100,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 278,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 378,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 1378,
+              "earnedIncomeAfterFinalCleansing": 1832,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 1832,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 2,
+              "year": 2026,
+              "month": 4,
+              "key": "2026-04",
+              "label": "April 2026",
+              "rawKnownIncomeTotal": 3210
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "applicant",
+              "monthIndex": 3,
+              "sourcePositions": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "incomeSources": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "grossEarnedIncome": 3210,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:tax",
+                  "sourceId": "wage-a",
+                  "deductionType": "tax",
+                  "monthIndex": 3,
+                  "enteredAmount": 300,
+                  "consideredAmount": 300,
+                  "bucket": "TAX",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:healthInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "healthInsurance",
+                  "monthIndex": 3,
+                  "enteredAmount": 250,
+                  "consideredAmount": 250,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:careInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "careInsurance",
+                  "monthIndex": 3,
+                  "enteredAmount": 50,
+                  "consideredAmount": 50,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:pensionInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "pensionInsurance",
+                  "monthIndex": 3,
+                  "enteredAmount": 330,
+                  "consideredAmount": 330,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:unemploymentInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "unemploymentInsurance",
+                  "monthIndex": 3,
+                  "enteredAmount": 70,
+                  "consideredAmount": 70,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                }
+              ],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 300,
+                "mandatorySocialInsurance": 700,
+                "basicAllowance": 100,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 278,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 378,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 1378,
+              "earnedIncomeAfterFinalCleansing": 1832,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 1832,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 3,
+              "year": 2026,
+              "month": 5,
+              "key": "2026-05",
+              "label": "Mai 2026",
+              "rawKnownIncomeTotal": 3210
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "applicant",
+              "monthIndex": 4,
+              "sourcePositions": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "incomeSources": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "grossEarnedIncome": 3210,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:tax",
+                  "sourceId": "wage-a",
+                  "deductionType": "tax",
+                  "monthIndex": 4,
+                  "enteredAmount": 300,
+                  "consideredAmount": 300,
+                  "bucket": "TAX",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:healthInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "healthInsurance",
+                  "monthIndex": 4,
+                  "enteredAmount": 250,
+                  "consideredAmount": 250,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:careInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "careInsurance",
+                  "monthIndex": 4,
+                  "enteredAmount": 50,
+                  "consideredAmount": 50,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:pensionInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "pensionInsurance",
+                  "monthIndex": 4,
+                  "enteredAmount": 330,
+                  "consideredAmount": 330,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:unemploymentInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "unemploymentInsurance",
+                  "monthIndex": 4,
+                  "enteredAmount": 70,
+                  "consideredAmount": 70,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                }
+              ],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 300,
+                "mandatorySocialInsurance": 700,
+                "basicAllowance": 100,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 278,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 378,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 1378,
+              "earnedIncomeAfterFinalCleansing": 1832,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 1832,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 4,
+              "year": 2026,
+              "month": 6,
+              "key": "2026-06",
+              "label": "Juni 2026",
+              "rawKnownIncomeTotal": 3210
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "applicant",
+              "monthIndex": 5,
+              "sourcePositions": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "incomeSources": [
+                {
+                  "sourceId": "wage-a",
+                  "incomeType": "employment",
+                  "amountType": "gross",
+                  "rawAmount": 3210,
+                  "countableBeforePersonDeductions": 3210,
+                  "excludedAmount": 0,
+                  "incomeClass": "EARNED",
+                  "classification": "EARNED",
+                  "status": "SUPPORTED",
+                  "warnings": [],
+                  "openChecks": []
+                }
+              ],
+              "grossEarnedIncome": 3210,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:tax",
+                  "sourceId": "wage-a",
+                  "deductionType": "tax",
+                  "monthIndex": 5,
+                  "enteredAmount": 300,
+                  "consideredAmount": 300,
+                  "bucket": "TAX",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:healthInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "healthInsurance",
+                  "monthIndex": 5,
+                  "enteredAmount": 250,
+                  "consideredAmount": 250,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:careInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "careInsurance",
+                  "monthIndex": 5,
+                  "enteredAmount": 50,
+                  "consideredAmount": 50,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:pensionInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "pensionInsurance",
+                  "monthIndex": 5,
+                  "enteredAmount": 330,
+                  "consideredAmount": 330,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                },
+                {
+                  "ruleId": "KIZ-ADULT-DEDUCTION-001",
+                  "positionId": "wage-a:unemploymentInsurance",
+                  "sourceId": "wage-a",
+                  "deductionType": "unemploymentInsurance",
+                  "monthIndex": 5,
+                  "enteredAmount": 70,
+                  "consideredAmount": 70,
+                  "bucket": "MANDATORY_SOCIAL_INSURANCE",
+                  "status": "SUPPORTED"
+                }
+              ],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 300,
+                "mandatorySocialInsurance": 700,
+                "basicAllowance": 100,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 278,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 378,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 1378,
+              "earnedIncomeAfterFinalCleansing": 1832,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 1832,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 5,
+              "year": 2026,
+              "month": 7,
+              "key": "2026-07",
+              "label": "Juli 2026",
+              "rawKnownIncomeTotal": 3210
+            }
+          ],
+          "monthlyCountableIncome": [
+            1832,
+            1832,
+            1832,
+            1832,
+            1832,
+            1832
+          ],
+          "sixMonthTotalBeforeFinalCleansing": 19260,
+          "sixMonthTotalAfterFinalCleansing": 10992,
+          "averageEarnedIncomeAfterFinalCleansing": 1832,
+          "averageOtherIncomeAfterFinalCleansing": 0,
+          "monthlyAverageAfterFinalCleansing": 1832,
+          "extendedAccessEarnedDeductions": {
+            "status": "SUPPORTED",
+            "monthlyValues": [
+              378,
+              378,
+              378,
+              378,
+              378,
+              378
+            ],
+            "sixMonthTotal": 2268,
+            "monthlyAverage": 378,
+            "openChecks": []
+          },
+          "status": "SUPPORTED",
+          "warnings": [],
+          "openChecks": [],
+          "childBenefitSurplusOtherIncomeMonthly": 0
+        },
+        "partner": {
+          "personRole": "partner",
+          "incomeStatus": "none",
+          "sources": [],
+          "rawSixMonthTotal": 0,
+          "averageBeforeDeductions": 0,
+          "deductions": {
+            "ruleId": "KIZ-DEDUCTION-001",
+            "personRole": "partner",
+            "positions": [],
+            "structurallySupportedTotal": 0,
+            "structurallySupportedSixMonthTotal": 0,
+            "supportedTotal": 0,
+            "finalDeductibleTotal": null,
+            "supportedTotalIsFinalLegalDeduction": false,
+            "status": "PREPARED",
+            "warnings": [],
+            "openChecks": []
+          },
+          "averageAfterSupportedDeductions": 0,
+          "months": [
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "partner",
+              "monthIndex": 0,
+              "sourcePositions": [],
+              "incomeSources": [],
+              "grossEarnedIncome": 0,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 0,
+                "mandatorySocialInsurance": 0,
+                "basicAllowance": 0,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 0,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 0,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 0,
+              "earnedIncomeAfterFinalCleansing": 0,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 0,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 0,
+              "year": 2026,
+              "month": 2,
+              "key": "2026-02",
+              "label": "Februar 2026",
+              "rawKnownIncomeTotal": 0
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "partner",
+              "monthIndex": 1,
+              "sourcePositions": [],
+              "incomeSources": [],
+              "grossEarnedIncome": 0,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 0,
+                "mandatorySocialInsurance": 0,
+                "basicAllowance": 0,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 0,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 0,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 0,
+              "earnedIncomeAfterFinalCleansing": 0,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 0,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 1,
+              "year": 2026,
+              "month": 3,
+              "key": "2026-03",
+              "label": "März 2026",
+              "rawKnownIncomeTotal": 0
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "partner",
+              "monthIndex": 2,
+              "sourcePositions": [],
+              "incomeSources": [],
+              "grossEarnedIncome": 0,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 0,
+                "mandatorySocialInsurance": 0,
+                "basicAllowance": 0,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 0,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 0,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 0,
+              "earnedIncomeAfterFinalCleansing": 0,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 0,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 2,
+              "year": 2026,
+              "month": 4,
+              "key": "2026-04",
+              "label": "April 2026",
+              "rawKnownIncomeTotal": 0
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "partner",
+              "monthIndex": 3,
+              "sourcePositions": [],
+              "incomeSources": [],
+              "grossEarnedIncome": 0,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 0,
+                "mandatorySocialInsurance": 0,
+                "basicAllowance": 0,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 0,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 0,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 0,
+              "earnedIncomeAfterFinalCleansing": 0,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 0,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 3,
+              "year": 2026,
+              "month": 5,
+              "key": "2026-05",
+              "label": "Mai 2026",
+              "rawKnownIncomeTotal": 0
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "partner",
+              "monthIndex": 4,
+              "sourcePositions": [],
+              "incomeSources": [],
+              "grossEarnedIncome": 0,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 0,
+                "mandatorySocialInsurance": 0,
+                "basicAllowance": 0,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 0,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 0,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 0,
+              "earnedIncomeAfterFinalCleansing": 0,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 0,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 4,
+              "year": 2026,
+              "month": 6,
+              "key": "2026-06",
+              "label": "Juni 2026",
+              "rawKnownIncomeTotal": 0
+            },
+            {
+              "ruleId": "KIZ-INCOME-ADULT-001",
+              "deductionRuleId": "KIZ-ADULT-DEDUCTION-001",
+              "personRole": "partner",
+              "monthIndex": 5,
+              "sourcePositions": [],
+              "incomeSources": [],
+              "grossEarnedIncome": 0,
+              "otherIncomeBeforeDeductions": 0,
+              "excludedIncome": 0,
+              "directDeductionPositions": [],
+              "personExpensePositions": [],
+              "deductionLedger": {
+                "taxes": 0,
+                "mandatorySocialInsurance": 0,
+                "basicAllowance": 0,
+                "basicAllowanceLimit": 100,
+                "actualNr3And4": 30,
+                "actualNr5": 0,
+                "useActualInsteadOfBasic": false,
+                "transferredNr3And4": 0,
+                "insuranceFlat": 30,
+                "insuranceFlatAppliedToOther": 0,
+                "earnedIncomeAllowance": 0,
+                "generalNr7": 0
+              },
+              "earnedActivityDeductionsForExtendedAccess": 0,
+              "extendedAccessDeductionStatus": "SUPPORTED",
+              "structurallySupportedDeductionTotal": 0,
+              "earnedIncomeAfterFinalCleansing": 0,
+              "otherIncomeAfterFinalCleansing": 0,
+              "finalCountableIncome": 0,
+              "status": "SUPPORTED",
+              "warnings": [],
+              "openChecks": [],
+              "sourceIds": [
+                "SRC-SGBII-11-11B",
+                "SRC-FW-SGBII-11-11B-2024-10-24",
+                "SRC-BUERGERGELDV-1",
+                "SRC-DA-KIZ-2026-02-20",
+                "SRC-BEEG-10"
+              ],
+              "index": 5,
+              "year": 2026,
+              "month": 7,
+              "key": "2026-07",
+              "label": "Juli 2026",
+              "rawKnownIncomeTotal": 0
+            }
+          ],
+          "monthlyCountableIncome": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sixMonthTotalBeforeFinalCleansing": 0,
+          "sixMonthTotalAfterFinalCleansing": 0,
+          "averageEarnedIncomeAfterFinalCleansing": 0,
+          "averageOtherIncomeAfterFinalCleansing": 0,
+          "monthlyAverageAfterFinalCleansing": 0,
+          "extendedAccessEarnedDeductions": {
+            "status": "SUPPORTED",
+            "monthlyValues": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "sixMonthTotal": 0,
+            "monthlyAverage": 0,
+            "openChecks": []
+          },
+          "status": "SUPPORTED",
+          "warnings": [],
+          "openChecks": [],
+          "childBenefitSurplusOtherIncomeMonthly": 0
+        }
+      },
+      "regularIncome": {
+        "averageEarned": 1832,
+        "averageOther": 0,
+        "averageTotal": 1832
+      },
+      "specialOtherIncome": {
+        "childBenefitSurplusTotal": 0,
+        "items": [
+          {
+            "ruleId": "KIZ-CHILD-BENEFIT-SURPLUS-001",
+            "childId": "c1",
+            "householdId": "A",
+            "statutoryChildBenefitAmount": 259,
+            "forwardedChildBenefitAmount": 0,
+            "childBenefitAmount": 259,
+            "totalChildNeed": 590,
+            "childIncomeReduction": 0,
+            "remainingChildNeedAfterIncome": 590,
+            "childBenefitForChildNeed": 259,
+            "childBenefitSurplus": 0,
+            "childBenefitSurplusOtherIncomeMonthly": 0,
+            "recipientPersonRole": null,
+            "amountForParentReduction": 0,
+            "assetImpactStatus": "NOT_EVALUATED",
+            "warnings": [
+              {
+                "code": "CHILD_ASSETS_NOT_EVALUATED",
+                "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+                "field": "assets"
+              }
+            ],
+            "openChecks": [],
+            "sourceIds": [
+              "SRC-DA-KIZ-2026-02-20",
+              "SRC-SGBII-11",
+              "SRC-BKGG-6A"
+            ],
+            "status": "SUPPORTED"
+          },
+          {
+            "ruleId": "KIZ-CHILD-BENEFIT-SURPLUS-001",
+            "childId": "c2",
+            "householdId": "A",
+            "statutoryChildBenefitAmount": 259,
+            "forwardedChildBenefitAmount": 0,
+            "childBenefitAmount": 259,
+            "totalChildNeed": 590,
+            "childIncomeReduction": 0,
+            "remainingChildNeedAfterIncome": 590,
+            "childBenefitForChildNeed": 259,
+            "childBenefitSurplus": 0,
+            "childBenefitSurplusOtherIncomeMonthly": 0,
+            "recipientPersonRole": null,
+            "amountForParentReduction": 0,
+            "assetImpactStatus": "NOT_EVALUATED",
+            "warnings": [
+              {
+                "code": "CHILD_ASSETS_NOT_EVALUATED",
+                "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+                "field": "assets"
+              }
+            ],
+            "openChecks": [],
+            "sourceIds": [
+              "SRC-DA-KIZ-2026-02-20",
+              "SRC-SGBII-11",
+              "SRC-BKGG-6A"
+            ],
+            "status": "SUPPORTED"
+          },
+          {
+            "ruleId": "KIZ-CHILD-BENEFIT-SURPLUS-001",
+            "childId": "c3",
+            "householdId": "A",
+            "statutoryChildBenefitAmount": 259,
+            "forwardedChildBenefitAmount": 0,
+            "childBenefitAmount": 259,
+            "totalChildNeed": 671,
+            "childIncomeReduction": 0,
+            "remainingChildNeedAfterIncome": 671,
+            "childBenefitForChildNeed": 259,
+            "childBenefitSurplus": 0,
+            "childBenefitSurplusOtherIncomeMonthly": 0,
+            "recipientPersonRole": null,
+            "amountForParentReduction": 0,
+            "assetImpactStatus": "NOT_EVALUATED",
+            "warnings": [
+              {
+                "code": "CHILD_ASSETS_NOT_EVALUATED",
+                "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+                "field": "assets"
+              }
+            ],
+            "openChecks": [],
+            "sourceIds": [
+              "SRC-DA-KIZ-2026-02-20",
+              "SRC-SGBII-11",
+              "SRC-BKGG-6A"
+            ],
+            "status": "SUPPORTED"
+          }
+        ]
+      },
+      "preparedForParentReduction": {
+        "earnedIncome": 1832,
+        "otherIncome": 0,
+        "totalIncome": 1832
+      },
+      "status": "SUPPORTED",
+      "warnings": [
+        {
+          "code": "CHILD_ASSETS_NOT_EVALUATED",
+          "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+          "field": "assets"
+        },
+        {
+          "code": "CHILD_ASSETS_NOT_EVALUATED",
+          "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+          "field": "assets"
+        },
+        {
+          "code": "CHILD_ASSETS_NOT_EVALUATED",
+          "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+          "field": "assets"
+        }
+      ],
+      "openChecks": [],
+      "usedRuleIds": [
+        "KIZ-INCOME-ADULT-001",
+        "KIZ-ADULT-DEDUCTION-001",
+        "KIZ-CHILD-BENEFIT-SURPLUS-001"
+      ],
+      "disclaimer": "Bereinigter Erwachsenen-Einkommenszwischenwert; keine Elternminderung oder KiZ-Endentscheidung."
+    },
+    "childAssignments": [
+      {
+        "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+        "childId": "c1",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "childNeed": {
+          "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+          "childId": "c1",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "ageBand": "AGE_6_TO_13",
+          "fullMonthlyRuleNeed": 390,
+          "ruleNeedFull": 390,
+          "regularNeedFactor": 1,
+          "ruleNeedFactor": 1,
+          "recognizedRuleNeed": 390,
+          "fullMonthlyAdditionalNeed": 0,
+          "additionalNeedFactor": 1,
+          "recognizedAdditionalNeed": 0,
+          "housingHeadShare": 200,
+          "recognizedHousingNeed": 200,
+          "childTotalNeed": 590,
+          "totalChildNeed": 590,
+          "additionalNeedPositions": [
+            {
+              "type": "decentral-hot-water",
+              "fullMonthlyAmount": 0,
+              "recognizedAmount": 0
+            },
+            {
+              "type": "other-confirmed-recurring",
+              "fullMonthlyAmount": 0,
+              "recognizedAmount": 0
+            }
+          ],
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-CHILD-SGBII-NEED-001",
+            "KIZ-FAMILY-SGBII-NEED-001"
+          ],
+          "sourceIds": [
+            "SRC-SGBII-20",
+            "SRC-SGBII-21",
+            "SRC-SGBII-22",
+            "SRC-SGBII-23",
+            "SRC-RBSFV-2026",
+            "SRC-DA-KIZ-2026-02-20"
+          ],
+          "additionalNeeds": {
+            "full": 0,
+            "factor": 1,
+            "recognized": 0
+          }
+        },
+        "bgIncome": {
+          "ruleId": "KIZ-CHILD-BG-INCOME-001",
+          "childId": "c1",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "countableChildIncomeAverage": 0,
+          "childIncomeReductionForKiZ": 0,
+          "childBenefitForKiZMembership": 259,
+          "incomeForKiZMembership": 259,
+          "kizMembershipStatus": "SUPPORTED",
+          "isKizBgMember": true,
+          "childBenefitForSgbIIMembership": 259,
+          "incomeForSgbIIMembership": 259,
+          "sgbIIMembershipStatus": "SUPPORTED",
+          "isSgbIIBgMember": true,
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-CHILD-BG-INCOME-001",
+            "KIZ-CHILD-SGBII-NEED-001",
+            "KIZ-INCOME-CHILD-001",
+            "KIZ-REDUCE-CHILD-001"
+          ],
+          "sourceIds": [
+            "SRC-BKGG-6A",
+            "SRC-SGBII-7",
+            "SRC-SGBII-11",
+            "SRC-DA-KIZ-2026-02-20"
+          ]
+        },
+        "isKizBgMember": true,
+        "isSgbIIBgMember": true,
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "KIZ-CHILD-BG-INCOME-001",
+          "KIZ-CHILD-SGBII-NEED-001"
+        ]
+      },
+      {
+        "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+        "childId": "c2",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "childNeed": {
+          "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+          "childId": "c2",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "ageBand": "AGE_6_TO_13",
+          "fullMonthlyRuleNeed": 390,
+          "ruleNeedFull": 390,
+          "regularNeedFactor": 1,
+          "ruleNeedFactor": 1,
+          "recognizedRuleNeed": 390,
+          "fullMonthlyAdditionalNeed": 0,
+          "additionalNeedFactor": 1,
+          "recognizedAdditionalNeed": 0,
+          "housingHeadShare": 200,
+          "recognizedHousingNeed": 200,
+          "childTotalNeed": 590,
+          "totalChildNeed": 590,
+          "additionalNeedPositions": [
+            {
+              "type": "decentral-hot-water",
+              "fullMonthlyAmount": 0,
+              "recognizedAmount": 0
+            },
+            {
+              "type": "other-confirmed-recurring",
+              "fullMonthlyAmount": 0,
+              "recognizedAmount": 0
+            }
+          ],
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-CHILD-SGBII-NEED-001",
+            "KIZ-FAMILY-SGBII-NEED-001"
+          ],
+          "sourceIds": [
+            "SRC-SGBII-20",
+            "SRC-SGBII-21",
+            "SRC-SGBII-22",
+            "SRC-SGBII-23",
+            "SRC-RBSFV-2026",
+            "SRC-DA-KIZ-2026-02-20"
+          ],
+          "additionalNeeds": {
+            "full": 0,
+            "factor": 1,
+            "recognized": 0
+          }
+        },
+        "bgIncome": {
+          "ruleId": "KIZ-CHILD-BG-INCOME-001",
+          "childId": "c2",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "countableChildIncomeAverage": 0,
+          "childIncomeReductionForKiZ": 0,
+          "childBenefitForKiZMembership": 259,
+          "incomeForKiZMembership": 259,
+          "kizMembershipStatus": "SUPPORTED",
+          "isKizBgMember": true,
+          "childBenefitForSgbIIMembership": 259,
+          "incomeForSgbIIMembership": 259,
+          "sgbIIMembershipStatus": "SUPPORTED",
+          "isSgbIIBgMember": true,
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-CHILD-BG-INCOME-001",
+            "KIZ-CHILD-SGBII-NEED-001",
+            "KIZ-INCOME-CHILD-001",
+            "KIZ-REDUCE-CHILD-001"
+          ],
+          "sourceIds": [
+            "SRC-BKGG-6A",
+            "SRC-SGBII-7",
+            "SRC-SGBII-11",
+            "SRC-DA-KIZ-2026-02-20"
+          ]
+        },
+        "isKizBgMember": true,
+        "isSgbIIBgMember": true,
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "KIZ-CHILD-BG-INCOME-001",
+          "KIZ-CHILD-SGBII-NEED-001"
+        ]
+      },
+      {
+        "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+        "childId": "c3",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "childNeed": {
+          "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+          "childId": "c3",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "ageBand": "AGE_14_TO_17",
+          "fullMonthlyRuleNeed": 471,
+          "ruleNeedFull": 471,
+          "regularNeedFactor": 1,
+          "ruleNeedFactor": 1,
+          "recognizedRuleNeed": 471,
+          "fullMonthlyAdditionalNeed": 0,
+          "additionalNeedFactor": 1,
+          "recognizedAdditionalNeed": 0,
+          "housingHeadShare": 200,
+          "recognizedHousingNeed": 200,
+          "childTotalNeed": 671,
+          "totalChildNeed": 671,
+          "additionalNeedPositions": [
+            {
+              "type": "decentral-hot-water",
+              "fullMonthlyAmount": 0,
+              "recognizedAmount": 0
+            },
+            {
+              "type": "other-confirmed-recurring",
+              "fullMonthlyAmount": 0,
+              "recognizedAmount": 0
+            }
+          ],
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-CHILD-SGBII-NEED-001",
+            "KIZ-FAMILY-SGBII-NEED-001"
+          ],
+          "sourceIds": [
+            "SRC-SGBII-20",
+            "SRC-SGBII-21",
+            "SRC-SGBII-22",
+            "SRC-SGBII-23",
+            "SRC-RBSFV-2026",
+            "SRC-DA-KIZ-2026-02-20"
+          ],
+          "additionalNeeds": {
+            "full": 0,
+            "factor": 1,
+            "recognized": 0
+          }
+        },
+        "bgIncome": {
+          "ruleId": "KIZ-CHILD-BG-INCOME-001",
+          "childId": "c3",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "countableChildIncomeAverage": 0,
+          "childIncomeReductionForKiZ": 0,
+          "childBenefitForKiZMembership": 259,
+          "incomeForKiZMembership": 259,
+          "kizMembershipStatus": "SUPPORTED",
+          "isKizBgMember": true,
+          "childBenefitForSgbIIMembership": 259,
+          "incomeForSgbIIMembership": 259,
+          "sgbIIMembershipStatus": "SUPPORTED",
+          "isSgbIIBgMember": true,
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-CHILD-BG-INCOME-001",
+            "KIZ-CHILD-SGBII-NEED-001",
+            "KIZ-INCOME-CHILD-001",
+            "KIZ-REDUCE-CHILD-001"
+          ],
+          "sourceIds": [
+            "SRC-BKGG-6A",
+            "SRC-SGBII-7",
+            "SRC-SGBII-11",
+            "SRC-DA-KIZ-2026-02-20"
+          ]
+        },
+        "isKizBgMember": true,
+        "isSgbIIBgMember": true,
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "KIZ-CHILD-BG-INCOME-001",
+          "KIZ-CHILD-SGBII-NEED-001"
+        ]
+      }
+    ],
+    "maximumKiz": {
+      "ruleId": "KIZ-MAX-001",
+      "householdId": "A",
+      "status": "PARTIAL",
+      "supportedLegalPeriod": true,
+      "potentialChildrenCount": 3,
+      "theoreticalMaximumKizTotal": 891,
+      "childResults": [
+        {
+          "ruleId": "KIZ-MAX-001",
+          "childId": "c1",
+          "householdId": "A",
+          "isPotentialOwnKizChild": true,
+          "maximumKizAmount": 297,
+          "supportedLegalPeriod": true,
+          "status": "PARTIAL",
+          "reasons": [
+            "Kind lebt (auch zeitweise) in diesem Haushalt.",
+            "Der Kindergeldbezug ist diesem Haushalt zugeordnet.",
+            "Das Kind kommt nach den derzeit erfassbaren Merkmalen als mögliches eigenes KiZ-Kind dieses Haushalts in Betracht."
+          ],
+          "warnings": [
+            {
+              "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+              "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+              "field": null
+            }
+          ],
+          "openChecks": [
+            "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+          ]
+        },
+        {
+          "ruleId": "KIZ-MAX-001",
+          "childId": "c2",
+          "householdId": "A",
+          "isPotentialOwnKizChild": true,
+          "maximumKizAmount": 297,
+          "supportedLegalPeriod": true,
+          "status": "PARTIAL",
+          "reasons": [
+            "Kind lebt (auch zeitweise) in diesem Haushalt.",
+            "Der Kindergeldbezug ist diesem Haushalt zugeordnet.",
+            "Das Kind kommt nach den derzeit erfassbaren Merkmalen als mögliches eigenes KiZ-Kind dieses Haushalts in Betracht."
+          ],
+          "warnings": [
+            {
+              "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+              "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+              "field": null
+            }
+          ],
+          "openChecks": [
+            "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+          ]
+        },
+        {
+          "ruleId": "KIZ-MAX-001",
+          "childId": "c3",
+          "householdId": "A",
+          "isPotentialOwnKizChild": true,
+          "maximumKizAmount": 297,
+          "supportedLegalPeriod": true,
+          "status": "PARTIAL",
+          "reasons": [
+            "Kind lebt (auch zeitweise) in diesem Haushalt.",
+            "Der Kindergeldbezug ist diesem Haushalt zugeordnet.",
+            "Das Kind kommt nach den derzeit erfassbaren Merkmalen als mögliches eigenes KiZ-Kind dieses Haushalts in Betracht."
+          ],
+          "warnings": [
+            {
+              "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+              "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+              "field": null
+            }
+          ],
+          "openChecks": [
+            "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        }
+      ],
+      "openChecks": [
+        "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+        "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+      ],
+      "disclaimer": "Theoretischer maximaler Ausgangsbetrag, kein tatsächlicher Kinderzuschlagsanspruch."
+    },
+    "childIncome": {
+      "ruleId": "KIZ-REDUCE-CHILD-001",
+      "householdId": "A",
+      "status": "SUPPORTED",
+      "childResults": [
+        {
+          "ruleId": "KIZ-REDUCE-CHILD-001",
+          "childId": "c1",
+          "householdId": "A",
+          "maximumKiZ": 297,
+          "countableChildIncomeAverage": 0,
+          "reductionRate": 0.45,
+          "childIncomeReduction": 0,
+          "individualKiZAfterChildIncome": 297,
+          "warnings": [
+            {
+              "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+              "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+              "field": null
+            }
+          ],
+          "openChecks": [
+            "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+          ],
+          "usedRuleIds": [
+            "KIZ-MAX-001",
+            "KIZ-INCOME-CHILD-001",
+            "KIZ-REDUCE-CHILD-001"
+          ],
+          "remainingSteps": [
+            "CHILD_ASSETS_NOT_EVALUATED",
+            "PARENT_INCOME_REDUCTION_NOT_EVALUATED",
+            "COVERAGE_CHECK_NOT_EVALUATED",
+            "FINAL_ROUNDING_NOT_APPLIED"
+          ],
+          "disclaimer": "Kindbezogener Zwischenwert nach Kindeseinkommen; kein Anspruchs-, End- oder Auszahlungsbetrag.",
+          "status": "SUPPORTED"
+        },
+        {
+          "ruleId": "KIZ-REDUCE-CHILD-001",
+          "childId": "c2",
+          "householdId": "A",
+          "maximumKiZ": 297,
+          "countableChildIncomeAverage": 0,
+          "reductionRate": 0.45,
+          "childIncomeReduction": 0,
+          "individualKiZAfterChildIncome": 297,
+          "warnings": [
+            {
+              "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+              "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+              "field": null
+            }
+          ],
+          "openChecks": [
+            "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+          ],
+          "usedRuleIds": [
+            "KIZ-MAX-001",
+            "KIZ-INCOME-CHILD-001",
+            "KIZ-REDUCE-CHILD-001"
+          ],
+          "remainingSteps": [
+            "CHILD_ASSETS_NOT_EVALUATED",
+            "PARENT_INCOME_REDUCTION_NOT_EVALUATED",
+            "COVERAGE_CHECK_NOT_EVALUATED",
+            "FINAL_ROUNDING_NOT_APPLIED"
+          ],
+          "disclaimer": "Kindbezogener Zwischenwert nach Kindeseinkommen; kein Anspruchs-, End- oder Auszahlungsbetrag.",
+          "status": "SUPPORTED"
+        },
+        {
+          "ruleId": "KIZ-REDUCE-CHILD-001",
+          "childId": "c3",
+          "householdId": "A",
+          "maximumKiZ": 297,
+          "countableChildIncomeAverage": 0,
+          "reductionRate": 0.45,
+          "childIncomeReduction": 0,
+          "individualKiZAfterChildIncome": 297,
+          "warnings": [
+            {
+              "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+              "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+              "field": null
+            }
+          ],
+          "openChecks": [
+            "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+            "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+          ],
+          "usedRuleIds": [
+            "KIZ-MAX-001",
+            "KIZ-INCOME-CHILD-001",
+            "KIZ-REDUCE-CHILD-001"
+          ],
+          "remainingSteps": [
+            "CHILD_ASSETS_NOT_EVALUATED",
+            "PARENT_INCOME_REDUCTION_NOT_EVALUATED",
+            "COVERAGE_CHECK_NOT_EVALUATED",
+            "FINAL_ROUNDING_NOT_APPLIED"
+          ],
+          "disclaimer": "Kindbezogener Zwischenwert nach Kindeseinkommen; kein Anspruchs-, End- oder Auszahlungsbetrag.",
+          "status": "SUPPORTED"
+        }
+      ],
+      "preliminaryIndividualKiZAfterChildIncomeTotal": 891,
+      "warnings": [
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        }
+      ],
+      "openChecks": [
+        "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+        "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+      ],
+      "usedRuleIds": [
+        "KIZ-MAX-001",
+        "KIZ-INCOME-CHILD-001",
+        "KIZ-REDUCE-CHILD-001"
+      ],
+      "remainingSteps": [
+        "CHILD_ASSETS_NOT_EVALUATED",
+        "PARENT_INCOME_REDUCTION_NOT_EVALUATED",
+        "COVERAGE_CHECK_NOT_EVALUATED",
+        "FINAL_ROUNDING_NOT_APPLIED"
+      ],
+      "disclaimer": "Vorläufige Summe der kindbezogenen Zwischenwerte; kein Gesamtkinderzuschlag, Anspruchs- oder Auszahlungsbetrag."
+    },
+    "parentNeed": {
+      "ruleId": "KIZ-PARENT-NEED-001",
+      "householdId": "A",
+      "status": "SUPPORTED",
+      "parentRuleNeed": 1012,
+      "parentRuleNeedPositions": [
+        {
+          "personRole": "applicant",
+          "amount": 506
+        },
+        {
+          "personRole": "partner",
+          "amount": 506
+        }
+      ],
+      "parentAdditionalNeeds": {
+        "ruleId": "KIZ-PARENT-ADDITIONAL-NEED-001",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "parentAdditionalNeedsTotal": 0,
+        "items": [
+          {
+            "type": "decentral-hot-water",
+            "personRole": "applicant",
+            "percentage": 0,
+            "rawAmount": 0,
+            "capGroup": "OUTSIDE_CAP",
+            "recognizedAmount": 0
+          },
+          {
+            "type": "decentral-hot-water",
+            "personRole": "partner",
+            "percentage": 0,
+            "rawAmount": 0,
+            "capGroup": "OUTSIDE_CAP",
+            "recognizedAmount": 0
+          }
+        ],
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-PARENT-ADDITIONAL-NEED-001"
+        ],
+        "sourceIds": [
+          "SRC-SGBII-21",
+          "SRC-RBSFV-2026",
+          "SRC-DA-KIZ-2026-02-20"
+        ]
+      },
+      "parentAdditionalNeedsTotal": 0,
+      "housingRecognition": {
+        "ruleId": "KIZ-HOUSING-RECOGNITION-001",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "positions": [
+          {
+            "type": "coldRent",
+            "amount": 800,
+            "recognized": true
+          },
+          {
+            "type": "coldUtilities",
+            "amount": 100,
+            "recognized": true
+          },
+          {
+            "type": "heating",
+            "amount": 100,
+            "recognized": true
+          },
+          {
+            "type": "parking",
+            "amount": 0,
+            "recognized": false
+          }
+        ],
+        "actualHousingCosts": 1000,
+        "directHousingCostReduction": 0,
+        "adjustedActualCosts": 1000,
+        "bgCorePersons": 5,
+        "otherResidents": 0,
+        "allCoreResidents": 5,
+        "recognizedHousingCosts": 1000,
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-HOUSING-RECOGNITION-001"
+        ],
+        "sourceIds": [
+          "SRC-DA-KIZ-2026-02-20"
+        ]
+      },
+      "parentHousingShare": {
+        "ruleId": "KIZ-PARENT-HOUSING-SHARE-001",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "ownKizChildrenCount": 3,
+        "relevantKiZChildCount": 3,
+        "incomeExcludedChildrenCount": 0,
+        "percentage": 62,
+        "recognizedHousingCosts": 1000,
+        "parentHousingShareForKiZ": 620,
+        "childMemberships": [
+          {
+            "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+            "childId": "c1",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "childNeed": {
+              "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+              "childId": "c1",
+              "householdId": "A",
+              "status": "SUPPORTED",
+              "ageBand": "AGE_6_TO_13",
+              "fullMonthlyRuleNeed": 390,
+              "ruleNeedFull": 390,
+              "regularNeedFactor": 1,
+              "ruleNeedFactor": 1,
+              "recognizedRuleNeed": 390,
+              "fullMonthlyAdditionalNeed": 0,
+              "additionalNeedFactor": 1,
+              "recognizedAdditionalNeed": 0,
+              "housingHeadShare": 200,
+              "recognizedHousingNeed": 200,
+              "childTotalNeed": 590,
+              "totalChildNeed": 590,
+              "additionalNeedPositions": [
+                {
+                  "type": "decentral-hot-water",
+                  "fullMonthlyAmount": 0,
+                  "recognizedAmount": 0
+                },
+                {
+                  "type": "other-confirmed-recurring",
+                  "fullMonthlyAmount": 0,
+                  "recognizedAmount": 0
+                }
+              ],
+              "warnings": [],
+              "openChecks": [],
+              "usedRuleIds": [
+                "KIZ-CHILD-SGBII-NEED-001",
+                "KIZ-FAMILY-SGBII-NEED-001"
+              ],
+              "sourceIds": [
+                "SRC-SGBII-20",
+                "SRC-SGBII-21",
+                "SRC-SGBII-22",
+                "SRC-SGBII-23",
+                "SRC-RBSFV-2026",
+                "SRC-DA-KIZ-2026-02-20"
+              ],
+              "additionalNeeds": {
+                "full": 0,
+                "factor": 1,
+                "recognized": 0
+              }
+            },
+            "bgIncome": {
+              "ruleId": "KIZ-CHILD-BG-INCOME-001",
+              "childId": "c1",
+              "householdId": "A",
+              "status": "SUPPORTED",
+              "countableChildIncomeAverage": 0,
+              "childIncomeReductionForKiZ": 0,
+              "childBenefitForKiZMembership": 259,
+              "incomeForKiZMembership": 259,
+              "kizMembershipStatus": "SUPPORTED",
+              "isKizBgMember": true,
+              "childBenefitForSgbIIMembership": 259,
+              "incomeForSgbIIMembership": 259,
+              "sgbIIMembershipStatus": "SUPPORTED",
+              "isSgbIIBgMember": true,
+              "warnings": [],
+              "openChecks": [],
+              "usedRuleIds": [
+                "KIZ-CHILD-BG-INCOME-001",
+                "KIZ-CHILD-SGBII-NEED-001",
+                "KIZ-INCOME-CHILD-001",
+                "KIZ-REDUCE-CHILD-001"
+              ],
+              "sourceIds": [
+                "SRC-BKGG-6A",
+                "SRC-SGBII-7",
+                "SRC-SGBII-11",
+                "SRC-DA-KIZ-2026-02-20"
+              ]
+            },
+            "isKizBgMember": true,
+            "isSgbIIBgMember": true,
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-SGBII-BG-MEMBERSHIP-001",
+              "KIZ-CHILD-BG-INCOME-001",
+              "KIZ-CHILD-SGBII-NEED-001"
+            ]
+          },
+          {
+            "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+            "childId": "c2",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "childNeed": {
+              "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+              "childId": "c2",
+              "householdId": "A",
+              "status": "SUPPORTED",
+              "ageBand": "AGE_6_TO_13",
+              "fullMonthlyRuleNeed": 390,
+              "ruleNeedFull": 390,
+              "regularNeedFactor": 1,
+              "ruleNeedFactor": 1,
+              "recognizedRuleNeed": 390,
+              "fullMonthlyAdditionalNeed": 0,
+              "additionalNeedFactor": 1,
+              "recognizedAdditionalNeed": 0,
+              "housingHeadShare": 200,
+              "recognizedHousingNeed": 200,
+              "childTotalNeed": 590,
+              "totalChildNeed": 590,
+              "additionalNeedPositions": [
+                {
+                  "type": "decentral-hot-water",
+                  "fullMonthlyAmount": 0,
+                  "recognizedAmount": 0
+                },
+                {
+                  "type": "other-confirmed-recurring",
+                  "fullMonthlyAmount": 0,
+                  "recognizedAmount": 0
+                }
+              ],
+              "warnings": [],
+              "openChecks": [],
+              "usedRuleIds": [
+                "KIZ-CHILD-SGBII-NEED-001",
+                "KIZ-FAMILY-SGBII-NEED-001"
+              ],
+              "sourceIds": [
+                "SRC-SGBII-20",
+                "SRC-SGBII-21",
+                "SRC-SGBII-22",
+                "SRC-SGBII-23",
+                "SRC-RBSFV-2026",
+                "SRC-DA-KIZ-2026-02-20"
+              ],
+              "additionalNeeds": {
+                "full": 0,
+                "factor": 1,
+                "recognized": 0
+              }
+            },
+            "bgIncome": {
+              "ruleId": "KIZ-CHILD-BG-INCOME-001",
+              "childId": "c2",
+              "householdId": "A",
+              "status": "SUPPORTED",
+              "countableChildIncomeAverage": 0,
+              "childIncomeReductionForKiZ": 0,
+              "childBenefitForKiZMembership": 259,
+              "incomeForKiZMembership": 259,
+              "kizMembershipStatus": "SUPPORTED",
+              "isKizBgMember": true,
+              "childBenefitForSgbIIMembership": 259,
+              "incomeForSgbIIMembership": 259,
+              "sgbIIMembershipStatus": "SUPPORTED",
+              "isSgbIIBgMember": true,
+              "warnings": [],
+              "openChecks": [],
+              "usedRuleIds": [
+                "KIZ-CHILD-BG-INCOME-001",
+                "KIZ-CHILD-SGBII-NEED-001",
+                "KIZ-INCOME-CHILD-001",
+                "KIZ-REDUCE-CHILD-001"
+              ],
+              "sourceIds": [
+                "SRC-BKGG-6A",
+                "SRC-SGBII-7",
+                "SRC-SGBII-11",
+                "SRC-DA-KIZ-2026-02-20"
+              ]
+            },
+            "isKizBgMember": true,
+            "isSgbIIBgMember": true,
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-SGBII-BG-MEMBERSHIP-001",
+              "KIZ-CHILD-BG-INCOME-001",
+              "KIZ-CHILD-SGBII-NEED-001"
+            ]
+          },
+          {
+            "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+            "childId": "c3",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "childNeed": {
+              "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+              "childId": "c3",
+              "householdId": "A",
+              "status": "SUPPORTED",
+              "ageBand": "AGE_14_TO_17",
+              "fullMonthlyRuleNeed": 471,
+              "ruleNeedFull": 471,
+              "regularNeedFactor": 1,
+              "ruleNeedFactor": 1,
+              "recognizedRuleNeed": 471,
+              "fullMonthlyAdditionalNeed": 0,
+              "additionalNeedFactor": 1,
+              "recognizedAdditionalNeed": 0,
+              "housingHeadShare": 200,
+              "recognizedHousingNeed": 200,
+              "childTotalNeed": 671,
+              "totalChildNeed": 671,
+              "additionalNeedPositions": [
+                {
+                  "type": "decentral-hot-water",
+                  "fullMonthlyAmount": 0,
+                  "recognizedAmount": 0
+                },
+                {
+                  "type": "other-confirmed-recurring",
+                  "fullMonthlyAmount": 0,
+                  "recognizedAmount": 0
+                }
+              ],
+              "warnings": [],
+              "openChecks": [],
+              "usedRuleIds": [
+                "KIZ-CHILD-SGBII-NEED-001",
+                "KIZ-FAMILY-SGBII-NEED-001"
+              ],
+              "sourceIds": [
+                "SRC-SGBII-20",
+                "SRC-SGBII-21",
+                "SRC-SGBII-22",
+                "SRC-SGBII-23",
+                "SRC-RBSFV-2026",
+                "SRC-DA-KIZ-2026-02-20"
+              ],
+              "additionalNeeds": {
+                "full": 0,
+                "factor": 1,
+                "recognized": 0
+              }
+            },
+            "bgIncome": {
+              "ruleId": "KIZ-CHILD-BG-INCOME-001",
+              "childId": "c3",
+              "householdId": "A",
+              "status": "SUPPORTED",
+              "countableChildIncomeAverage": 0,
+              "childIncomeReductionForKiZ": 0,
+              "childBenefitForKiZMembership": 259,
+              "incomeForKiZMembership": 259,
+              "kizMembershipStatus": "SUPPORTED",
+              "isKizBgMember": true,
+              "childBenefitForSgbIIMembership": 259,
+              "incomeForSgbIIMembership": 259,
+              "sgbIIMembershipStatus": "SUPPORTED",
+              "isSgbIIBgMember": true,
+              "warnings": [],
+              "openChecks": [],
+              "usedRuleIds": [
+                "KIZ-CHILD-BG-INCOME-001",
+                "KIZ-CHILD-SGBII-NEED-001",
+                "KIZ-INCOME-CHILD-001",
+                "KIZ-REDUCE-CHILD-001"
+              ],
+              "sourceIds": [
+                "SRC-BKGG-6A",
+                "SRC-SGBII-7",
+                "SRC-SGBII-11",
+                "SRC-DA-KIZ-2026-02-20"
+              ]
+            },
+            "isKizBgMember": true,
+            "isSgbIIBgMember": true,
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-SGBII-BG-MEMBERSHIP-001",
+              "KIZ-CHILD-BG-INCOME-001",
+              "KIZ-CHILD-SGBII-NEED-001"
+            ]
+          }
+        ],
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-MAX-001",
+          "KIZ-HOUSING-RECOGNITION-001",
+          "KIZ-PARENT-HOUSING-SHARE-001"
+        ],
+        "sourceIds": [
+          "SRC-DA-KIZ-2026-02-20"
+        ]
+      },
+      "parentHousingShareForKiZ": 620,
+      "parentTotalNeed": 1632,
+      "formula": "parentRuleNeed + parentAdditionalNeedsTotal + parentHousingShareForKiZ",
+      "warnings": [],
+      "openChecks": [],
+      "usedRuleIds": [
+        "KIZ-PARENT-NEED-001",
+        "KIZ-PARENT-ADDITIONAL-NEED-001",
+        "KIZ-HOUSING-RECOGNITION-001",
+        "KIZ-PARENT-HOUSING-SHARE-001"
+      ],
+      "sourceIds": [
+        "SRC-SGBII-20",
+        "SRC-SGBII-21",
+        "SRC-RBSFV-2026",
+        "SRC-DA-KIZ-2026-02-20"
+      ],
+      "disclaimer": "Elternbedarf als KiZ-Zwischenwert; kein Familien-SGB-II-Bedarf und kein End- oder Auszahlungsbetrag."
+    },
+    "parentIncomeReduction": {
+      "ruleId": "KIZ-REDUCE-PARENT-001",
+      "householdId": "A",
+      "children": {
+        "kizBgChildren": [
+          {
+            "childId": "c1",
+            "individualKiZAfterChildIncome": 297,
+            "recipientPersonRole": "applicant"
+          },
+          {
+            "childId": "c2",
+            "individualKiZAfterChildIncome": 297,
+            "recipientPersonRole": "applicant"
+          },
+          {
+            "childId": "c3",
+            "individualKiZAfterChildIncome": 297,
+            "recipientPersonRole": "applicant"
+          }
+        ],
+        "excludedChildren": [],
+        "preParentReductionKiZ": 891
+      },
+      "parentNeed": 1632,
+      "parentIncome": {
+        "earnedIncome": 1832,
+        "otherIncome": 0,
+        "totalIncome": 1832
+      },
+      "excess": {
+        "otherIncomeExcess": 0,
+        "remainingNeedForEarnedIncome": 1632,
+        "earnedIncomeExcess": 200
+      },
+      "reductions": {
+        "otherIncomeReductionRate": 1,
+        "otherIncomeReduction": 0,
+        "earnedIncomeReductionRate": 0.45,
+        "earnedIncomeReduction": 90,
+        "parentIncomeReductionBeforeCap": 90,
+        "appliedParentIncomeReduction": 90,
+        "unappliedExcessReduction": 0
+      },
+      "kizAfterParentIncomeBeforeAssets": 801,
+      "patchworkAllocation": {
+        "required": false,
+        "status": "NOT_APPLICABLE",
+        "recipients": [
+          {
+            "recipientPersonRole": "applicant",
+            "childIds": [
+              "c1",
+              "c2",
+              "c3"
+            ],
+            "recipientPreParentKiZ": 891,
+            "recipientShare": 1,
+            "recipientParentReductionShare": 90,
+            "recipientKiZAfterParentIncome": 801
+          }
+        ],
+        "warnings": [],
+        "openChecks": []
+      },
+      "warnings": [
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_REMAINING_FAMILY_STATUS_NOT_CAPTURED",
+          "message": "Ein eigenes Kind des Kindes und das Zusammenleben mit einem eigenen Partner werden noch nicht erfasst.",
+          "field": null
+        },
+        {
+          "code": "CHILD_ASSETS_NOT_EVALUATED",
+          "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+          "field": "assets"
+        },
+        {
+          "code": "CHILD_ASSETS_NOT_EVALUATED",
+          "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+          "field": "assets"
+        },
+        {
+          "code": "CHILD_ASSETS_NOT_EVALUATED",
+          "message": "Kindesvermögen wird in Phase D5 nicht geprüft und kann die abschließende Überschussbewertung beeinflussen.",
+          "field": "assets"
+        }
+      ],
+      "openChecks": [
+        "CHILD_OWN_CHILD_STATUS_NOT_CAPTURED",
+        "CHILD_OWN_PARTNER_HOUSEHOLD_STATUS_NOT_CAPTURED"
+      ],
+      "remainingSteps": [
+        "CHILD_ASSETS_NOT_EVALUATED",
+        "PARENT_ASSETS_NOT_EVALUATED",
+        "COVERAGE_CHECK_NOT_EVALUATED",
+        "WOHNGELD_NOT_EVALUATED",
+        "FINAL_ROUNDING_NOT_APPLIED"
+      ],
+      "usedRuleIds": [
+        "KIZ-REDUCE-PARENT-001",
+        "KIZ-REDUCE-CHILD-001",
+        "KIZ-CHILD-BG-INCOME-001",
+        "KIZ-PARENT-NEED-001",
+        "KIZ-INCOME-ADULT-001",
+        "KIZ-CHILD-BENEFIT-SURPLUS-001"
+      ],
+      "sourceIds": [
+        "SRC-BKGG-6A",
+        "SRC-BKGG-11",
+        "SRC-SGBII-11-11B",
+        "SRC-DA-KIZ-2026-02-20"
+      ],
+      "disclaimer": "Haushaltsbezogener KiZ-Zwischenwert nach Elterneinkommen und vor Vermögen, Wohngeld, Bedarfsdeckungsprüfung und Schlussrundung; kein End- oder Auszahlungsbetrag.",
+      "status": "SUPPORTED"
+    },
+    "familyNeed": {
+      "ruleId": "KIZ-FAMILY-SGBII-NEED-001",
+      "householdId": "A",
+      "status": "SUPPORTED",
+      "adultRuleNeed": 1012,
+      "adultAdditionalNeeds": {
+        "ruleId": "KIZ-PARENT-ADDITIONAL-NEED-001",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "parentAdditionalNeedsTotal": 0,
+        "items": [
+          {
+            "type": "decentral-hot-water",
+            "personRole": "applicant",
+            "percentage": 0,
+            "rawAmount": 0,
+            "capGroup": "OUTSIDE_CAP",
+            "recognizedAmount": 0
+          },
+          {
+            "type": "decentral-hot-water",
+            "personRole": "partner",
+            "percentage": 0,
+            "rawAmount": 0,
+            "capGroup": "OUTSIDE_CAP",
+            "recognizedAmount": 0
+          }
+        ],
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-PARENT-ADDITIONAL-NEED-001"
+        ],
+        "sourceIds": [
+          "SRC-SGBII-21",
+          "SRC-RBSFV-2026",
+          "SRC-DA-KIZ-2026-02-20"
+        ]
+      },
+      "adultAdditionalNeedsTotal": 0,
+      "childMemberships": [
+        {
+          "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "childId": "c1",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c1",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_6_TO_13",
+            "fullMonthlyRuleNeed": 390,
+            "ruleNeedFull": 390,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 390,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 590,
+            "totalChildNeed": 590,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "bgIncome": {
+            "ruleId": "KIZ-CHILD-BG-INCOME-001",
+            "childId": "c1",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "countableChildIncomeAverage": 0,
+            "childIncomeReductionForKiZ": 0,
+            "childBenefitForKiZMembership": 259,
+            "incomeForKiZMembership": 259,
+            "kizMembershipStatus": "SUPPORTED",
+            "isKizBgMember": true,
+            "childBenefitForSgbIIMembership": 259,
+            "incomeForSgbIIMembership": 259,
+            "sgbIIMembershipStatus": "SUPPORTED",
+            "isSgbIIBgMember": true,
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-BG-INCOME-001",
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-INCOME-CHILD-001",
+              "KIZ-REDUCE-CHILD-001"
+            ],
+            "sourceIds": [
+              "SRC-BKGG-6A",
+              "SRC-SGBII-7",
+              "SRC-SGBII-11",
+              "SRC-DA-KIZ-2026-02-20"
+            ]
+          },
+          "isKizBgMember": true,
+          "isSgbIIBgMember": true,
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-SGBII-BG-MEMBERSHIP-001",
+            "KIZ-CHILD-BG-INCOME-001",
+            "KIZ-CHILD-SGBII-NEED-001"
+          ]
+        },
+        {
+          "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "childId": "c2",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c2",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_6_TO_13",
+            "fullMonthlyRuleNeed": 390,
+            "ruleNeedFull": 390,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 390,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 590,
+            "totalChildNeed": 590,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "bgIncome": {
+            "ruleId": "KIZ-CHILD-BG-INCOME-001",
+            "childId": "c2",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "countableChildIncomeAverage": 0,
+            "childIncomeReductionForKiZ": 0,
+            "childBenefitForKiZMembership": 259,
+            "incomeForKiZMembership": 259,
+            "kizMembershipStatus": "SUPPORTED",
+            "isKizBgMember": true,
+            "childBenefitForSgbIIMembership": 259,
+            "incomeForSgbIIMembership": 259,
+            "sgbIIMembershipStatus": "SUPPORTED",
+            "isSgbIIBgMember": true,
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-BG-INCOME-001",
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-INCOME-CHILD-001",
+              "KIZ-REDUCE-CHILD-001"
+            ],
+            "sourceIds": [
+              "SRC-BKGG-6A",
+              "SRC-SGBII-7",
+              "SRC-SGBII-11",
+              "SRC-DA-KIZ-2026-02-20"
+            ]
+          },
+          "isKizBgMember": true,
+          "isSgbIIBgMember": true,
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-SGBII-BG-MEMBERSHIP-001",
+            "KIZ-CHILD-BG-INCOME-001",
+            "KIZ-CHILD-SGBII-NEED-001"
+          ]
+        },
+        {
+          "ruleId": "KIZ-SGBII-BG-MEMBERSHIP-001",
+          "childId": "c3",
+          "householdId": "A",
+          "status": "SUPPORTED",
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c3",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_14_TO_17",
+            "fullMonthlyRuleNeed": 471,
+            "ruleNeedFull": 471,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 471,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 671,
+            "totalChildNeed": 671,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "bgIncome": {
+            "ruleId": "KIZ-CHILD-BG-INCOME-001",
+            "childId": "c3",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "countableChildIncomeAverage": 0,
+            "childIncomeReductionForKiZ": 0,
+            "childBenefitForKiZMembership": 259,
+            "incomeForKiZMembership": 259,
+            "kizMembershipStatus": "SUPPORTED",
+            "isKizBgMember": true,
+            "childBenefitForSgbIIMembership": 259,
+            "incomeForSgbIIMembership": 259,
+            "sgbIIMembershipStatus": "SUPPORTED",
+            "isSgbIIBgMember": true,
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-BG-INCOME-001",
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-INCOME-CHILD-001",
+              "KIZ-REDUCE-CHILD-001"
+            ],
+            "sourceIds": [
+              "SRC-BKGG-6A",
+              "SRC-SGBII-7",
+              "SRC-SGBII-11",
+              "SRC-DA-KIZ-2026-02-20"
+            ]
+          },
+          "isKizBgMember": true,
+          "isSgbIIBgMember": true,
+          "warnings": [],
+          "openChecks": [],
+          "usedRuleIds": [
+            "KIZ-SGBII-BG-MEMBERSHIP-001",
+            "KIZ-CHILD-BG-INCOME-001",
+            "KIZ-CHILD-SGBII-NEED-001"
+          ]
+        }
+      ],
+      "sgbIIMemberChildCount": 3,
+      "housingRecognition": {
+        "ruleId": "KIZ-HOUSING-RECOGNITION-001",
+        "householdId": "A",
+        "status": "SUPPORTED",
+        "positions": [
+          {
+            "type": "coldRent",
+            "amount": 800,
+            "recognized": true
+          },
+          {
+            "type": "coldUtilities",
+            "amount": 100,
+            "recognized": true
+          },
+          {
+            "type": "heating",
+            "amount": 100,
+            "recognized": true
+          },
+          {
+            "type": "parking",
+            "amount": 0,
+            "recognized": false
+          }
+        ],
+        "actualHousingCosts": 1000,
+        "directHousingCostReduction": 0,
+        "adjustedActualCosts": 1000,
+        "bgCorePersons": 5,
+        "otherResidents": 0,
+        "allCoreResidents": 5,
+        "recognizedHousingCosts": 1000,
+        "warnings": [],
+        "openChecks": [],
+        "usedRuleIds": [
+          "KIZ-HOUSING-RECOGNITION-001"
+        ],
+        "sourceIds": [
+          "SRC-DA-KIZ-2026-02-20"
+        ]
+      },
+      "housingHeadShare": 200,
+      "housingDenominatorHeads": 5,
+      "familyHousingHeads": 5,
+      "familyHousingNeedForSgbII": 1000,
+      "recognizedChildRuleNeeds": 1251,
+      "recognizedChildAdditionalNeeds": 0,
+      "familySgbIINeed": 3263,
+      "adultPositions": [
+        {
+          "personId": "A-applicant",
+          "role": "parent",
+          "personRole": "applicant",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 506,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 706
+        },
+        {
+          "personId": "A-partner",
+          "role": "parent",
+          "personRole": "partner",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 506,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 706
+        }
+      ],
+      "childPositions": [
+        {
+          "personId": "c1",
+          "role": "child",
+          "childId": "c1",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 390,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 590,
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c1",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_6_TO_13",
+            "fullMonthlyRuleNeed": 390,
+            "ruleNeedFull": 390,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 390,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 590,
+            "totalChildNeed": 590,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "includedNeed": 590
+        },
+        {
+          "personId": "c2",
+          "role": "child",
+          "childId": "c2",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 390,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 590,
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c2",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_6_TO_13",
+            "fullMonthlyRuleNeed": 390,
+            "ruleNeedFull": 390,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 390,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 590,
+            "totalChildNeed": 590,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "includedNeed": 590
+        },
+        {
+          "personId": "c3",
+          "role": "child",
+          "childId": "c3",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 471,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 671,
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c3",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_14_TO_17",
+            "fullMonthlyRuleNeed": 471,
+            "ruleNeedFull": 471,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 471,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 671,
+            "totalChildNeed": 671,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "includedNeed": 671
+        }
+      ],
+      "persons": [
+        {
+          "personId": "A-applicant",
+          "role": "parent",
+          "personRole": "applicant",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 506,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 706
+        },
+        {
+          "personId": "A-partner",
+          "role": "parent",
+          "personRole": "partner",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 506,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 706
+        },
+        {
+          "personId": "c1",
+          "role": "child",
+          "childId": "c1",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 390,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 590,
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c1",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_6_TO_13",
+            "fullMonthlyRuleNeed": 390,
+            "ruleNeedFull": 390,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 390,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 590,
+            "totalChildNeed": 590,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "includedNeed": 590
+        },
+        {
+          "personId": "c2",
+          "role": "child",
+          "childId": "c2",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 390,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 590,
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c2",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_6_TO_13",
+            "fullMonthlyRuleNeed": 390,
+            "ruleNeedFull": 390,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 390,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 590,
+            "totalChildNeed": 590,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "includedNeed": 590
+        },
+        {
+          "personId": "c3",
+          "role": "child",
+          "childId": "c3",
+          "kizBgMember": true,
+          "sgbIIBgMember": true,
+          "ruleNeed": 471,
+          "additionalNeeds": 0,
+          "additionalNeed": 0,
+          "housingHeadShare": 200,
+          "totalNeed": 671,
+          "childNeed": {
+            "ruleId": "KIZ-CHILD-SGBII-NEED-001",
+            "childId": "c3",
+            "householdId": "A",
+            "status": "SUPPORTED",
+            "ageBand": "AGE_14_TO_17",
+            "fullMonthlyRuleNeed": 471,
+            "ruleNeedFull": 471,
+            "regularNeedFactor": 1,
+            "ruleNeedFactor": 1,
+            "recognizedRuleNeed": 471,
+            "fullMonthlyAdditionalNeed": 0,
+            "additionalNeedFactor": 1,
+            "recognizedAdditionalNeed": 0,
+            "housingHeadShare": 200,
+            "recognizedHousingNeed": 200,
+            "childTotalNeed": 671,
+            "totalChildNeed": 671,
+            "additionalNeedPositions": [
+              {
+                "type": "decentral-hot-water",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              },
+              {
+                "type": "other-confirmed-recurring",
+                "fullMonthlyAmount": 0,
+                "recognizedAmount": 0
+              }
+            ],
+            "warnings": [],
+            "openChecks": [],
+            "usedRuleIds": [
+              "KIZ-CHILD-SGBII-NEED-001",
+              "KIZ-FAMILY-SGBII-NEED-001"
+            ],
+            "sourceIds": [
+              "SRC-SGBII-20",
+              "SRC-SGBII-21",
+              "SRC-SGBII-22",
+              "SRC-SGBII-23",
+              "SRC-RBSFV-2026",
+              "SRC-DA-KIZ-2026-02-20"
+            ],
+            "additionalNeeds": {
+              "full": 0,
+              "factor": 1,
+              "recognized": 0
+            }
+          },
+          "includedNeed": 671
+        }
+      ],
+      "housing": {
+        "totalRelevantHousingCosts": 1000,
+        "totalHousingHeads": 5,
+        "housingHeadShare": 200,
+        "sgbIIBgHousingHeads": 5,
+        "familyHousingNeedForSgbII": 1000
+      },
+      "formula": "adultRuleNeed + adultAdditionalNeedsTotal + SGBII-member child rule/additional needs + familyHousingNeedForSgbII",
+      "warnings": [],
+      "openChecks": [],
+      "usedRuleIds": [
+        "KIZ-FAMILY-SGBII-NEED-001",
+        "KIZ-SGBII-BG-MEMBERSHIP-001",
+        "KIZ-CHILD-BG-INCOME-001",
+        "KIZ-CHILD-SGBII-NEED-001",
+        "KIZ-PARENT-ADDITIONAL-NEED-001",
+        "KIZ-HOUSING-RECOGNITION-001"
+      ],
+      "sourceIds": [
+        "SRC-SGBII-7",
+        "SRC-SGBII-20",
+        "SRC-SGBII-21",
+        "SRC-SGBII-22",
+        "SRC-SGBII-23",
+        "SRC-RBSFV-2026",
+        "SRC-DA-KIZ-2026-02-20"
+      ],
+      "disclaimer": "Bedarfsseitiger Familien-SGB-II-Zwischenwert; keine Hilfebedürftigkeits-, Wohngeld- oder endgültige KiZ-Entscheidung."
+    },
+    "coverage": {
+      "ruleId": "KIZ-COVERAGE-001",
+      "householdId": "A",
+      "familyNeed": {
+        "familySgbIINeed": 3263
+      },
+      "income": {
+        "adultRegularIncome": 1832,
+        "coverageChildBenefitSurplusForParents": 0,
+        "adultCoverageIncome": 1832,
+        "childIncome": 0,
+        "childBenefitForChildren": 777,
+        "childCoverageIncome": 777,
+        "totalIncomeBeforeKiZ": 2609,
+        "childResults": [
+          {
+            "ruleId": "KIZ-COVERAGE-CHILD-BENEFIT-001",
+            "childId": "c1",
+            "isSgbIIBgMember": true,
+            "totalChildNeed": 590,
+            "countableChildIncomeAverage": 0,
+            "childBenefitCountedInThisHousehold": 259,
+            "remainingNeedAfterOwnSgbIIIncome": 590,
+            "childBenefitForChildCoverageNeed": 259,
+            "coverageChildBenefitSurplus": 0,
+            "status": "SUPPORTED",
+            "openChecks": []
+          },
+          {
+            "ruleId": "KIZ-COVERAGE-CHILD-BENEFIT-001",
+            "childId": "c2",
+            "isSgbIIBgMember": true,
+            "totalChildNeed": 590,
+            "countableChildIncomeAverage": 0,
+            "childBenefitCountedInThisHousehold": 259,
+            "remainingNeedAfterOwnSgbIIIncome": 590,
+            "childBenefitForChildCoverageNeed": 259,
+            "coverageChildBenefitSurplus": 0,
+            "status": "SUPPORTED",
+            "openChecks": []
+          },
+          {
+            "ruleId": "KIZ-COVERAGE-CHILD-BENEFIT-001",
+            "childId": "c3",
+            "isSgbIIBgMember": true,
+            "totalChildNeed": 671,
+            "countableChildIncomeAverage": 0,
+            "childBenefitCountedInThisHousehold": 259,
+            "remainingNeedAfterOwnSgbIIIncome": 671,
+            "childBenefitForChildCoverageNeed": 259,
+            "coverageChildBenefitSurplus": 0,
+            "status": "SUPPORTED",
+            "openChecks": []
+          }
+        ]
+      },
+      "kiz": {
+        "month1KiZAfterIncomeAndAssets": 801
+      },
+      "assets": {
+        "status": "CONFIRMED_NONE",
+        "countableCoverageAssets": 0
+      },
+      "housingBenefit": {
+        "status": "not-received",
+        "basis": "NOT_NEEDED",
+        "amount": 0,
+        "automaticCalculation": {
+          "requested": true,
+          "foundationStatus": null,
+          "amountStatus": null,
+          "benefitType": null,
+          "calculatedAmount": null,
+          "ruleVersion": null,
+          "openChecks": []
+        }
+      },
+      "coverage": {
+        "resourcesWithoutWohngeld": 3410,
+        "gapBeforeWohngeld": 0,
+        "resourcesWithWohngeld": 3410,
+        "gapAfterWohngeld": 0,
+        "surplusAfterWohngeld": 147
+      },
+      "normalAccess": {
+        "met": true
+      },
+      "extendedAccess": {
+        "needed": false,
+        "gapWithin100": null,
+        "averageParentEarnedActivityDeductions": null,
+        "earnedDeductionConditionMet": null,
+        "sgbBenefitConditionMet": null,
+        "met": null,
+        "decision": null
+      },
+      "coverageDecision": "NORMAL_ACCESS_COVERAGE_MET",
+      "reliability": "SUPPORTED",
+      "status": "SUPPORTED",
+      "warnings": [],
+      "openChecks": [],
+      "remainingSteps": [
+        "AUTOMATIC_HOUSING_BENEFIT_NOT_EVALUATED",
+        "SGBII_COVERAGE_ASSET_ENGINE_NOT_EVALUATED",
+        "FINAL_ROUNDING_NOT_APPLIED",
+        "FINAL_ENTITLEMENT_NOT_DETERMINED"
+      ],
+      "usedRuleIds": [
+        "KIZ-COVERAGE-001",
+        "KIZ-COVERAGE-INCOME-001",
+        "KIZ-COVERAGE-CHILD-BENEFIT-001",
+        "KIZ-EXTENDED-ACCESS-001",
+        "KIZ-FAMILY-SGBII-NEED-001",
+        "KIZ-INCOME-ADULT-001",
+        "KIZ-ASSET-INTEGRATION-001"
+      ],
+      "sourceIds": [
+        "SRC-BKGG-6A",
+        "SRC-SGBII-7",
+        "SRC-SGBII-11-11B",
+        "SRC-SGBII-26",
+        "SRC-DA-KIZ-2026-02-20"
+      ]
+    }
+  },
+  "wohngeld": {
+    "foundation": {
+      "ruleId": "WG-FOUNDATION-001",
+      "householdId": "A",
+      "household": {
+        "ruleId": "WG-HOUSEHOLD-001",
+        "householdId": "A",
+        "totalMembers": 5,
+        "consideredMembers": 5,
+        "excludedMembers": 0,
+        "members": [
+          {
+            "personId": "applicant-a",
+            "role": "applicant",
+            "childId": null,
+            "name": "Person A",
+            "careDaysInReferenceMonth": null,
+            "specialMembershipBasis": null,
+            "wohngeldExclusionStatus": "not-excluded",
+            "wohngeldExclusionReason": "",
+            "considered": true
+          },
+          {
+            "personId": "partner-a",
+            "role": "partner",
+            "childId": null,
+            "name": "Person P",
+            "careDaysInReferenceMonth": null,
+            "specialMembershipBasis": null,
+            "wohngeldExclusionStatus": "not-excluded",
+            "wohngeldExclusionReason": "",
+            "considered": true
+          },
+          {
+            "personId": "c1",
+            "role": "child",
+            "childId": "c1",
+            "name": "Testkind c1",
+            "careDaysInReferenceMonth": 30,
+            "specialMembershipBasis": null,
+            "wohngeldExclusionStatus": "not-excluded",
+            "wohngeldExclusionReason": "",
+            "considered": true
+          },
+          {
+            "personId": "c2",
+            "role": "child",
+            "childId": "c2",
+            "name": "Testkind c2",
+            "careDaysInReferenceMonth": 30,
+            "specialMembershipBasis": null,
+            "wohngeldExclusionStatus": "not-excluded",
+            "wohngeldExclusionReason": "",
+            "considered": true
+          },
+          {
+            "personId": "c3",
+            "role": "child",
+            "childId": "c3",
+            "name": "Testkind c3",
+            "careDaysInReferenceMonth": 30,
+            "specialMembershipBasis": null,
+            "wohngeldExclusionStatus": "not-excluded",
+            "wohngeldExclusionReason": "",
+            "considered": true
+          }
+        ],
+        "status": "SUPPORTED",
+        "warnings": [],
+        "openChecks": []
+      },
+      "housing": {
+        "type": "rent",
+        "rent": {
+          "ruleId": "WG-RENT-001",
+          "rawEligibleColdRent": 900,
+          "excludedHeating": 100,
+          "excludedWarmWater": 0,
+          "excludedHouseholdEnergy": 0,
+          "excludedParking": 0,
+          "adjustedBaseRent": 900,
+          "status": "SUPPORTED",
+          "warnings": [],
+          "openChecks": []
+        },
+        "owner": null,
+        "rawMonthlyRentOrBurden": 900
+      },
+      "income": {
+        "ruleId": "WG-INCOME-001",
+        "annualIncomeAfterWoGG16": 26103,
+        "annualAllowances": 0,
+        "singleParentAllowance": 0,
+        "annualMaintenanceDeductions": 0,
+        "maintenanceResults": [],
+        "annualHouseholdIncome": 26103,
+        "monthlyTotalIncomeY": 2175.25,
+        "personResults": [
+          {
+            "ruleId": "WG-INCOME-001",
+            "personId": "applicant-a",
+            "expectedAnnualIncomeBeforeWoGG16": 37290,
+            "annualEarnedIncomeBeforeWoGG16": 37290,
+            "percentageDeductions": {
+              "tax": true,
+              "healthCare": true,
+              "pension": true,
+              "totalRate": 0.3
+            },
+            "annualIncomeAfterWoGG16": 26103,
+            "annualAllowances": 0,
+            "sourceResults": [
+              {
+                "sourceId": "annual-a",
+                "type": "employment",
+                "annualIncomeBeforeWoGG16": 37290,
+                "annualEarnedIncomeBeforeWoGG16": 37290,
+                "excludedFromIncome": false,
+                "status": "SUPPORTED",
+                "warnings": [],
+                "openChecks": []
+              }
+            ],
+            "status": "SUPPORTED",
+            "warnings": [],
+            "openChecks": []
+          },
+          {
+            "ruleId": "WG-INCOME-001",
+            "personId": "partner-a",
+            "expectedAnnualIncomeBeforeWoGG16": 0,
+            "annualEarnedIncomeBeforeWoGG16": 0,
+            "percentageDeductions": {
+              "tax": false,
+              "healthCare": false,
+              "pension": false,
+              "totalRate": 0
+            },
+            "annualIncomeAfterWoGG16": 0,
+            "annualAllowances": 0,
+            "sourceResults": [],
+            "status": "SUPPORTED",
+            "warnings": [],
+            "openChecks": []
+          },
+          {
+            "ruleId": "WG-INCOME-001",
+            "personId": "c1",
+            "expectedAnnualIncomeBeforeWoGG16": 0,
+            "annualEarnedIncomeBeforeWoGG16": 0,
+            "percentageDeductions": {
+              "tax": false,
+              "healthCare": false,
+              "pension": false,
+              "totalRate": 0
+            },
+            "annualIncomeAfterWoGG16": 0,
+            "annualAllowances": 0,
+            "sourceResults": [],
+            "status": "SUPPORTED",
+            "warnings": [],
+            "openChecks": []
+          },
+          {
+            "ruleId": "WG-INCOME-001",
+            "personId": "c2",
+            "expectedAnnualIncomeBeforeWoGG16": 0,
+            "annualEarnedIncomeBeforeWoGG16": 0,
+            "percentageDeductions": {
+              "tax": false,
+              "healthCare": false,
+              "pension": false,
+              "totalRate": 0
+            },
+            "annualIncomeAfterWoGG16": 0,
+            "annualAllowances": 0,
+            "sourceResults": [],
+            "status": "SUPPORTED",
+            "warnings": [],
+            "openChecks": []
+          },
+          {
+            "ruleId": "WG-INCOME-001",
+            "personId": "c3",
+            "expectedAnnualIncomeBeforeWoGG16": 0,
+            "annualEarnedIncomeBeforeWoGG16": 0,
+            "percentageDeductions": {
+              "tax": false,
+              "healthCare": false,
+              "pension": false,
+              "totalRate": 0
+            },
+            "annualIncomeAfterWoGG16": 0,
+            "annualAllowances": 0,
+            "sourceResults": [],
+            "status": "SUPPORTED",
+            "warnings": [],
+            "openChecks": []
+          }
+        ],
+        "status": "SUPPORTED",
+        "warnings": [],
+        "openChecks": []
+      },
+      "mietstufe": "IV",
+      "preparedForWohngeldFormula": {
+        "householdMemberCount": 5,
+        "rawMonthlyRentOrBurden": 900,
+        "monthlyTotalIncomeY": 2175.25,
+        "mietstufe": "IV"
+      },
+      "status": "SUPPORTED",
+      "warnings": [],
+      "openChecks": [],
+      "usedRuleIds": [
+        "WG-HOUSEHOLD-001",
+        "WG-INCOME-001",
+        "WG-RENT-001",
+        "WG-FOUNDATION-001"
+      ],
+      "finalWohngeldAmount": null,
+      "remainingSteps": [
+        "WG_AMOUNT_001_NOT_APPLIED",
+        "SECTION_19_FORMULA_NOT_APPLIED",
+        "HEATING_AND_CLIMATE_COMPONENTS_NOT_APPLIED"
+      ]
+    },
+    "amount": {
+      "ruleId": "WG-AMOUNT-001",
+      "householdId": "A",
+      "benefitType": "MIETZUSCHUSS",
+      "ruleVersion": "WG_RULESET_2025_2026",
+      "foundationRuleId": "WG-FOUNDATION-001",
+      "memberCounts": {
+        "totalHouseholdMembers": 5,
+        "consideredHouseholdMembers": 5,
+        "excludedHouseholdMembers": 0,
+        "consideredRatio": 1
+      },
+      "housing": {
+        "rawMonthlyRentOrBurden": 900,
+        "fullHousingMaximum": 982,
+        "fullClimateComponent": 39.2,
+        "fullHeatingRelief": 225.4,
+        "consideredHousingMaximum": 982,
+        "consideredClimateComponent": 39.2,
+        "consideredHeatingRelief": 225.4,
+        "coldHousingUpperLimit": 1021.2,
+        "recognizedColdRentOrBurden": 900,
+        "actualFormulaM": 1125.4
+      },
+      "income": {
+        "actualMonthlyTotalIncomeY": 2175.25
+      },
+      "formula": {
+        "coefficientMemberCount": 5,
+        "a": "0.0000000000",
+        "b": "0.0001907000",
+        "c": "0.0000172000",
+        "actualM": "1125.4000000000",
+        "minimumM": 103,
+        "formulaM": "1125.4000000000",
+        "actualY": "2175.2500000000",
+        "minimumY": 1358,
+        "formulaY": "2175.2500000000",
+        "M": "1125.4000000000",
+        "Y": "2175.2500000000",
+        "z1": "0.2520280800",
+        "z2": "548.2240810200",
+        "z3": "577.1759189800",
+        "z4": "663.7523068270"
+      },
+      "unroundedFormulaAmount": "663.7523068270",
+      "roundedFormulaAmount": 664,
+      "calculatedMonthlyWohngeld": 664,
+      "payableWohngeldAmount": 664,
+      "amountStatus": "POSITIVE_AMOUNT",
+      "eligibilityReason": null,
+      "status": "SUPPORTED",
+      "warnings": [],
+      "openChecks": [],
+      "remainingChecks": [
+        "WG_SECTION_20_CHECK_NOT_FULLY_EVALUATED",
+        "WG_SIGNIFICANT_ASSETS_CHECK_NOT_FULLY_EVALUATED"
+      ],
+      "usedRuleIds": [
+        "WG-HOUSEHOLD-001",
+        "WG-INCOME-001",
+        "WG-RENT-001",
+        "WG-FOUNDATION-001",
+        "WG-AMOUNT-001"
+      ]
+    }
+  },
+  "parameters": {
+    "sourceStand": {
+      "legalPeriod": "2026",
+      "daKiz": "20.02.2026",
+      "calculationSpec": "15.08.2026",
+      "sourceIds": [
+        "SRC-DA-KIZ-2026-02-20",
+        "SRC-BKGG-6A",
+        "SRC-BKGG-11",
+        "SRC-SGBII-7",
+        "SRC-SGBII-11",
+        "SRC-SGBII-11-11B",
+        "SRC-SGBII-11A",
+        "SRC-SGBII-12-PRE-2026-07",
+        "SRC-SGBII-12-POST-2026-07",
+        "SRC-SGBII-20",
+        "SRC-SGBII-21",
+        "SRC-SGBII-22",
+        "SRC-SGBII-23",
+        "SRC-SGBII-26",
+        "SRC-RBSFV-2026",
+        "SRC-BUERGERGELDV-1",
+        "SRC-FW-SGBII-11-11B-2024-10-24",
+        "SRC-BEEG-10",
+        "SRC-SGBV-47-1",
+        "SRC-PRODUCT-SPEC-2026"
+      ]
+    },
+    "parentRuleNeeds": {
+      "single": [
+        563
+      ],
+      "couple": [
+        506,
+        506
+      ]
+    },
+    "childRuleNeeds": {
+      "age0To5": {
+        "amount": 357,
+        "hotWaterRate": 0.008
+      },
+      "age6To13": {
+        "amount": 390,
+        "hotWaterRate": 0.012
+      },
+      "age14To17": {
+        "amount": 471,
+        "hotWaterRate": 0.014
+      },
+      "age18To24U25": {
+        "amount": 451,
+        "hotWaterRate": 0.023
+      }
+    },
+    "childBenefit": 259,
+    "parentHousingPercentages": {
+      "single": [
+        77,
+        63,
+        53,
+        46,
+        40,
+        36,
+        33,
+        30,
+        27,
+        25
+      ],
+      "couple": [
+        83,
+        71,
+        62,
+        55,
+        50,
+        45,
+        41,
+        38,
+        35,
+        33
+      ]
+    },
+    "wohngeld": {
+      "RULE_VERSION": "WG_RULESET_2025_2026",
+      "MIETSTUFEN": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+      ],
+      "HOUSING_MAXIMUMS": {
+        "1": {
+          "I": 361,
+          "II": 408,
+          "III": 456,
+          "IV": 511,
+          "V": 562,
+          "VI": 615,
+          "VII": 677
+        },
+        "2": {
+          "I": 437,
+          "II": 493,
+          "III": 551,
+          "IV": 619,
+          "V": 680,
+          "VI": 745,
+          "VII": 820
+        },
+        "3": {
+          "I": 521,
+          "II": 587,
+          "III": 657,
+          "IV": 737,
+          "V": 809,
+          "VI": 887,
+          "VII": 975
+        },
+        "4": {
+          "I": 608,
+          "II": 686,
+          "III": 766,
+          "IV": 858,
+          "V": 946,
+          "VI": 1035,
+          "VII": 1139
+        },
+        "5": {
+          "I": 694,
+          "II": 782,
+          "III": 875,
+          "IV": 982,
+          "V": 1080,
+          "VI": 1183,
+          "VII": 1302
+        }
+      },
+      "HOUSING_MAXIMUM_ADDITIONAL": {
+        "I": 82,
+        "II": 94,
+        "III": 106,
+        "IV": 119,
+        "V": 129,
+        "VI": 149,
+        "VII": 163
+      },
+      "CLIMATE_COMPONENTS": {
+        "1": "19.20",
+        "2": "24.80",
+        "3": "29.60",
+        "4": "34.40",
+        "5": "39.20"
+      },
+      "CLIMATE_COMPONENT_ADDITIONAL": "4.80",
+      "HEATING_RELIEF": {
+        "1": "110.40",
+        "2": "142.60",
+        "3": "170.20",
+        "4": "197.80",
+        "5": "225.40"
+      },
+      "HEATING_RELIEF_ADDITIONAL": "27.60",
+      "FORMULA_COEFFICIENTS": {
+        "1": {
+          "a": "0.04",
+          "b": "0.0004797",
+          "c": "0.0000408"
+        },
+        "2": {
+          "a": "0.03",
+          "b": "0.0003571",
+          "c": "0.0000304"
+        },
+        "3": {
+          "a": "0.02",
+          "b": "0.0002917",
+          "c": "0.0000245"
+        },
+        "4": {
+          "a": "0.01",
+          "b": "0.0002163",
+          "c": "0.0000176"
+        },
+        "5": {
+          "a": "0",
+          "b": "0.0001907",
+          "c": "0.0000172"
+        },
+        "6": {
+          "a": "-0.01",
+          "b": "0.0001722",
+          "c": "0.0000166"
+        },
+        "7": {
+          "a": "-0.02",
+          "b": "0.0001592",
+          "c": "0.0000165"
+        },
+        "8": {
+          "a": "-0.03",
+          "b": "0.0001583",
+          "c": "0.0000165"
+        },
+        "9": {
+          "a": "-0.04",
+          "b": "0.0001376",
+          "c": "0.0000166"
+        },
+        "10": {
+          "a": "-0.06",
+          "b": "0.0001249",
+          "c": "0.0000166"
+        },
+        "11": {
+          "a": "-0.09",
+          "b": "0.0001141",
+          "c": "0.0000196"
+        },
+        "12": {
+          "a": "-0.12",
+          "b": "0.0001107",
+          "c": "0.0000221"
+        }
+      },
+      "FORMULA_MINIMUMS": {
+        "1": {
+          "M": 54,
+          "Y": 396
+        },
+        "2": {
+          "M": 67,
+          "Y": 679
+        },
+        "3": {
+          "M": 79,
+          "Y": 906
+        },
+        "4": {
+          "M": 92,
+          "Y": 1132
+        },
+        "5": {
+          "M": 103,
+          "Y": 1358
+        },
+        "6": {
+          "M": 103,
+          "Y": 1585
+        },
+        "7": {
+          "M": 115,
+          "Y": 1811
+        },
+        "8": {
+          "M": 128,
+          "Y": 2037
+        },
+        "9": {
+          "M": 140,
+          "Y": 2264
+        },
+        "10": {
+          "M": 152,
+          "Y": 2490
+        },
+        "11": {
+          "M": 187,
+          "Y": 2717
+        },
+        "12": {
+          "M": 298,
+          "Y": 2943
+        }
+      },
+      "SOURCE_METADATA": {
+        "law": "Wohngeldgesetz",
+        "legalState": "2025/2026",
+        "retrievedAt": "2026-08-15",
+        "officialUrl": "https://www.gesetze-im-internet.de/wogg/",
+        "provisions": [
+          "§ 11",
+          "§ 12",
+          "§ 19",
+          "§ 21",
+          "Anlage 1",
+          "Anlage 2",
+          "Anlage 3"
+        ],
+        "federalGazette": "BGBl. 2024 I Nr. 314"
+      }
+    }
+  }
+}

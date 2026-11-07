@@ -1,0 +1,12 @@
+{
+  "caseId": "payroll-mini-mandatory",
+  "evidenceKind": "SYNTHETIC",
+  "operation": "payroll",
+  "job": "L1",
+  "month": "2026-08",
+  "options": {
+    "miniPension": "mandatory",
+    "miniTaxPassedOn": 0,
+    "commercialMinijob": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "NO_PATTERN_MATCHES",
+  "scannedItems": 152,
+  "historyBlobsScanned": 0,
+  "privateMarkerChecks": 18,
+  "findings": [],
+  "limitation": "Pattern scan plus manual review; no mathematical guarantee of irreversibility or third-party account anonymity"
+}

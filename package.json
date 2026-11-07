@@ -1,0 +1,17 @@
+{
+  "name": "kiz-wohngeld-independent-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unveränderte Rechenkern-Snapshots und synthetische unabhängige Prüfaufträge",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node audit/test-all.js",
+    "test:main": "node snapshots/main/tests/run-all-tests.js",
+    "test:finance": "node snapshots/finance/tests/run-all-tests.js",
+    "test:audit": "node --test audit/harness.test.js",
+    "verify": "node audit/verify-integrity.js",
+    "case": "node audit/run-case.js",
+    "compare": "node audit/compare.js",
+    "examples": "node audit/write-observations.js"
+  }
+}
