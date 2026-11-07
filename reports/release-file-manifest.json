@@ -56,8 +56,8 @@
   },
   {
     "path": "audit/privacy-scan.py",
-    "bytes": 3213,
-    "sha256": "adfc03dac8f512e1af54ad55b8bb51cb93206aaf47c9b77a176d1660699f229b"
+    "bytes": 3352,
+    "sha256": "b0feb0a419b5e1d1c2a098a6141ef9f326efb50e73be68f046ac133c4cd41574"
   },
   {
     "path": "audit/run-case.js",
@@ -295,6 +295,11 @@
     "sha256": "e61c3d5b312930b85d1ca26dbee5e750935504217c0482eb54d402ef652b5eb4"
   },
   {
+    "path": "downloads/kiz-wohngeld-independent-audit.zip",
+    "bytes": 901493,
+    "sha256": "48b08264e4ddb7d0379b68c87fc0d0eab2344ac0d3390ca8c50c416518a3e78a"
+  },
+  {
     "path": "package.json",
     "bytes": 643,
     "sha256": "a957f4a8596a4dec4b34aa6704176a4c7c3060506c66d09bacdf8f06b51bec22"
@@ -311,8 +316,8 @@
   },
   {
     "path": "reports/FILE_INVENTORY.md",
-    "bytes": 6420,
-    "sha256": "3a74ba610118e57409726641ccff5e7e16e28d041a933e9410a85ef9f919b897"
+    "bytes": 6408,
+    "sha256": "bca61200572198132beba7a0fa9cd0953c89a5fee82eb51f1967b4d2c7ad4899"
   },
   {
     "path": "reports/PRIVACY_REVIEW.md",

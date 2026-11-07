@@ -5,6 +5,7 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--root',default=str(Path(__file__).resolve().parents[1]))
 parser.add_argument('--denylist',help='Private JSON with regexes; never copy it into this repository')
 parser.add_argument('--history',action='store_true')
+parser.add_argument('--no-write',action='store_true',help='Final verification without changing repository files')
 args=parser.parse_args()
 root=Path(args.root).resolve()
 rules=[
@@ -46,8 +47,9 @@ if args.history:
    data=subprocess.run(['git','cat-file','blob',oid],cwd=root,capture_output=True,check=True).stdout
    scan('GIT_BLOB:'+name,data,False);history_entries+=1
 report={'status':'NO_PATTERN_MATCHES' if not hits else 'REVIEW_REQUIRED','scannedItems':scanned,'historyBlobsScanned':history_entries,'privateMarkerChecks':len(private),'findings':hits,'limitation':'Pattern scan plus manual review; no mathematical guarantee of irreversibility or third-party account anonymity'}
-out=root/'reports';out.mkdir(exist_ok=True)
-(out/('history-scan-results.json' if args.history else 'privacy-scan-results.json')).write_text(json.dumps(report,indent=2)+'\n')
-if not args.history:(out/'release-file-manifest.json').write_text(json.dumps(hashes,indent=2)+'\n')
+if not args.no_write:
+ out=root/'reports';out.mkdir(exist_ok=True)
+ (out/('history-scan-results.json' if args.history else 'privacy-scan-results.json')).write_text(json.dumps(report,indent=2)+'\n')
+ if not args.history:(out/'release-file-manifest.json').write_text(json.dumps(hashes,indent=2)+'\n')
 print(json.dumps(report))
 raise SystemExit(bool(hits))

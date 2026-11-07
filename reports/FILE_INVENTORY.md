@@ -1,6 +1,6 @@
 # Enthaltene Dateien
 
-Nachvollziehbares Dateiinventar; Original-Git-Daten, private Referenzunterlagen und private Ausgaben sind ausgeschlossen. Das Download-ZIP wird zusätzlich unter downloads/ bereitgestellt; sein eigener Inhalt enthält keinen rekursiven Downloadordner.
+Vollständiges Dateiinventar einschließlich Download-ZIP; Originalhistorie und private Referenzunterlagen sind ausgeschlossen. Der Downloadordner wird nicht rekursiv in das ZIP aufgenommen.
 
 - `.gitattributes`
 - `.gitignore`
@@ -61,6 +61,7 @@ Nachvollziehbares Dateiinventar; Original-Git-Daten, private Referenzunterlagen 
 - `docs/TEST_COVERAGE.md`
 - `docs/specifications/finance/CALCULATION_SPEC.md`
 - `docs/specifications/main/CALCULATION_SPEC.md`
+- `downloads/kiz-wohngeld-independent-audit.zip`
 - `package.json`
 - `provenance/inclusion-inventory.json`
 - `provenance/source-integrity.json`
